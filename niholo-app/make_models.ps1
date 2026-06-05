@@ -1,0 +1,14 @@
+php artisan make:model Course -m
+php artisan make:model Lesson -m
+php artisan make:model GrammarPoint -m
+php artisan make:model ExampleSentence -m
+php artisan make:model DragDropPuzzle -m
+php artisan make:model Card -m
+php artisan make:model UserReview -m
+php artisan make:model UserStat -m
+php artisan make:model LearningSession -m
+php artisan make:model Quest -m
+php artisan make:model UserQuest -m
+php artisan make:model ManualOverride -m
+php artisan make:model Subscription -m
+php artisan make:model Payment -m
