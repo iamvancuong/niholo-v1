@@ -19,7 +19,14 @@ return new class extends Migration
             $table->string('back_text');
             $table->string('reading')->nullable(); // Hiragana/Katakana
             $table->string('audio_url')->nullable();
+            $table->string('image_url')->nullable();
             $table->text('mnemonic')->nullable(); // Mẹo nhớ
+            
+            // Example fields
+            $table->string('example_japanese')->nullable();
+            $table->string('example_vietnamese')->nullable();
+            $table->string('example_audio_url')->nullable();
+            $table->json('example_blocks_json')->nullable(); // Các mảnh ghép cho Drag Drop Puzzle
             $table->timestamps();
         });
     }

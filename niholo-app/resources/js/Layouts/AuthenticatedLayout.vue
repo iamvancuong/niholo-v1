@@ -5,16 +5,32 @@ import Dropdown from '@/Components/Dropdown.vue';
 import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
+import LanguageSwitcher from '@/Components/LanguageSwitcher.vue';
 import { Link } from '@inertiajs/vue3';
+import { useI18n } from 'vue-i18n';
 
+const { t } = useI18n();
 const showingNavigationDropdown = ref(false);
+const isDark = ref(false);
+
+const toggleTheme = () => {
+    isDark.value = !isDark.value;
+    document.documentElement.classList.toggle('dark', isDark.value);
+    localStorage.setItem('niholo-theme', isDark.value ? 'dark' : 'light');
+};
+
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    isDark.value = document.documentElement.classList.contains('dark');
+});
 </script>
 
 <template>
     <div>
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div class="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
             <nav
-                class="border-b border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800"
+                class="sticky top-0 z-50 border-b border-gray-200/60 bg-white/80 backdrop-blur-xl dark:border-white/5 dark:bg-gray-950/80"
             >
                 <!-- Primary Navigation Menu -->
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -37,15 +53,30 @@ const showingNavigationDropdown = ref(false);
                                     :href="route('dashboard')"
                                     :active="route().current('dashboard')"
                                 >
-                                    Dashboard
+                                    {{ t('dashboard') }}
+                                </NavLink>
+                                <NavLink
+                                    :href="route('courses.index')"
+                                    :active="route().current('courses.*')"
+                                >
+                                    {{ t('courses') }}
                                 </NavLink>
                             </div>
                         </div>
 
-                        <div class="hidden sm:ms-6 sm:flex sm:items-center">
+                        <div class="hidden sm:ms-6 sm:flex sm:items-center gap-2">
+                            <!-- Theme Toggle -->
+                            <button @click="toggleTheme" class="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition text-gray-600 dark:text-gray-300">
+                                <svg v-if="isDark" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+                                <svg v-else class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                            </button>
+
+                            <!-- Language Switcher -->
+                            <LanguageSwitcher class="ml-2" />
+                            
                             <!-- Settings Dropdown -->
                             <div class="relative ms-3">
-                                <Dropdown align="right" width="48">
+                                <Dropdown v-if="$page.props.auth.user" align="right" width="48">
                                     <template #trigger>
                                         <span class="inline-flex rounded-md">
                                             <button
@@ -74,7 +105,7 @@ const showingNavigationDropdown = ref(false);
                                         <DropdownLink
                                             :href="route('profile.edit')"
                                         >
-                                            Profile
+                                            {{ t('profile') }}
                                         </DropdownLink>
                                         <DropdownLink
                                             :href="route('logout')"
@@ -85,6 +116,14 @@ const showingNavigationDropdown = ref(false);
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>
+                                <div v-else class="flex space-x-4 items-center">
+                                    <Link :href="route('login')" class="text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+                                        Log in
+                                    </Link>
+                                    <Link :href="route('register')" class="rounded-full bg-niholo-indigo px-4 py-2 text-sm font-bold text-white hover:bg-indigo-600 transition shadow-sm">
+                                        Register
+                                    </Link>
+                                </div>
                             </div>
                         </div>
 
@@ -144,7 +183,13 @@ const showingNavigationDropdown = ref(false);
                             :href="route('dashboard')"
                             :active="route().current('dashboard')"
                         >
-                            Dashboard
+                            {{ t('dashboard') }}
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                            :href="route('courses.index')"
+                            :active="route().current('courses.*')"
+                        >
+                            {{ t('courses') }}
                         </ResponsiveNavLink>
                     </div>
 
@@ -152,7 +197,7 @@ const showingNavigationDropdown = ref(false);
                     <div
                         class="border-t border-gray-200 pb-1 pt-4 dark:border-gray-600"
                     >
-                        <div class="px-4">
+                        <div class="px-4" v-if="$page.props.auth.user">
                             <div
                                 class="text-base font-medium text-gray-800 dark:text-gray-200"
                             >
@@ -162,10 +207,13 @@ const showingNavigationDropdown = ref(false);
                                 {{ $page.props.auth.user.email }}
                             </div>
                         </div>
+                        <div class="px-4" v-else>
+                            <Link :href="route('login')" class="block w-full py-2 text-center bg-indigo-50 text-indigo-600 rounded-md font-bold">Log In</Link>
+                        </div>
 
                         <div class="mt-3 space-y-1">
                             <ResponsiveNavLink :href="route('profile.edit')">
-                                Profile
+                                {{ t('profile') }}
                             </ResponsiveNavLink>
                             <ResponsiveNavLink
                                 :href="route('logout')"
@@ -181,7 +229,7 @@ const showingNavigationDropdown = ref(false);
 
             <!-- Page Heading -->
             <header
-                class="bg-white shadow dark:bg-gray-800"
+                class="bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-100 dark:border-white/5 shadow-sm transition-colors duration-300"
                 v-if="$slots.header"
             >
                 <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">

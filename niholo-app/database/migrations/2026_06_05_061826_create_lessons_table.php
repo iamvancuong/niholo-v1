@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('course_id')->constrained()->cascadeOnDelete();
             $table->string('title');
+            $table->enum('category', ['vocabulary', 'grammar', 'kanji'])->default('vocabulary');
             $table->string('jf_standard_code')->nullable(); // VD: A1-1
             $table->integer('order_index');
             $table->text('grammar_focus')->nullable();

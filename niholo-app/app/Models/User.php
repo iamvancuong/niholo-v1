@@ -8,8 +8,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 
-class User extends Authenticatable
+class User extends Authenticatable implements FilamentUser
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable, HasRoles;
@@ -55,10 +57,52 @@ class User extends Authenticatable
     {
         static::created(function (User $user) {
             // Tự động gán role 'guest' cho người dùng mới đăng ký
-            // Trừ phi user đó đã có role (vd: tạo qua seeder admin)
             if (!$user->hasAnyRole(['admin', 'pro', 'guest'])) {
                 $user->assignRole('guest');
             }
+            
+            // Tự động tạo bản ghi UserStat
+            $user->stat()->create();
         });
+    }
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        return $this->hasRole('admin');
+    }
+
+    public function userReviews()
+    {
+        return $this->hasMany(UserReview::class);
+    }
+
+    public function stat()
+    {
+        return $this->hasOne(UserStat::class);
+    }
+
+    public function learningSessions()
+    {
+        return $this->hasMany(LearningSession::class);
+    }
+
+    public function userQuests()
+    {
+        return $this->hasMany(UserQuest::class);
+    }
+
+    public function manualOverrides()
+    {
+        return $this->hasMany(ManualOverride::class);
+    }
+
+    public function subscriptions()
+    {
+        return $this->hasMany(Subscription::class);
+    }
+
+    public function payments()
+    {
+        return $this->hasMany(Payment::class);
     }
 }

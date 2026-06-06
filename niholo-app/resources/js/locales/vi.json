@@ -1,0 +1,1740 @@
+{
+    "welcome": "Chào mừng bạn đến với Niholo!",
+    "dashboard": "Bảng điều khiển",
+    "study": "Học bài",
+    "courses": "Khóa học",
+    "profile": "Hồ sơ",
+    "N5": {
+        "course": {
+            "title": "N5 Lên Đường",
+            "description": "Khóa học N5 cơ bản"
+        },
+        "kanji_lesson1": {
+            "title": "Bài 1: Số đếm cơ bản"
+        },
+        "kanji_lesson2": {
+            "title": "Bài 2: Thời gian & Tiền bạc"
+        },
+        "kanji_lesson3": {
+            "title": "Bài 3: Tự nhiên"
+        },
+        "kanji_lesson4": {
+            "title": "Bài 4: Tự nhiên & Màu sắc"
+        },
+        "kanji_lesson5": {
+            "title": "Bài 5: Con người & Gia đình"
+        },
+        "kanji_lesson6": {
+            "title": "Bài 6: Cơ thể & Cảm giác"
+        },
+        "kanji_lesson7": {
+            "title": "Bài 7: Phương hướng & Vị trí"
+        },
+        "kanji_lesson8": {
+            "title": "Bài 8: Trạng thái & Tính chất"
+        },
+        "kanji_lesson9": {
+            "title": "Bài 9: Động từ cơ bản"
+        },
+        "kanji_lesson10": {
+            "title": "Bài 10: Nơi chốn & Học tập"
+        },
+        "lesson1": {
+            "title": "Bài 1: Chào hỏi cơ bản & Tự giới thiệu",
+            "grammar_focus": "Đại từ nhân xưng, nghề nghiệp, quốc tịch.",
+            "vocab": {
+                "watashi": {
+                    "meaning": "Tôi",
+                    "example": "Tôi là học sinh."
+                },
+                "watashitachi": {
+                    "meaning": "Chúng tôi, chúng ta",
+                    "example": "Chúng tôi là người Việt Nam."
+                },
+                "anata": {
+                    "meaning": "Anh\/chị, ông\/bà, bạn",
+                    "example": "Bạn là giáo viên phải không?"
+                },
+                "kare": {
+                    "meaning": "Anh ấy, bạn trai",
+                    "example": "Anh ấy là kỹ sư."
+                },
+                "kanojo": {
+                    "meaning": "Cô ấy, bạn gái",
+                    "example": "Cô ấy là nhân viên ngân hàng."
+                },
+                "anohito": {
+                    "meaning": "Người đó \/ Vị kia (cách nói lịch sự)",
+                    "example": "Người kia là anh Kimura."
+                },
+                "minasan": {
+                    "meaning": "Các anh chị, mọi người",
+                    "example": "Chào buổi sáng mọi người."
+                },
+                "dare": {
+                    "meaning": "Ai \/ Vị nào (lịch sự)",
+                    "example": "Người kia là ai?"
+                },
+                "kyoushi": {
+                    "meaning": "Giáo viên",
+                    "example": "Tôi là giáo viên."
+                },
+                "sensei": {
+                    "meaning": "Thầy\/Cô",
+                    "example": "Chào thầy\/cô."
+                },
+                "gakusei": {
+                    "meaning": "Học sinh, sinh viên",
+                    "example": "Anh ấy không phải là học sinh."
+                },
+                "ryuugakusei": {
+                    "meaning": "Du học sinh",
+                    "example": "Anh Ali là du học sinh."
+                },
+                "kaishain": {
+                    "meaning": "Nhân viên công ty",
+                    "example": "Bố tôi là nhân viên công ty."
+                },
+                "shain": {
+                    "meaning": "Nhân viên công ty (thường dùng sau tên công ty)",
+                    "example": "Tôi là nhân viên của IMC."
+                },
+                "ginkouin": {
+                    "meaning": "Nhân viên ngân hàng",
+                    "example": "Chị gái tôi là nhân viên ngân hàng."
+                },
+                "isha": {
+                    "meaning": "Bác sĩ",
+                    "example": "Anh ấy là bác sĩ."
+                },
+                "enjinia": {
+                    "meaning": "Kỹ sư",
+                    "example": "Anh Schmidt là kỹ sư."
+                },
+                "kenkyuusha": {
+                    "meaning": "Nhà nghiên cứu",
+                    "example": "Anh Watt là nhà nghiên cứu."
+                },
+                "untenshu": {
+                    "meaning": "Tài xế",
+                    "example": "Anh trai tôi là tài xế."
+                },
+                "nihon": {
+                    "meaning": "Nhật Bản",
+                    "example": "Tôi đến từ Nhật Bản."
+                },
+                "betonamu": {
+                    "meaning": "Việt Nam",
+                    "example": "Việt Nam thì nóng."
+                },
+                "kankoku": {
+                    "meaning": "Hàn Quốc",
+                    "example": "Cô ấy là người Hàn Quốc."
+                },
+                "chuugoku": {
+                    "meaning": "Trung Quốc",
+                    "example": "Tôi sẽ đi Trung Quốc."
+                },
+                "amerika": {
+                    "meaning": "Mỹ",
+                    "example": "Đây là trường đại học của Mỹ."
+                },
+                "igirisu": {
+                    "meaning": "Anh",
+                    "example": "Bạn là người Anh phải không?"
+                },
+                "jin": {
+                    "meaning": "Người nước ~",
+                    "example": "Tôi là người Việt Nam."
+                },
+                "go": {
+                    "meaning": "Tiếng nước ~",
+                    "example": "Tôi học tiếng Nhật."
+                },
+                "shusshin": {
+                    "meaning": "Xuất thân, quê quán",
+                    "example": "Bạn xuất thân từ đâu?"
+                },
+                "karakimashita": {
+                    "meaning": "(Tôi) đến từ ~",
+                    "example": "Tôi đến từ Việt Nam."
+                },
+                "hai_iie": {
+                    "meaning": "Vâng, dạ \/ Không",
+                    "example": "Vâng, đúng vậy."
+                },
+                "shitsureidesuga": {
+                    "meaning": "Xin lỗi,...",
+                    "example": "Xin lỗi, bạn tên là gì?"
+                },
+                "douzoyoroshiku": {
+                    "meaning": "Rất mong nhận được sự giúp đỡ của anh\/chị!",
+                    "example": "Rất hân hạnh được làm quen, mong được giúp đỡ."
+                }
+            },
+            "grammar": {
+                "g1": {
+                    "title": "Khẳng định: N1 は N2 です",
+                    "description": "Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "Tôi là học sinh.",
+                        "ex2": "Cô ấy là người Việt Nam."
+                    }
+                },
+                "g2": {
+                    "title": "Phủ định: N1 は N2 じゃありません",
+                    "description": "Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g3": {
+                    "title": "Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "Người kia là ai?"
+                    }
+                },
+                "g4": {
+                    "title": "Trợ từ も (Cũng)",
+                    "description": "Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "Tôi cũng là kỹ sư."
+                    }
+                },
+                "g5": {
+                    "title": "Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.\n\n*Lưu ý:* Khi N2 đã rõ từ ngữ cảnh, có thể bỏ N2 (Ví dụ: `これは わたしの です` - Cái này là của tôi).",
+                    "exercises": {
+                        "ex1": "Người kia là nhân viên của IMC."
+                    }
+                }
+            }
+        },
+        "lesson2": {
+            "title": "Bài 2: Đồ vật & Chỉ thị từ (これ\/それ\/あれ)",
+            "grammar_focus": "Chỉ thị từ (これ\/それ\/あれ), Sở hữu cách (の).",
+            "vocab": {
+                "kore": {
+                    "meaning": "Cái này (gần người nói)",
+                    "example": "Đây là quyển sách."
+                },
+                "sore": {
+                    "meaning": "Cái đó (gần người nghe)",
+                    "example": "Đó là chiếc ô của tôi."
+                },
+                "are": {
+                    "meaning": "Cái kia (xa cả hai người)",
+                    "example": "Kia là ô tô."
+                },
+                "kono": {
+                    "meaning": "～ này",
+                    "example": "Quyển sách này là của tôi."
+                },
+                "sono": {
+                    "meaning": "～ đó",
+                    "example": "Chìa khóa đó là của ai?"
+                },
+                "ano": {
+                    "meaning": "～ kia",
+                    "example": "Người kia là giáo viên."
+                },
+                "hon": {
+                    "meaning": "Sách",
+                    "example": "Đây là quyển sách."
+                },
+                "jisho": {
+                    "meaning": "Từ điển",
+                    "example": "Đó là từ điển tiếng Anh."
+                },
+                "zasshi": {
+                    "meaning": "Tạp chí",
+                    "example": "Tôi đọc tạp chí về ô tô."
+                },
+                "shinbun": {
+                    "meaning": "Báo",
+                    "example": "Mỗi sáng tôi đọc báo."
+                },
+                "nooto": {
+                    "meaning": "Vở",
+                    "example": "Tôi viết vào vở."
+                },
+                "techou": {
+                    "meaning": "Sổ tay",
+                    "example": "Đây là cuốn sổ tay của tôi."
+                },
+                "meishi": {
+                    "meaning": "Danh thiếp",
+                    "example": "Cho tôi xin danh thiếp."
+                },
+                "kaado": {
+                    "meaning": "Thẻ (Card)",
+                    "example": "Tôi trả bằng thẻ."
+                },
+                "enpitsu": {
+                    "meaning": "Bút chì",
+                    "example": "Tôi viết bằng bút chì."
+                },
+                "boorupen": {
+                    "meaning": "Bút bi",
+                    "example": "Hãy cho tôi mượn bút bi."
+                },
+                "shaapupenshiru": {
+                    "meaning": "Bút chì kim",
+                    "example": "Đó là bút chì kim."
+                },
+                "kagi": {
+                    "meaning": "Chìa khóa",
+                    "example": "Là chìa khóa của căn phòng."
+                },
+                "tokei": {
+                    "meaning": "Đồng hồ",
+                    "example": "Đây là cái đồng hồ của ai?"
+                },
+                "kasa": {
+                    "meaning": "Ô, dù",
+                    "example": "Tôi sẽ không quên ô."
+                },
+                "kaban": {
+                    "meaning": "Cặp, túi xách",
+                    "example": "Là cái túi của tôi."
+                },
+                "terebi": {
+                    "meaning": "Tivi",
+                    "example": "Tôi xem tivi."
+                },
+                "rajio": {
+                    "meaning": "Radio",
+                    "example": "Tôi nghe radio."
+                },
+                "kamera": {
+                    "meaning": "Máy ảnh",
+                    "example": "Tôi đã mua máy ảnh."
+                },
+                "konpyuutaa": {
+                    "meaning": "Máy vi tính",
+                    "example": "Đây là máy vi tính."
+                },
+                "kuruma": {
+                    "meaning": "Ô tô, xe hơi",
+                    "example": "Là ô tô của Nhật Bản."
+                },
+                "tsukue": {
+                    "meaning": "Cái bàn",
+                    "example": "Là cái bàn của giáo viên."
+                },
+                "isu": {
+                    "meaning": "Cái ghế",
+                    "example": "Tôi ngồi xuống ghế."
+                },
+                "chokoreeto": {
+                    "meaning": "Socola",
+                    "example": "Tôi tặng socola."
+                },
+                "koohii": {
+                    "meaning": "Cà phê",
+                    "example": "Tôi uống cà phê."
+                },
+                "omiyage": {
+                    "meaning": "Quà lưu niệm, quà đặc sản",
+                    "example": "Đây là quà lưu niệm của Nhật Bản."
+                },
+                "soudesu": {
+                    "meaning": "Đúng vậy \/ Phải rồi",
+                    "example": "Vâng, đúng vậy."
+                },
+                "chigaimasu": {
+                    "meaning": "Không phải \/ Sai rồi",
+                    "example": "Không, sai rồi."
+                },
+                "soudesuka": {
+                    "meaning": "Thế à? \/ Vậy à?",
+                    "example": "À, thế à."
+                },
+                "douzo": {
+                    "meaning": "Xin mời",
+                    "example": "Xin mời dùng trà."
+                },
+                "doumo": {
+                    "meaning": "Cảm ơn",
+                    "example": "Xin chân thành cảm ơn."
+                }
+            },
+            "grammar": {
+                "g2": {
+                    "title": "Phủ định: N1 は N2 じゃありません",
+                    "description": "Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "Anh ấy không phải là giáo viên."
+                    }
+                }
+            }
+        },
+        "lesson3": {
+            "title": "Bài 3: Địa điểm & Mua sắm (ここ\/そこ\/あそこ)",
+            "grammar_focus": "Đại từ chỉ địa điểm (ここ\/そこ\/あそこ), Hỏi giá tiền (いくら).",
+            "vocab": {
+                "koko": {
+                    "meaning": "Chỗ này, đây",
+                    "example": "Chỗ này là nhà ăn."
+                },
+                "soko": {
+                    "meaning": "Chỗ đó, đó",
+                    "example": "Nhà vệ sinh ở chỗ đó."
+                },
+                "asoko": {
+                    "meaning": "Chỗ kia, kia",
+                    "example": "Chỗ kia là phòng học."
+                },
+                "doko": {
+                    "meaning": "Ở đâu, chỗ nào",
+                    "example": "Văn phòng ở đâu vậy?"
+                },
+                "kochira": {
+                    "meaning": "Phía này, chỗ này (lịch sự của ここ)",
+                    "example": "Phía này là quầy tiếp tân."
+                },
+                "sochira": {
+                    "meaning": "Phía đó, chỗ đó (lịch sự của そこ)",
+                    "example": "Phía đó là phòng họp."
+                },
+                "achira": {
+                    "meaning": "Phía kia, chỗ kia (lịch sự của あそこ)",
+                    "example": "Phía kia là sảnh chờ."
+                },
+                "dochira": {
+                    "meaning": "Phía nào, đằng nào (lịch sự của どこ)",
+                    "example": "Thang máy ở phía nào vậy ạ?"
+                },
+                "kyoushitsu": {
+                    "meaning": "Phòng học",
+                    "example": "Trong phòng học có học sinh."
+                },
+                "shokudou": {
+                    "meaning": "Nhà ăn, căn tin",
+                    "example": "Tôi ăn ở nhà ăn."
+                },
+                "jimusho": {
+                    "meaning": "Văn phòng",
+                    "example": "Tôi gọi điện đến văn phòng."
+                },
+                "kaigishitsu": {
+                    "meaning": "Phòng họp",
+                    "example": "Phòng họp ở tầng 2."
+                },
+                "uketsuke": {
+                    "meaning": "Bộ phận tiếp tân",
+                    "example": "Quầy tiếp tân ở tầng 1."
+                },
+                "robii": {
+                    "meaning": "Hành lang, đại sảnh",
+                    "example": "Tôi đợi ở sảnh."
+                },
+                "heya": {
+                    "meaning": "Căn phòng",
+                    "example": "Là phòng của tôi."
+                },
+                "toire": {
+                    "meaning": "Nhà vệ sinh",
+                    "example": "Nhà vệ sinh ở đâu?"
+                },
+                "kaidan": {
+                    "meaning": "Cầu thang bộ",
+                    "example": "Chỗ kia là cầu thang."
+                },
+                "erebeetaa": {
+                    "meaning": "Thang máy",
+                    "example": "Tôi đi thang máy."
+                },
+                "esukareetaa": {
+                    "meaning": "Thang cuốn",
+                    "example": "Thang cuốn ở đằng kia."
+                },
+                "uriba": {
+                    "meaning": "Quầy bán hàng",
+                    "example": "Quầy bán giày ở đâu?"
+                },
+                "kuni": {
+                    "meaning": "Đất nước",
+                    "example": "Bạn đến từ nước nào?"
+                },
+                "kaisha": {
+                    "meaning": "Công ty",
+                    "example": "Công ty bạn ở đâu?"
+                },
+                "uchi": {
+                    "meaning": "Nhà",
+                    "example": "Tôi về nhà."
+                },
+                "denwa": {
+                    "meaning": "Máy điện thoại",
+                    "example": "Điện thoại ở đâu?"
+                },
+                "kutsu": {
+                    "meaning": "Giày",
+                    "example": "Đó là giày của Ý."
+                },
+                "nekutai": {
+                    "meaning": "Cà vạt",
+                    "example": "Đó là cà vạt của Pháp."
+                },
+                "wain": {
+                    "meaning": "Rượu vang",
+                    "example": "Tôi uống rượu vang."
+                },
+                "tabako": {
+                    "meaning": "Thuốc lá",
+                    "example": "Tôi mua thuốc lá."
+                },
+                "chika": {
+                    "meaning": "Tầng hầm",
+                    "example": "Nhà ăn ở tầng hầm."
+                },
+                "kai": {
+                    "meaning": "Tầng thứ ~",
+                    "example": "Tầng 3."
+                },
+                "nankai": {
+                    "meaning": "Tầng mấy",
+                    "example": "Nhà vệ sinh ở tầng mấy?"
+                },
+                "en": {
+                    "meaning": "～ Yên",
+                    "example": "Một nghìn yên."
+                },
+                "ikura": {
+                    "meaning": "Bao nhiêu tiền",
+                    "example": "Cái đồng hồ này giá bao nhiêu?"
+                },
+                "hyaku": {
+                    "meaning": "Trăm",
+                    "example": "Ba trăm yên."
+                },
+                "sen": {
+                    "meaning": "Nghìn",
+                    "example": "Ba nghìn yên."
+                },
+                "man": {
+                    "meaning": "Mười nghìn (Vạn)",
+                    "example": "Mười nghìn yên."
+                },
+                "sumimasen": {
+                    "meaning": "Xin lỗi",
+                    "example": "Xin lỗi."
+                },
+                "misetekudasai": {
+                    "meaning": "Cho tôi xem ~",
+                    "example": "Hãy cho tôi xem đôi giày đó."
+                },
+                "ja": {
+                    "meaning": "Thế thì, vậy thì",
+                    "example": "Vậy thì, cho tôi cái này."
+                },
+                "okudasai": {
+                    "meaning": "Cho tôi ~ \/ Bán cho tôi ~",
+                    "example": "Cho tôi lấy cái này."
+                }
+            },
+            "grammar": {
+                "g3": {
+                    "title": "Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "Người kia là ai?"
+                    }
+                }
+            }
+        },
+        "lesson4": {
+            "title": "Bài 4: Thời gian & Hoạt động hàng ngày",
+            "grammar_focus": "Hỏi giờ (何時), Các thứ trong tuần, Động từ ます\/ません\/ました.",
+            "vocab": {
+                "ima": {
+                    "meaning": "Bây giờ",
+                    "example": "Bây giờ là mấy giờ?"
+                },
+                "ji": {
+                    "meaning": "～ giờ",
+                    "example": "Bây giờ là mấy giờ?"
+                },
+                "fun": {
+                    "meaning": "～ phút",
+                    "example": "Tôi chờ 5 phút."
+                },
+                "han": {
+                    "meaning": "Rưỡi, nửa",
+                    "example": "9 giờ rưỡi."
+                },
+                "nanji": {
+                    "meaning": "Mấy giờ",
+                    "example": "Cuộc họp lúc mấy giờ?"
+                },
+                "nanpun": {
+                    "meaning": "Mấy phút",
+                    "example": "Mất mấy phút?"
+                },
+                "gozen": {
+                    "meaning": "Buổi sáng (a.m.)",
+                    "example": "Tôi thức dậy lúc 9 giờ sáng."
+                },
+                "gogo": {
+                    "meaning": "Buổi chiều (p.m.)",
+                    "example": "Tôi làm việc từ buổi chiều."
+                },
+                "asa": {
+                    "meaning": "Buổi sáng",
+                    "example": "Tôi ăn bữa sáng."
+                },
+                "hiru": {
+                    "meaning": "Buổi trưa",
+                    "example": "Tôi nghỉ trưa."
+                },
+                "ban_yoru": {
+                    "meaning": "Buổi tối \/ Đêm",
+                    "example": "Buổi tối, tôi học bài."
+                },
+                "ototoi": {
+                    "meaning": "Hôm kia",
+                    "example": "Hôm kia, tôi đã gặp bạn."
+                },
+                "kinou": {
+                    "meaning": "Hôm qua",
+                    "example": "Hôm qua là ngày nghỉ."
+                },
+                "kyou": {
+                    "meaning": "Hôm nay",
+                    "example": "Hôm nay là thứ Hai."
+                },
+                "ashita": {
+                    "meaning": "Ngày mai",
+                    "example": "Ngày mai, tôi đi học."
+                },
+                "asatte": {
+                    "meaning": "Ngày kia",
+                    "example": "Ngày kia, tôi làm việc."
+                },
+                "kesa": {
+                    "meaning": "Sáng nay",
+                    "example": "Sáng nay tôi đã đọc báo."
+                },
+                "konban": {
+                    "meaning": "Tối nay",
+                    "example": "Tối nay tôi xem ti vi."
+                },
+                "getsuyoubi": {
+                    "meaning": "Thứ Hai",
+                    "example": "Thứ Hai rất bận."
+                },
+                "kayoubi": {
+                    "meaning": "Thứ Ba",
+                    "example": "Thứ Ba có bài kiểm tra."
+                },
+                "suiyoubi": {
+                    "meaning": "Thứ Tư",
+                    "example": "Thứ Tư là ngày nghỉ."
+                },
+                "mokuyoubi": {
+                    "meaning": "Thứ Năm",
+                    "example": "Tôi xem phim vào Thứ Năm."
+                },
+                "kinyoubi": {
+                    "meaning": "Thứ Sáu",
+                    "example": "Tối thứ Sáu."
+                },
+                "doyoubi": {
+                    "meaning": "Thứ Bảy",
+                    "example": "Thứ Bảy tôi đi chơi."
+                },
+                "nichiyoubi": {
+                    "meaning": "Chủ Nhật",
+                    "example": "Chủ Nhật tôi không làm việc."
+                },
+                "nanyoubi": {
+                    "meaning": "Thứ mấy",
+                    "example": "Hôm nay là thứ mấy?"
+                },
+                "okimasu": {
+                    "meaning": "Thức dậy",
+                    "example": "Mỗi sáng tôi thức dậy lúc 6 giờ."
+                },
+                "nemasu": {
+                    "meaning": "Ngủ",
+                    "example": "Tôi ngủ lúc 11 giờ."
+                },
+                "hatarakimasu": {
+                    "meaning": "Làm việc",
+                    "example": "Tôi làm việc mỗi ngày."
+                },
+                "yasumimasu": {
+                    "meaning": "Nghỉ ngơi",
+                    "example": "Tôi nghỉ ngơi ở phòng."
+                },
+                "benkyoushimasu": {
+                    "meaning": "Học tập",
+                    "example": "Tôi học tiếng Nhật."
+                },
+                "owarimasu": {
+                    "meaning": "Kết thúc, xong",
+                    "example": "Công việc kết thúc."
+                },
+                "yasumi": {
+                    "meaning": "Ngày nghỉ, giờ nghỉ",
+                    "example": "Ngày mai là ngày nghỉ."
+                },
+                "shiken": {
+                    "meaning": "Kỳ thi, bài thi",
+                    "example": "Ngày mai có kỳ thi."
+                },
+                "mai_": {
+                    "meaning": "Mỗi ~",
+                    "example": "Mỗi ngày."
+                },
+                "_kara": {
+                    "meaning": "Từ ~",
+                    "example": "Tôi làm việc từ 9 giờ."
+                },
+                "_made": {
+                    "meaning": "Đến ~",
+                    "example": "Tôi làm việc đến 5 giờ."
+                }
+            },
+            "grammar": {
+                "g4": {
+                    "title": "Trợ từ も (Cũng)",
+                    "description": "Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "Tôi cũng là kỹ sư."
+                    }
+                }
+            }
+        },
+        "lesson5": {
+            "title": "Bài 5: Di chuyển & Phương tiện giao thông",
+            "grammar_focus": "Động từ di chuyển (行く\/来る\/帰る), Trợ từ へ, で.",
+            "vocab": {
+                "ikimasu": {
+                    "meaning": "Đi",
+                    "example": "Ngày mai, tôi đi đến trường."
+                },
+                "kimasu": {
+                    "meaning": "Đến",
+                    "example": "Tôi đã đến Nhật Bản."
+                },
+                "kaerimasu": {
+                    "meaning": "Trở về",
+                    "example": "Tôi về nhà."
+                },
+                "hikouki": {
+                    "meaning": "Máy bay",
+                    "example": "Tôi đi bằng máy bay."
+                },
+                "fune": {
+                    "meaning": "Tàu thủy",
+                    "example": "Tôi đã đến bằng tàu thủy."
+                },
+                "densha": {
+                    "meaning": "Tàu điện",
+                    "example": "Tôi về bằng tàu điện."
+                },
+                "chikatetsu": {
+                    "meaning": "Tàu điện ngầm",
+                    "example": "Tôi đi bằng tàu điện ngầm."
+                },
+                "shinkansen": {
+                    "meaning": "Tàu cao tốc Shinkansen",
+                    "example": "Tàu Shinkansen rất nhanh."
+                },
+                "basu": {
+                    "meaning": "Xe buýt",
+                    "example": "Tôi đi học bằng xe buýt."
+                },
+                "takushii": {
+                    "meaning": "Taxi",
+                    "example": "Tôi về bằng taxi."
+                },
+                "jitensha": {
+                    "meaning": "Xe đạp",
+                    "example": "Tôi đi bằng xe đạp."
+                },
+                "aruite": {
+                    "meaning": "Đi bộ",
+                    "example": "Tôi đi bộ về nhà."
+                },
+                "gakkou": {
+                    "meaning": "Trường học",
+                    "example": "Tôi đi đến trường."
+                },
+                "suupaa": {
+                    "meaning": "Siêu thị",
+                    "example": "Tôi đi siêu thị."
+                },
+                "eki": {
+                    "meaning": "Nhà ga",
+                    "example": "Tôi gặp bạn ở nhà ga."
+                },
+                "tomodachi": {
+                    "meaning": "Bạn bè",
+                    "example": "Tôi đi cùng bạn."
+                },
+                "kazoku": {
+                    "meaning": "Gia đình",
+                    "example": "Tôi đã đến cùng gia đình."
+                },
+                "hitoride": {
+                    "meaning": "Một mình",
+                    "example": "Tôi về một mình."
+                },
+                "senshuu": {
+                    "meaning": "Tuần trước",
+                    "example": "Tuần trước tôi đã đến Nhật."
+                },
+                "konshuu": {
+                    "meaning": "Tuần này",
+                    "example": "Tuần này tôi bận."
+                },
+                "raishuu": {
+                    "meaning": "Tuần sau",
+                    "example": "Tuần sau tôi về nước."
+                },
+                "sengetsu": {
+                    "meaning": "Tháng trước",
+                    "example": "Tháng trước tôi đến Nhật."
+                },
+                "kongetsu": {
+                    "meaning": "Tháng này",
+                    "example": "Tháng này có nhiều ngày nghỉ."
+                },
+                "raigetsu": {
+                    "meaning": "Tháng sau",
+                    "example": "Tháng sau có kỳ thi."
+                },
+                "kyonen": {
+                    "meaning": "Năm ngoái",
+                    "example": "Năm ngoái tôi đến Nhật."
+                },
+                "kotoshi": {
+                    "meaning": "Năm nay",
+                    "example": "Năm nay trời nóng."
+                },
+                "rainen": {
+                    "meaning": "Năm sau",
+                    "example": "Năm sau tôi về nước."
+                },
+                "nangatsu": {
+                    "meaning": "Tháng mấy",
+                    "example": "Bây giờ là tháng mấy?"
+                },
+                "nannichi": {
+                    "meaning": "Ngày mấy",
+                    "example": "Mất mấy ngày?"
+                },
+                "itsu": {
+                    "meaning": "Khi nào, bao giờ",
+                    "example": "Bạn đã đến Nhật khi nào?"
+                }
+            }
+        },
+        "lesson6": {
+            "title": "Bài 6: Hành động có tân ngữ & Địa điểm",
+            "grammar_focus": "Ngoại động từ (を), Địa điểm xảy ra hành động (で), Rủ rê (～ませんか \/ ～ましょう).",
+            "vocab": {
+                "tabemasu": {
+                    "meaning": "Ăn",
+                    "example": "Tôi ăn bữa sáng."
+                },
+                "nomimasu": {
+                    "meaning": "Uống",
+                    "example": "Tôi uống nước."
+                },
+                "suimasu": {
+                    "meaning": "Hút (thuốc lá)",
+                    "example": "Tôi hút thuốc lá."
+                },
+                "mimasu": {
+                    "meaning": "Xem, nhìn, ngắm",
+                    "example": "Tôi xem phim."
+                },
+                "kikimasu": {
+                    "meaning": "Nghe",
+                    "example": "Tôi nghe nhạc."
+                },
+                "yomimasu": {
+                    "meaning": "Đọc",
+                    "example": "Tôi đọc sách."
+                },
+                "kakimasu": {
+                    "meaning": "Viết, vẽ",
+                    "example": "Tôi viết thư."
+                },
+                "kaimasu": {
+                    "meaning": "Mua",
+                    "example": "Tôi mua giày."
+                },
+                "torimasu": {
+                    "meaning": "Chụp (ảnh)",
+                    "example": "Tôi chụp ảnh."
+                },
+                "shimasu": {
+                    "meaning": "Làm, chơi (thể thao)",
+                    "example": "Tôi chơi bóng đá."
+                },
+                "aimasu": {
+                    "meaning": "Gặp (bạn bè)",
+                    "example": "Tôi gặp bạn."
+                },
+                "gohan": {
+                    "meaning": "Cơm, bữa ăn",
+                    "example": "Tôi ăn cơm."
+                },
+                "asagohan": {
+                    "meaning": "Bữa sáng",
+                    "example": "Tôi ăn sáng."
+                },
+                "hirugohan": {
+                    "meaning": "Bữa trưa",
+                    "example": "Tôi ăn trưa."
+                },
+                "bangohan": {
+                    "meaning": "Bữa tối",
+                    "example": "Tôi ăn tối."
+                },
+                "pan": {
+                    "meaning": "Bánh mì",
+                    "example": "Tôi ăn bánh mì."
+                },
+                "tamago": {
+                    "meaning": "Trứng",
+                    "example": "Tôi mua trứng."
+                },
+                "niku": {
+                    "meaning": "Thịt",
+                    "example": "Tôi ăn thịt."
+                },
+                "sakana": {
+                    "meaning": "Cá",
+                    "example": "Tôi mua cá."
+                },
+                "yasai": {
+                    "meaning": "Rau",
+                    "example": "Tôi ăn rau."
+                },
+                "kudamono": {
+                    "meaning": "Trái cây",
+                    "example": "Tôi ăn trái cây."
+                },
+                "mizu": {
+                    "meaning": "Nước",
+                    "example": "Tôi uống nước."
+                },
+                "ocha": {
+                    "meaning": "Trà xanh (Nhật)",
+                    "example": "Tôi uống trà xanh."
+                },
+                "koucha": {
+                    "meaning": "Trà đen (Hồng trà)",
+                    "example": "Tôi uống hồng trà."
+                },
+                "gyuunyuu_miruku": {
+                    "meaning": "Sữa bò",
+                    "example": "Tôi uống sữa bò."
+                },
+                "juusu": {
+                    "meaning": "Nước ép hoa quả",
+                    "example": "Tôi uống nước ép."
+                },
+                "biiru": {
+                    "meaning": "Bia",
+                    "example": "Tôi uống bia."
+                },
+                "osake": {
+                    "meaning": "Rượu, rượu Sake",
+                    "example": "Tôi uống rượu."
+                },
+                "tegami": {
+                    "meaning": "Bức thư",
+                    "example": "Tôi đọc thư."
+                },
+                "repooto": {
+                    "meaning": "Báo cáo",
+                    "example": "Tôi viết báo cáo."
+                },
+                "shashin": {
+                    "meaning": "Bức ảnh",
+                    "example": "Tôi chụp ảnh."
+                },
+                "mise": {
+                    "meaning": "Cửa hàng, tiệm",
+                    "example": "Tôi mua ở cửa hàng."
+                },
+                "niwa": {
+                    "meaning": "Vườn",
+                    "example": "Tôi chụp ảnh ở vườn."
+                },
+                "nani": {
+                    "meaning": "Cái gì",
+                    "example": "Bạn mua cái gì?"
+                },
+                "isshoni": {
+                    "meaning": "Cùng nhau",
+                    "example": "Cùng nhau ăn nào."
+                },
+                "chotto": {
+                    "meaning": "Một chút, một lát",
+                    "example": "Tôi chờ một chút."
+                },
+                "itsumo": {
+                    "meaning": "Luôn luôn, lúc nào cũng",
+                    "example": "Tôi luôn ăn bánh mì."
+                },
+                "tokidoki": {
+                    "meaning": "Thỉnh thoảng",
+                    "example": "Thỉnh thoảng tôi xem phim."
+                },
+                "masenka": {
+                    "meaning": "Cùng ~ không? (Rủ rê)",
+                    "example": "Cùng nhau uống bia không?"
+                },
+                "mashou": {
+                    "meaning": "Cùng ~ nào (Đồng ý)",
+                    "example": "Cùng đi nào."
+                },
+                "wakarimashita": {
+                    "meaning": "Tôi hiểu rồi \/ Vâng",
+                    "example": "Vâng, tôi hiểu rồi."
+                }
+            }
+        },
+        "kanji_data": {
+            "k1": {
+                "sino": "NHẤT",
+                "meaning": "Số một",
+                "mnemonic": "Một (Nhất) gạch ngang đơn giản.",
+                "ex1_meaning": "Một cái",
+                "ex2_meaning": "Ngày mùng 1"
+            },
+            "k2": {
+                "sino": "NHỊ",
+                "meaning": "Số hai",
+                "mnemonic": "Hai (Nhị) gạch ngang.",
+                "ex1_meaning": "Hai cái",
+                "ex2_meaning": "Tháng hai"
+            },
+            "k3": {
+                "sino": "TAM",
+                "meaning": "Số ba",
+                "mnemonic": "Ba (Tam) gạch ngang.",
+                "ex1_meaning": "Ba cái",
+                "ex2_meaning": "Ngày mùng 3"
+            },
+            "k4": {
+                "sino": "TỨ",
+                "meaning": "Số bốn",
+                "mnemonic": "Bốn (Tứ) người trong ngôi nhà.",
+                "ex1_meaning": "Bốn cái",
+                "ex2_meaning": "Tháng tư"
+            },
+            "k5": {
+                "sino": "NGŨ",
+                "meaning": "Số năm",
+                "mnemonic": "Năm (Ngũ) nét gạch giao nhau.",
+                "ex1_meaning": "Năm cái",
+                "ex2_meaning": "Ngày mùng 5"
+            },
+            "k6": {
+                "sino": "LỤC",
+                "meaning": "Số sáu",
+                "mnemonic": "Người giang tay múa sáu (Lục) ngón.",
+                "ex1_meaning": "Sáu cái",
+                "ex2_meaning": "Ngày mùng 6"
+            },
+            "k7": {
+                "sino": "THẤT",
+                "meaning": "Số bảy",
+                "mnemonic": "Bảy (Thất) vết cắt bị gạch chéo.",
+                "ex1_meaning": "Bảy cái",
+                "ex2_meaning": "Ngày mùng 7"
+            },
+            "k8": {
+                "sino": "BÁT",
+                "meaning": "Số tám",
+                "mnemonic": "Hai nét tách ra như hình bát (Tám).",
+                "ex1_meaning": "Tám cái",
+                "ex2_meaning": "Ngày mùng 8"
+            },
+            "k9": {
+                "sino": "CỬU",
+                "meaning": "Số chín",
+                "mnemonic": "Người đang chống đẩy chín (Cửu) cái.",
+                "ex1_meaning": "Chín cái",
+                "ex2_meaning": "Ngày mùng 9"
+            },
+            "k10": {
+                "sino": "THẬP",
+                "meaning": "Số mười",
+                "mnemonic": "Hình chữ thập (+).",
+                "ex1_meaning": "Mười cái",
+                "ex2_meaning": "Ngày mùng 10"
+            },
+            "k11": {
+                "sino": "BÁCH",
+                "meaning": "Một trăm",
+                "mnemonic": "Một (Nhất) vạch ngang trên chữ Bạch (Trắng) tạo thành Bách.",
+                "ex1_meaning": "Một trăm",
+                "ex2_meaning": "Ba trăm"
+            },
+            "k12": {
+                "sino": "THIÊN",
+                "meaning": "Một nghìn",
+                "mnemonic": "Thêm một gạch phẩy chéo vào chữ Thập thành Thiên.",
+                "ex1_meaning": "Một nghìn",
+                "ex2_meaning": "Ba nghìn"
+            },
+            "k13": {
+                "sino": "VẠN",
+                "meaning": "Mười nghìn",
+                "mnemonic": "Một vạn (Vạn) là con số rất lớn.",
+                "ex1_meaning": "Một vạn",
+                "ex2_meaning": "Bút máy"
+            },
+            "k14": {
+                "sino": "VIÊN",
+                "meaning": "Đồng Yên, Tròn",
+                "mnemonic": "Hình dáng đồng tiền xu (Viên).",
+                "ex1_meaning": "100 Yên",
+                "ex2_meaning": "Tròn"
+            },
+            "k15": {
+                "sino": "NIÊN",
+                "meaning": "Năm",
+                "mnemonic": "Người đội nón vác lúa về nhà báo hiệu hết một năm.",
+                "ex1_meaning": "Năm nay",
+                "ex2_meaning": "Năm sau"
+            },
+            "k16": {
+                "sino": "KIM",
+                "meaning": "Bây giờ",
+                "mnemonic": "Bây giờ (Kim) là lúc cái đồng hồ điểm giờ.",
+                "ex1_meaning": "Bây giờ",
+                "ex2_meaning": "Hôm nay"
+            },
+            "k17": {
+                "sino": "THỜI",
+                "meaning": "Thời gian, Giờ",
+                "mnemonic": "Ngày (Nhật) xưa tính thời gian (Thời) bằng đo bóng mặt trời.",
+                "ex1_meaning": "Đồng hồ",
+                "ex2_meaning": "9 giờ"
+            },
+            "k18": {
+                "sino": "BÁN",
+                "meaning": "Một nửa",
+                "mnemonic": "Con bò (Ngưu) bị chia làm đôi (Bán).",
+                "ex1_meaning": "Một nửa",
+                "ex2_meaning": "1 giờ rưỡi"
+            },
+            "k19": {
+                "sino": "PHÂN",
+                "meaning": "Phút, Hiểu",
+                "mnemonic": "Dùng dao (Đao) cắt làm 8 (Bát) phần (Phân).",
+                "ex1_meaning": "Hiểu",
+                "ex2_meaning": "5 phút"
+            },
+            "k20": {
+                "sino": "DIỆU",
+                "meaning": "Ngày trong tuần",
+                "mnemonic": "Chim hót vào ban ngày (Nhật) nghe rất vi diệu.",
+                "ex1_meaning": "Chủ nhật",
+                "ex2_meaning": "Thứ hai"
+            },
+            "k21": {
+                "sino": "MỖI",
+                "meaning": "Mỗi",
+                "mnemonic": "Người mẹ (Mẫu) mỗi ngày đều làm việc.",
+                "ex1_meaning": "Mỗi ngày",
+                "ex2_meaning": "Mỗi năm"
+            },
+            "k22": {
+                "sino": "NHẬT",
+                "meaning": "Mặt trời, Ngày",
+                "mnemonic": "Hình ảnh mặt trời mọc.",
+                "ex1_meaning": "Nhật Bản",
+                "ex2_meaning": "Ngày nghỉ"
+            },
+            "k23": {
+                "sino": "NGUYỆT",
+                "meaning": "Mặt trăng, Tháng",
+                "mnemonic": "Hình ảnh mặt trăng khuyết.",
+                "ex1_meaning": "Mặt trăng",
+                "ex2_meaning": "Tháng một"
+            },
+            "k24": {
+                "sino": "MỘC",
+                "meaning": "Cây",
+                "mnemonic": "Hình ảnh một cái cây.",
+                "ex1_meaning": "Cái cây",
+                "ex2_meaning": "Thứ năm"
+            },
+            "k25": {
+                "sino": "THỦY",
+                "meaning": "Nước",
+                "mnemonic": "Dòng nước chảy róc rách.",
+                "ex1_meaning": "Nước",
+                "ex2_meaning": "Thứ tư"
+            },
+            "k26": {
+                "sino": "HỎA",
+                "meaning": "Lửa",
+                "mnemonic": "Ngọn lửa đang cháy.",
+                "ex1_meaning": "Lửa",
+                "ex2_meaning": "Thứ ba"
+            },
+            "k27": {
+                "sino": "KIM",
+                "meaning": "Vàng, Tiền",
+                "mnemonic": "Kim loại quý giá lấp lánh chôn dưới đất.",
+                "ex1_meaning": "Tiền",
+                "ex2_meaning": "Thứ sáu"
+            },
+            "k28": {
+                "sino": "THỔ",
+                "meaning": "Đất",
+                "mnemonic": "Mầm cây mọc từ Đất (Thổ).",
+                "ex1_meaning": "Đất",
+                "ex2_meaning": "Thứ bảy"
+            },
+            "k29": {
+                "sino": "SƠN",
+                "meaning": "Núi",
+                "mnemonic": "Hình ảnh 3 ngọn núi nhấp nhô.",
+                "ex1_meaning": "Ngọn núi",
+                "ex2_meaning": "Núi Phú Sĩ"
+            },
+            "k30": {
+                "sino": "XUYÊN",
+                "meaning": "Sông",
+                "mnemonic": "Hình ảnh dòng sông đang chảy.",
+                "ex1_meaning": "Dòng sông",
+                "ex2_meaning": "Suối nhỏ"
+            },
+            "k31": {
+                "sino": "ĐIỀN",
+                "meaning": "Ruộng",
+                "mnemonic": "Thửa ruộng chia làm 4 mảnh.",
+                "ex1_meaning": "Ruộng lúa",
+                "ex2_meaning": "Ruộng nước"
+            },
+            "k32": {
+                "sino": "KHÔNG",
+                "meaning": "Bầu trời, Trống không",
+                "mnemonic": "Không gian bao la trên bầu trời.",
+                "ex1_meaning": "Bầu trời",
+                "ex2_meaning": "Không khí"
+            },
+            "k33": {
+                "sino": "THIÊN",
+                "meaning": "Trời",
+                "mnemonic": "Người to lớn (Đại) đội trên đầu là ông Trời (Thiên).",
+                "ex1_meaning": "Thời tiết",
+                "ex2_meaning": "Thiên đường"
+            },
+            "k34": {
+                "sino": "KHÍ",
+                "meaning": "Khí",
+                "mnemonic": "Luồng khí tỏa ra tứ phía.",
+                "ex1_meaning": "Khỏe mạnh",
+                "ex2_meaning": "Cảm giác"
+            },
+            "k35": {
+                "sino": "VŨ",
+                "meaning": "Mưa",
+                "mnemonic": "Trời mưa rơi qua ô cửa sổ.",
+                "ex1_meaning": "Trời mưa",
+                "ex2_meaning": "Mưa to"
+            },
+            "k36": {
+                "sino": "BẠCH",
+                "meaning": "Trắng",
+                "mnemonic": "Giọt sương trên mặt trời (Nhật) màu Trắng.",
+                "ex1_meaning": "Màu trắng",
+                "ex2_meaning": "Đen trắng"
+            },
+            "k37": {
+                "sino": "HẮC",
+                "meaning": "Đen",
+                "mnemonic": "Làng (Lý) bị cháy thành tro Đen (Hắc).",
+                "ex1_meaning": "Màu đen",
+                "ex2_meaning": "Đen thui"
+            },
+            "k38": {
+                "sino": "XÍCH",
+                "meaning": "Đỏ",
+                "mnemonic": "Mảnh đất bị đốt lửa bên dưới cháy Đỏ.",
+                "ex1_meaning": "Màu đỏ",
+                "ex2_meaning": "Em bé"
+            },
+            "k39": {
+                "sino": "THANH",
+                "meaning": "Xanh",
+                "mnemonic": "Mặt trăng (Nguyệt) mọc màu Xanh (Thanh).",
+                "ex1_meaning": "Màu xanh",
+                "ex2_meaning": "Thanh niên"
+            },
+            "k40": {
+                "sino": "ĐA",
+                "meaning": "Nhiều",
+                "mnemonic": "Hai buổi chiều (Tịch) gộp lại là Nhiều (Đa).",
+                "ex1_meaning": "Nhiều",
+                "ex2_meaning": "Có lẽ"
+            },
+            "k41": {
+                "sino": "THIỂU",
+                "meaning": "Ít",
+                "mnemonic": "Chữ Tiểu (Nhỏ) thêm một phẩy thành Ít (Thiểu).",
+                "ex1_meaning": "Ít",
+                "ex2_meaning": "Một chút"
+            },
+            "k42": {
+                "sino": "NHÂN",
+                "meaning": "Người",
+                "mnemonic": "Hai chân dang ra như hình một người.",
+                "ex1_meaning": "Người",
+                "ex2_meaning": "Người Nhật"
+            },
+            "k43": {
+                "sino": "TỬ",
+                "meaning": "Trẻ con",
+                "mnemonic": "Đứa trẻ dang tay được quấn tã.",
+                "ex1_meaning": "Trẻ con",
+                "ex2_meaning": "Bé trai"
+            },
+            "k44": {
+                "sino": "NỮ",
+                "meaning": "Phụ nữ",
+                "mnemonic": "Người phụ nữ đang quỳ cúi đầu.",
+                "ex1_meaning": "Người phụ nữ",
+                "ex2_meaning": "Cô ấy"
+            },
+            "k45": {
+                "sino": "NAM",
+                "meaning": "Đàn ông",
+                "mnemonic": "Đàn ông dùng sức (Lực) làm ruộng (Điền).",
+                "ex1_meaning": "Đàn ông",
+                "ex2_meaning": "Nam giới"
+            },
+            "k46": {
+                "sino": "PHỤ",
+                "meaning": "Bố",
+                "mnemonic": "Hình ảnh người Bố cầm rìu.",
+                "ex1_meaning": "Bố (của mình)",
+                "ex2_meaning": "Bố (người khác)"
+            },
+            "k47": {
+                "sino": "MẪU",
+                "meaning": "Mẹ",
+                "mnemonic": "Hình ảnh người Mẹ đang cho con bú.",
+                "ex1_meaning": "Mẹ (của mình)",
+                "ex2_meaning": "Mẹ (người khác)"
+            },
+            "k48": {
+                "sino": "HỮU",
+                "meaning": "Bạn bè",
+                "mnemonic": "Hai tay nắm lấy nhau tượng trưng cho tình Bạn.",
+                "ex1_meaning": "Bạn bè",
+                "ex2_meaning": "Bạn thân"
+            },
+            "k49": {
+                "sino": "TƯ",
+                "meaning": "Tôi, Tư nhân",
+                "mnemonic": "Cây lúa (Hòa) của tôi mọc riết.",
+                "ex1_meaning": "Tôi",
+                "ex2_meaning": "Chúng tôi"
+            },
+            "k50": {
+                "sino": "TIÊN",
+                "meaning": "Trước",
+                "mnemonic": "Đi trước một bước bằng đôi chân.",
+                "ex1_meaning": "Giáo viên",
+                "ex2_meaning": "Tháng trước"
+            },
+            "k51": {
+                "sino": "SINH",
+                "meaning": "Sống, Sinh ra",
+                "mnemonic": "Cây nảy mầm sinh ra từ mặt đất.",
+                "ex1_meaning": "Học sinh",
+                "ex2_meaning": "Được sinh ra"
+            },
+            "k52": {
+                "sino": "MỤC",
+                "meaning": "Mắt",
+                "mnemonic": "Hình ảnh con mắt dọc với lòng đen ở giữa.",
+                "ex1_meaning": "Mắt",
+                "ex2_meaning": "Thuốc nhỏ mắt"
+            },
+            "k53": {
+                "sino": "NHĨ",
+                "meaning": "Tai",
+                "mnemonic": "Hình ảnh cái tai.",
+                "ex1_meaning": "Tai",
+                "ex2_meaning": "Khoa tai mũi họng"
+            },
+            "k54": {
+                "sino": "KHẨU",
+                "meaning": "Miệng",
+                "mnemonic": "Hình ảnh cái miệng đang há ra.",
+                "ex1_meaning": "Cái miệng",
+                "ex2_meaning": "Cửa vào"
+            },
+            "k55": {
+                "sino": "THỦ",
+                "meaning": "Tay",
+                "mnemonic": "Hình ảnh bàn tay với 5 ngón.",
+                "ex1_meaning": "Bàn tay",
+                "ex2_meaning": "Giỏi"
+            },
+            "k56": {
+                "sino": "TÚC",
+                "meaning": "Chân, Đầy đủ",
+                "mnemonic": "Cái mồm (Khẩu) ăn no đầy đủ (Túc) nên có thể đi bộ.",
+                "ex1_meaning": "Cái chân",
+                "ex2_meaning": "Đủ"
+            },
+            "k57": {
+                "sino": "LỰC",
+                "meaning": "Sức mạnh",
+                "mnemonic": "Cánh tay nổi bắp thịt thể hiện sức mạnh.",
+                "ex1_meaning": "Sức mạnh",
+                "ex2_meaning": "Nỗ lực"
+            },
+            "k58": {
+                "sino": "KIẾN",
+                "meaning": "Nhìn, Xem",
+                "mnemonic": "Mắt có hai chân chạy đi xem.",
+                "ex1_meaning": "Nhìn",
+                "ex2_meaning": "Cho xem"
+            },
+            "k59": {
+                "sino": "VĂN",
+                "meaning": "Nghe",
+                "mnemonic": "Tai (Nhĩ) áp sát vào cổng (Môn) để Nghe lén.",
+                "ex1_meaning": "Nghe, hỏi",
+                "ex2_meaning": "Tờ báo"
+            },
+            "k60": {
+                "sino": "NGÔN",
+                "meaning": "Nói",
+                "mnemonic": "Lời Nói phát ra từ miệng vang thành 4 âm.",
+                "ex1_meaning": "Nói",
+                "ex2_meaning": "Từ vựng"
+            },
+            "k61": {
+                "sino": "THOẠI",
+                "meaning": "Nói chuyện",
+                "mnemonic": "Dùng lời nói (Ngôn) ngàn lần bằng miệng (Khẩu) là Nói chuyện.",
+                "ex1_meaning": "Nói chuyện",
+                "ex2_meaning": "Điện thoại"
+            },
+            "k62": {
+                "sino": "THƯỢNG",
+                "meaning": "Phía trên, Lên",
+                "mnemonic": "Đường ngang có gạch đứng chỉ lên trên.",
+                "ex1_meaning": "Bên trên",
+                "ex2_meaning": "Đi lên"
+            },
+            "k63": {
+                "sino": "HẠ",
+                "meaning": "Phía dưới, Xuống",
+                "mnemonic": "Đường ngang có gạch đứng chỉ xuống dưới.",
+                "ex1_meaning": "Bên dưới",
+                "ex2_meaning": "Đi xuống"
+            },
+            "k64": {
+                "sino": "TẢ",
+                "meaning": "Bên trái",
+                "mnemonic": "Tay trái cầm công cụ (Công).",
+                "ex1_meaning": "Bên trái",
+                "ex2_meaning": "Tay trái"
+            },
+            "k65": {
+                "sino": "HỮU",
+                "meaning": "Bên phải",
+                "mnemonic": "Tay phải đưa lên miệng ăn.",
+                "ex1_meaning": "Bên phải",
+                "ex2_meaning": "Tay phải"
+            },
+            "k66": {
+                "sino": "TRUNG",
+                "meaning": "Ở giữa",
+                "mnemonic": "Đường thẳng xuyên qua chính giữa hình chữ nhật.",
+                "ex1_meaning": "Bên trong",
+                "ex2_meaning": "Trung Quốc"
+            },
+            "k67": {
+                "sino": "NGOẠI",
+                "meaning": "Bên ngoài",
+                "mnemonic": "Buổi chiều đi ra ngoài bói toán.",
+                "ex1_meaning": "Bên ngoài",
+                "ex2_meaning": "Người nước ngoài"
+            },
+            "k68": {
+                "sino": "TIỀN",
+                "meaning": "Phía trước",
+                "mnemonic": "Cắt thịt trước thuyền.",
+                "ex1_meaning": "Phía trước",
+                "ex2_meaning": "Sáng (AM)"
+            },
+            "k69": {
+                "sino": "HẬU",
+                "meaning": "Phía sau",
+                "mnemonic": "Hai người đi sau bị tụt lại.",
+                "ex1_meaning": "Phía sau",
+                "ex2_meaning": "Chiều (PM)"
+            },
+            "k70": {
+                "sino": "ĐÔNG",
+                "meaning": "Hướng Đông",
+                "mnemonic": "Mặt trời lấp ló sau cái cây là lúc bình minh hướng Đông.",
+                "ex1_meaning": "Hướng Đông",
+                "ex2_meaning": "Tokyo"
+            },
+            "k71": {
+                "sino": "TÂY",
+                "meaning": "Hướng Tây",
+                "mnemonic": "Chim bay về tổ nghỉ ngơi lúc mặt trời lặn ở hướng Tây.",
+                "ex1_meaning": "Hướng Tây",
+                "ex2_meaning": "Phương Tây"
+            },
+            "k72": {
+                "sino": "ĐẠI",
+                "meaning": "To lớn",
+                "mnemonic": "Người dang rộng hai tay hai chân trông rất to.",
+                "ex1_meaning": "To lớn",
+                "ex2_meaning": "Đại học"
+            },
+            "k73": {
+                "sino": "TIỂU",
+                "meaning": "Nhỏ bé",
+                "mnemonic": "Hạt bụi bị chẻ làm 3 mảnh nhỏ.",
+                "ex1_meaning": "Nhỏ bé",
+                "ex2_meaning": "Tiểu học"
+            },
+            "k74": {
+                "sino": "CAO",
+                "meaning": "Cao, Đắt",
+                "mnemonic": "Cái tháp (Cao) có cái cổng to.",
+                "ex1_meaning": "Cao, đắt",
+                "ex2_meaning": "Trường cấp 3"
+            },
+            "k75": {
+                "sino": "AN",
+                "meaning": "Rẻ, An toàn",
+                "mnemonic": "Người phụ nữ ở dưới mái nhà rất an toàn.",
+                "ex1_meaning": "Rẻ",
+                "ex2_meaning": "An tâm"
+            },
+            "k76": {
+                "sino": "TÂN",
+                "meaning": "Mới",
+                "mnemonic": "Đứng trên cây dùng rìu chặt cành Mới.",
+                "ex1_meaning": "Mới",
+                "ex2_meaning": "Tờ báo"
+            },
+            "k77": {
+                "sino": "CỔ",
+                "meaning": "Cũ",
+                "mnemonic": "Mười cái miệng truyền miệng nhau từ thời Cổ đại.",
+                "ex1_meaning": "Cũ",
+                "ex2_meaning": "Đồ cũ"
+            },
+            "k78": {
+                "sino": "TRƯỜNG",
+                "meaning": "Dài, Trưởng",
+                "mnemonic": "Người lớn tuổi có mái tóc Dài.",
+                "ex1_meaning": "Dài",
+                "ex2_meaning": "Giám đốc"
+            },
+            "k79": {
+                "sino": "NAM",
+                "meaning": "Hướng Nam",
+                "mnemonic": "Phương Nam trồng nhiều cỏ trong nhà kính.",
+                "ex1_meaning": "Hướng Nam",
+                "ex2_meaning": "Đông Nam Á"
+            },
+            "k80": {
+                "sino": "BẮC",
+                "meaning": "Hướng Bắc",
+                "mnemonic": "Hai người quay lưng vào nhau vì trời hướng Bắc rất lạnh.",
+                "ex1_meaning": "Hướng Bắc",
+                "ex2_meaning": "Hokkaido"
+            },
+            "k81": {
+                "sino": "HÀ",
+                "meaning": "Cái gì",
+                "mnemonic": "Người (Nhân) đang hỏi xem có cái gì trong mồm.",
+                "ex1_meaning": "Cái gì",
+                "ex2_meaning": "Mấy người"
+            },
+            "k82": {
+                "sino": "HÀNH",
+                "meaning": "Đi",
+                "mnemonic": "Hình ảnh ngã tư đường, nơi mọi người đi lại.",
+                "ex1_meaning": "Đi",
+                "ex2_meaning": "Du lịch"
+            },
+            "k83": {
+                "sino": "LAI",
+                "meaning": "Đến",
+                "mnemonic": "Cây lúa có lúa mọc trên là mùa gặt sắp Đến.",
+                "ex1_meaning": "Đến",
+                "ex2_meaning": "Năm sau"
+            },
+            "k84": {
+                "sino": "HƯU",
+                "meaning": "Nghỉ ngơi",
+                "mnemonic": "Người dựa vào gốc cây để nghỉ ngơi.",
+                "ex1_meaning": "Nghỉ ngơi",
+                "ex2_meaning": "Nghỉ hè"
+            },
+            "k85": {
+                "sino": "THỰC",
+                "meaning": "Ăn",
+                "mnemonic": "Người đậy vung lên thức ăn đang nấu rất ngon.",
+                "ex1_meaning": "Ăn",
+                "ex2_meaning": "Nhà ăn"
+            },
+            "k86": {
+                "sino": "ẨM",
+                "meaning": "Uống",
+                "mnemonic": "Người đang há miệng uống thức ăn.",
+                "ex1_meaning": "Uống",
+                "ex2_meaning": "Đồ uống"
+            },
+            "k87": {
+                "sino": "LẬP",
+                "meaning": "Đứng",
+                "mnemonic": "Người đang Đứng dang tay trên mặt đất.",
+                "ex1_meaning": "Đứng",
+                "ex2_meaning": "Quốc lập"
+            },
+            "k88": {
+                "sino": "XUẤT",
+                "meaning": "Ra",
+                "mnemonic": "Hai ngọn núi chồng lên nhau nhô Ra.",
+                "ex1_meaning": "Đi ra",
+                "ex2_meaning": "Lối ra"
+            },
+            "k89": {
+                "sino": "NHẬP",
+                "meaning": "Vào",
+                "mnemonic": "Người đi Vào trong lều.",
+                "ex1_meaning": "Đi vào",
+                "ex2_meaning": "Lối vào"
+            },
+            "k90": {
+                "sino": "MÃI",
+                "meaning": "Mua",
+                "mnemonic": "Dùng mắt xem xét bảo bối rồi mới mua.",
+                "ex1_meaning": "Mua",
+                "ex2_meaning": "Mua sắm"
+            },
+            "k91": {
+                "sino": "ĐỘC",
+                "meaning": "Đọc",
+                "mnemonic": "Dùng lời nói để bán sách là đang Đọc sách.",
+                "ex1_meaning": "Đọc",
+                "ex2_meaning": "Đọc sách"
+            },
+            "k92": {
+                "sino": "THƯ",
+                "meaning": "Viết, Sách",
+                "mnemonic": "Tay cầm bút vạch những nét ngang dọc để Viết chữ.",
+                "ex1_meaning": "Viết",
+                "ex2_meaning": "Thư viện"
+            },
+            "k93": {
+                "sino": "HỌC",
+                "meaning": "Học hành",
+                "mnemonic": "Đứa trẻ đội mũ học ở trường.",
+                "ex1_meaning": "Học sinh",
+                "ex2_meaning": "Trường học"
+            },
+            "k94": {
+                "sino": "HIỆU",
+                "meaning": "Trường học",
+                "mnemonic": "Trường học trồng nhiều cây giao nhau.",
+                "ex1_meaning": "Trường học",
+                "ex2_meaning": "Hiệu trưởng"
+            },
+            "k95": {
+                "sino": "BẢN",
+                "meaning": "Sách, Nguồn gốc",
+                "mnemonic": "Cái cây có vạch ngang ở gốc.",
+                "ex1_meaning": "Sách",
+                "ex2_meaning": "Nhật Bản"
+            },
+            "k96": {
+                "sino": "DANH",
+                "meaning": "Tên",
+                "mnemonic": "Buổi chiều phải dùng miệng gọi tên nhau.",
+                "ex1_meaning": "Tên",
+                "ex2_meaning": "Nổi tiếng"
+            },
+            "k97": {
+                "sino": "NGỮ",
+                "meaning": "Ngôn ngữ",
+                "mnemonic": "Ngôn ngữ cấu tạo từ lời nói của tôi.",
+                "ex1_meaning": "Tiếng Nhật",
+                "ex2_meaning": "Tiếng Anh"
+            },
+            "k98": {
+                "sino": "GIAN",
+                "meaning": "Ở giữa, Khoảng thời gian",
+                "mnemonic": "Mặt trời nằm giữa hai cánh cổng chỉ Không gian và Thời gian.",
+                "ex1_meaning": "Ở giữa",
+                "ex2_meaning": "Thời gian"
+            },
+            "k99": {
+                "sino": "ĐIỆN",
+                "meaning": "Điện",
+                "mnemonic": "Mưa giông tạo ra tia chớp Điện chói lòa.",
+                "ex1_meaning": "Tàu điện",
+                "ex2_meaning": "Điện thoại"
+            },
+            "k100": {
+                "sino": "XA",
+                "meaning": "Xe",
+                "mnemonic": "Chiếc xe nhìn từ trên xuống có hai bánh trục.",
+                "ex1_meaning": "Xe hơi",
+                "ex2_meaning": "Xe đạp"
+            },
+            "k101": {
+                "sino": "MÔN",
+                "meaning": "Cổng",
+                "mnemonic": "Hình ảnh hai cánh cổng nhà.",
+                "ex1_meaning": "Cái cổng",
+                "ex2_meaning": "Chuyên môn"
+            },
+            "k102": {
+                "sino": "DỊCH",
+                "meaning": "Nhà ga",
+                "mnemonic": "Nhà Ga là nơi ngựa dừng chân mua thước kẹp.",
+                "ex1_meaning": "Nhà ga",
+                "ex2_meaning": "Trước nhà ga"
+            },
+            "k103": {
+                "sino": "XÃ",
+                "meaning": "Công ty, Đền",
+                "mnemonic": "Thần linh bảo vệ Đất của công ty.",
+                "ex1_meaning": "Công ty",
+                "ex2_meaning": "Xã hội"
+            },
+            "k104": {
+                "sino": "ĐIẾM",
+                "meaning": "Cửa hàng",
+                "mnemonic": "Cửa hàng chiếm một góc dưới mái hiên.",
+                "ex1_meaning": "Cửa hàng",
+                "ex2_meaning": "Quán giải khát"
+            }
+        }
+    }
+}

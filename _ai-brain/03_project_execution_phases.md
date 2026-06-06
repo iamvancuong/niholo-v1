@@ -6,20 +6,20 @@
 ---
 
 ## MỤC LỤC PHASES
-1. [Phase 1: Foundation & Auth Setup](#phase-1-foundation--auth-setup)
-2. [Phase 2: Database Modeling & CMS Admin](#phase-2-database-modeling--cms-admin)
-3. [Phase 3: Data Strategy (Seeding & Audio Generation)](#phase-3-data-strategy-seeding--audio-generation)
-4. [Phase 4: Core SRS Engine (FSRS 4.5) & API](#phase-4-core-srs-engine-fsrs-45--api)
-5. [Phase 5: Vue Frontend Foundation & Invisible Onboarding](#phase-5-vue-frontend-foundation--invisible-onboarding)
-6. [Phase 6: Interactive Learning UI (Drag & Drop, Artifacts)](#phase-6-interactive-learning-ui-drag--drop-artifacts)
-7. [Phase 7: Gamification Engine (Leaderboard, XP, Streak)](#phase-7-gamification-engine-leaderboard-xp-streak)
+1. [✅ Phase 1: Foundation & Auth Setup](#phase-1-foundation--auth-setup)
+2. [✅ Phase 2: Database Modeling & CMS Admin](#phase-2-database-modeling--cms-admin)
+3. [✅ Phase 3: Data Strategy (Seeding & Audio Generation)](#phase-3-data-strategy-seeding--audio-generation)
+4. [✅ Phase 4: Core SRS Engine (FSRS 4.5) & API](#phase-4-core-srs-engine-fsrs-45--api)
+5. [✅ Phase 5: Vue Frontend Foundation & Invisible Onboarding](#phase-5-vue-frontend-foundation--invisible-onboarding)
+6. [✅ Phase 6: Interactive Learning UI (Drag & Drop, Artifacts)](#phase-6-interactive-learning-ui-drag--drop-artifacts)
+7. [✅ Phase 7: Gamification Engine (Leaderboard, XP, Streak)](#phase-7-gamification-engine-leaderboard-xp-streak)
 8. [Phase 8: Advanced SRS UX (Leech, Hints, Level-Up)](#phase-8-advanced-srs-ux-leech-hints-level-up)
 9. [Phase 9: Time Tracking (150h) & Monetization (Paywall)](#phase-9-time-tracking-150h--monetization-paywall)
 10. [Phase 10: AI Integrations & Launch Prep](#phase-10-ai-integrations--launch-prep)
 
 ---
 
-## Phase 1: Foundation & Auth Setup
+## ✅ Phase 1: Foundation & Auth Setup
 **Mục tiêu**: Dựng khung xương cho dự án, cấu hình môi trường, cài đặt các package cốt lõi và hệ thống xác thực.
 
 *   **Backend Tasks**:
@@ -38,7 +38,7 @@
 
 ---
 
-## Phase 2: Database Modeling & CMS Admin
+## ✅ Phase 2: Database Modeling & CMS Admin
 **Mục tiêu**: Xây dựng toàn bộ lược đồ cơ sở dữ liệu và giao diện nhập liệu cho Admin.
 
 *   **Backend Tasks**:
@@ -53,7 +53,7 @@
 
 ---
 
-## Phase 3: Data Strategy (Seeding & Audio Generation)
+## ✅ Phase 3: Data Strategy (Seeding & Audio Generation)
 **Mục tiêu**: Tự động hóa việc nạp 2300 từ vựng và tự động sinh Audio bằng Azure TTS.
 
 *   **Backend Tasks**:
@@ -68,7 +68,7 @@
 
 ---
 
-## Phase 4: Core SRS Engine (FSRS 4.5) & API
+## ✅ Phase 4: Core SRS Engine (FSRS 4.5) & API
 **Mục tiêu**: Hiện thực hóa thuật toán ôn tập ngắt quãng (trái tim của ứng dụng) ở phía Backend.
 
 *   **Backend Tasks**:
@@ -83,7 +83,7 @@
 
 ---
 
-## Phase 5: Vue Frontend Foundation & Invisible Onboarding
+## ✅ Phase 5: Vue Frontend Foundation & Invisible Onboarding
 **Mục tiêu**: Dựng UI ôn tập Flashcard và luồng trải nghiệm cho người dùng mới mà không cần đăng ký.
 
 *   **Frontend Tasks**:
@@ -99,7 +99,7 @@
 
 ---
 
-## Phase 6: Interactive Learning UI (Drag & Drop, Artifacts)
+## ✅ Phase 6: Interactive Learning UI (Drag & Drop, Artifacts)
 **Mục tiêu**: Xây dựng các màn hình tương tác học ngữ pháp và đọc hiểu (Kéo thả).
 
 *   **Frontend Tasks**:
@@ -113,7 +113,7 @@
 
 ---
 
-## Phase 7: Gamification Engine (Leaderboard, XP, Streak)
+## ✅ Phase 7: Gamification Engine (Leaderboard, XP, Streak)
 **Mục tiêu**: Giữ chân người dùng bằng game hóa (XP, chuỗi ngày, linh vật, xếp hạng).
 
 *   **Backend Tasks**:
@@ -130,7 +130,7 @@
 
 ---
 
-## Phase 8: Advanced SRS UX (Leech, Hints, Level-Up)
+## ✅ Phase 8: Advanced SRS UX (Leech, Hints, Level-Up)
 **Mục tiêu**: Xử lý các điểm mù UX (Blind spots) để tránh người dùng bị nản chí.
 
 *   **Backend Tasks**:
@@ -146,36 +146,33 @@
 
 ---
 
-## Phase 9: Time Tracking (150h) & Monetization (Paywall)
-**Mục tiêu**: Xây dựng tính năng giá trị nhất để thu tiền: Báo cáo Visa 150h và hệ thống Paywall.
-
-*   **Backend Tasks**:
-    *   API `POST /track-time` + Redis TTL 5 phút chống AFK.
-    *   Sử dụng `barryvdh/laravel-dompdf` viết `VisaReportService` xuất PDF.
-    *   Tích hợp Laravel Cashier (Stripe) và VNPay.
-    *   Hoàn thiện Middleware chặn truy cập trái phép.
-*   **Frontend Tasks**:
-    *   Composable `useTimeTracker.ts` để ping server mỗi 60s.
-    *   Tạo trang Subscription/Paywall và UI tải PDF.
-*   **Testing Tasks**:
-    *   `Unit`: Test logic tổng hợp giờ học bỏ qua các session không có `is_verified`.
-    *   `Feature`: Guest gọi API xuất PDF sẽ nhận HTTP 403. Pro gọi sẽ nhận file PDF.
-*   **Deliverable**: Tiền bắt đầu chảy vào túi, hệ thống chống gian lận thời gian hoạt động.
+## ~~Phase 9: Time Tracking (150h) & Monetization (Paywall)~~
+**(BỊ HỦY BỎ): Luật cấp chứng nhận 150h tự động không còn được chấp nhận, tính năng này bị loại bỏ hoàn toàn.**
 
 ---
 
-## Phase 10: AI Integrations & Launch Prep
-**Mục tiêu**: Đưa "Super App" lên tầm cao mới với OpenAI và chuẩn bị deploy.
+## Phase 10: AI Integrations, Monetization & Final Polish
+**Mục tiêu**: Hoàn thiện các tính năng còn sót lại (Đọc hiểu, Thanh toán) và đưa "Super App" lên tầm cao mới với OpenAI, chuẩn bị deploy.
 
 *   **Backend Tasks**:
+    *   Tích hợp cổng thanh toán (Stripe / VNPay) cho hệ thống Paywall.
     *   Viết API tích hợp OpenAI `gpt-4o-mini` cho tính năng **AI Sensei** (Giải thích ngữ pháp cá nhân hóa).
     *   Thêm Filament Action tự động sinh **Mnemonics** bằng AI.
     *   Tối ưu hóa query N+1, cấu hình Cache.
 *   **Frontend Tasks**:
+    *   Xây dựng màn hình Đọc hiểu (Reading Comprehension) với component `ArtifactSwipe.vue` (hiển thị ảnh tĩnh và câu hỏi tương tác).
     *   Thêm nút "Hỏi Nihoko" (AI) vào góc các Flashcard khó.
 *   **Testing Tasks**:
     *   `Feature`: Test API OpenAI trả về response hợp lệ, test logic cache lại câu trả lời để tiết kiệm tiền.
-*   **Deliverable**: Ứng dụng sẵn sàng đưa lên server (VPS/Vercel/Forge). Hoàn thành dự án.
+*   **Deliverable**: Ứng dụng hoàn thiện 100%, sẵn sàng đưa lên server (VPS/Vercel/Forge).
 
 ---
 > **Hướng dẫn làm việc**: Khi bắt đầu một Phase mới, chỉ cần copy prompt: *"Bắt đầu triển khai Phase X. Hãy đọc lại kiến trúc và liệt kê các file cần tạo/sửa trước khi code"*. Cung cấp lại thư mục `_ai-brain/` để AI lấy Context.
+
+---
+
+## 📝 LƯU TRỮ CÁC TASK TẠM GÁC LẠI (BACKLOGS)
+*(Trống - Tất cả các task tồn đọng đã được gộp vào Phase 10 ở trên)*
+
+### Hệ thống tính toán ban đầu (Self-Check)
+*   *Lưu ý hệ thống*: Điểm ngưỡng (Threshold) đánh dấu Leech ban đầu thiết kế là **4**, nhưng trong quá trình code đã được nâng lên **5** theo yêu cầu UX thực tế để tạo sự khoan dung hơn cho học viên. Dữ liệu này đã được điều chỉnh nhất quán ở backend. Mọi logic trừ XP, tính toán Streak vẫn bám sát đúng thiết kế gốc.

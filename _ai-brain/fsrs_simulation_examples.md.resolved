@@ -1,0 +1,67 @@
+# Mô phỏng Thuật toán FSRS trên hệ thống Niholo
+
+Dưới đây là 3 kịch bản mô phỏng để bạn thấy thuật toán FSRS (Free Spaced Repetition Scheduler) thông minh như thế nào trong việc tự động điều chỉnh khoảng cách ôn tập dựa trên độ khó và trí nhớ của người dùng.
+
+---
+
+## 🟢 Kịch bản 1: Học sinh xuất sắc (The Perfect Student)
+*Trường hợp bạn nhớ rất tốt và luôn chọn mức "Tốt" (Good).*
+
+- **Ngày 0 (Lần học đầu tiên)**: Bạn gặp từ `犬` (Inu - Chó). Bạn đoán đúng và bấm **Tốt**.
+  👉 *Thuật toán ghi nhận*: Thẻ mới, độ ghi nhớ khởi tạo.
+  📅 *Lịch hẹn*: **1 ngày sau** (Khởi động nhẹ nhàng).
+
+- **Ngày 1 (Lần 2)**: Thẻ hiện ra, bạn vẫn nhớ rõ và bấm **Tốt**.
+  👉 *Thuật toán ghi nhận*: Trí nhớ được củng cố đúng hạn.
+  📅 *Lịch hẹn*: **3 ngày sau** (Khoảng cách giãn ra dần).
+
+- **Ngày 4 (Lần 3)**: Thẻ hiện ra, bạn trả lời nhanh và bấm **Tốt**.
+  👉 *Thuật toán ghi nhận*: Từ này đã bắt đầu đi vào trí nhớ dài hạn. Độ ổn định (Stability) tăng vọt.
+  📅 *Lịch hẹn*: **8 ngày sau**.
+
+- **Ngày 12 (Lần 4)**: Bạn lại bấm **Tốt**.
+  📅 *Lịch hẹn*: **21 ngày sau**.
+  *(Khoảng cách sẽ tăng theo cấp số nhân: 1.5 tháng ➡️ 4 tháng ➡️ 1 năm... giúp bạn không mất thời gian ôn lại những từ đã quá thuộc).*
+
+---
+
+## 🔴 Kịch bản 2: Học sinh chật vật (The Struggling Student)
+*Trường hợp bạn gặp một từ quá khó nhớ và chật vật ngay từ đầu.*
+
+- **Ngày 0 (Lần học đầu tiên)**: Từ `環境` (Kankyou - Môi trường). Khó quá, bạn bấm **Lại**.
+  👉 *Thuật toán ghi nhận*: Từ này khó, đưa vào trạng thái Học lại (Learning).
+  📅 *Lịch hẹn*: **1 phút sau**.
+
+- **1 phút sau**: Bạn ráng nhớ nhưng vẫn thấy chưa chắc chắn, bấm **Khó**.
+  👉 *Thuật toán ghi nhận*: Độ khó (Difficulty) của từ này bị đẩy lên cao.
+  📅 *Lịch hẹn*: **5 phút sau**.
+
+- **5 phút sau**: Lần này bạn đã nhớ và bấm **Tốt**.
+  👉 *Thuật toán ghi nhận*: Đã qua ải bước đầu, đưa vào trạng thái Ôn tập (Review).
+  📅 *Lịch hẹn*: **1 ngày sau** (Vì hệ thống biết đây là từ khó với bạn, nó không dám cho nghỉ quá 1 ngày).
+
+- **Ngày 1 (Lần 2)**: Bạn bấm **Tốt**.
+  👉 *Thuật toán ghi nhận*: Dù hôm qua chật vật nhưng hôm nay đã nhớ. Tuy nhiên, vì "lịch sử đen tối", khoảng cách sẽ giãn ra rất rụt rè.
+  📅 *Lịch hẹn*: **2 ngày sau** *(thay vì nhảy lên 3 ngày như kịch bản 1)*.
+
+---
+
+## 🟡 Kịch bản 3: Cú trượt chân (The Memory Lapse)
+*Đây là nơi FSRS chứng minh sự vượt trội so với Anki kiểu cũ. Bạn đã học thuộc 1 từ rất lâu, nhưng tự nhiên một ngày đẹp trời lại quên.*
+
+- **Giả sử Thẻ đã học được 1 tháng**, thuật toán vừa xếp lịch hẹn bạn là **30 ngày sau**.
+- **Đúng 30 ngày sau**: Thẻ hiện ra, tự nhiên bạn quên sạch và bấm **Lại**.
+  
+  👉 **Cách hệ thống cũ làm (VD: SM-2):** Xóa sạch trí nhớ, coi thẻ này như một tờ giấy trắng, bắt học lại từ đầu (1 ngày ➡️ 3 ngày...).
+  
+  👉 **Cách FSRS của Niholo làm:**
+  1. Lập tức phạt bạn ôn lại trong buổi học đó: **1 phút sau**.
+  2. Tuy nhiên, nó hiểu não bạn đã từng chứa từ này 2 tháng nay, chỉ là bị mờ đi. Độ ghi nhớ (Stability) bị trừ nặng nhưng **không về 0**.
+  3. **1 phút sau**, bạn bấm **Tốt** (đã nhớ lại được).
+  📅 *Lịch hẹn tiếp theo*: Nó không bắt bạn đợi 1 ngày, mà phóng thẳng lên **5 ngày sau** (hoặc 7 ngày). Nó khôi phục lại một phần trí nhớ của bạn thay vì đập đi xây lại từ đầu.
+
+---
+
+## 💡 Tổng kết
+* **Mỗi thẻ có một "hồ sơ bệnh án" riêng:** Không có số ngày cố định. Nếu từ dễ, nó phóng lên 1 năm cực nhanh. Nếu từ khó, nó sẽ bám lấy bạn hàng ngày.
+* **Biết châm chước:** Quên một từ đã thuộc từ lâu sẽ được tha thứ và khôi phục nhịp độ nhanh hơn là học một từ mới tinh.

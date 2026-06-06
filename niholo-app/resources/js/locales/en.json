@@ -1,0 +1,980 @@
+{
+    "welcome": "Welcome to Niholo!",
+    "dashboard": "Dashboard",
+    "study": "Study",
+    "courses": "Courses",
+    "profile": "Profile",
+    "N5": {
+        "course": {
+            "title": "N5 Journey Begins",
+            "description": "Basic N5 Course"
+        },
+        "lesson1": {
+            "title": "Lesson 1: Basic Greetings & Self-Introduction",
+            "grammar_focus": "Personal pronouns, professions, nationalities.",
+            "vocab": {
+                "watashi": {
+                    "meaning": "I \/ Me",
+                    "example": "I am a student."
+                },
+                "watashitachi": {
+                    "meaning": "We",
+                    "example": "We are Vietnamese."
+                },
+                "anata": {
+                    "meaning": "You",
+                    "example": "Are you a teacher?"
+                },
+                "kare": {
+                    "meaning": "He \/ Boyfriend",
+                    "example": "He is an engineer."
+                },
+                "kanojo": {
+                    "meaning": "She \/ Girlfriend",
+                    "example": "She is a bank employee."
+                },
+                "anohito": {
+                    "meaning": "That person (polite)",
+                    "example": "That person is Mr. Kimura."
+                },
+                "minasan": {
+                    "meaning": "Everyone",
+                    "example": "Good morning, everyone."
+                },
+                "dare": {
+                    "meaning": "Who (polite)",
+                    "example": "Who is that person?"
+                },
+                "kyoushi": {
+                    "meaning": "Teacher (profession)",
+                    "example": "I am a teacher."
+                },
+                "sensei": {
+                    "meaning": "Teacher \/ Instructor",
+                    "example": "Hello, teacher."
+                },
+                "gakusei": {
+                    "meaning": "Student",
+                    "example": "He is not a student."
+                },
+                "ryuugakusei": {
+                    "meaning": "International student",
+                    "example": "Ali is an international student."
+                },
+                "kaishain": {
+                    "meaning": "Company employee",
+                    "example": "My father is a company employee."
+                },
+                "shain": {
+                    "meaning": "Employee (used with company name)",
+                    "example": "I am an employee of IMC."
+                },
+                "ginkouin": {
+                    "meaning": "Bank employee",
+                    "example": "My older sister is a bank employee."
+                },
+                "isha": {
+                    "meaning": "Doctor",
+                    "example": "He is a doctor."
+                },
+                "enjinia": {
+                    "meaning": "Engineer",
+                    "example": "Mr. Schmidt is an engineer."
+                },
+                "kenkyuusha": {
+                    "meaning": "Researcher",
+                    "example": "Mr. Watt is a researcher."
+                },
+                "untenshu": {
+                    "meaning": "Driver",
+                    "example": "My older brother is a driver."
+                },
+                "nihon": {
+                    "meaning": "Japan",
+                    "example": "I came from Japan."
+                },
+                "betonamu": {
+                    "meaning": "Vietnam",
+                    "example": "Vietnam is hot."
+                },
+                "kankoku": {
+                    "meaning": "South Korea",
+                    "example": "She is South Korean."
+                },
+                "chuugoku": {
+                    "meaning": "China",
+                    "example": "I will go to China."
+                },
+                "amerika": {
+                    "meaning": "USA",
+                    "example": "It is an American university."
+                },
+                "igirisu": {
+                    "meaning": "UK",
+                    "example": "Are you British?"
+                },
+                "jin": {
+                    "meaning": "~ Nationality",
+                    "example": "I am Vietnamese."
+                },
+                "go": {
+                    "meaning": "~ Language",
+                    "example": "I study Japanese."
+                },
+                "shusshin": {
+                    "meaning": "Origin \/ Hometown",
+                    "example": "Where are you from?"
+                },
+                "karakimashita": {
+                    "meaning": "I come from ~",
+                    "example": "I come from Vietnam."
+                },
+                "hai_iie": {
+                    "meaning": "Yes \/ No",
+                    "example": "Yes, that's right."
+                },
+                "shitsureidesuga": {
+                    "meaning": "Excuse me,...",
+                    "example": "Excuse me, what is your name?"
+                },
+                "douzoyoroshiku": {
+                    "meaning": "Nice to meet you!",
+                    "example": "How do you do, nice to meet you."
+                }
+            },
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.\n\n*Lưu ý:* Khi N2 đã rõ từ ngữ cảnh, có thể bỏ N2 (Ví dụ: `これは わたしの です` - Cái này là của tôi).",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                }
+            }
+        },
+        "lesson5": {
+            "title": "Lesson 5: Movement & Transportation",
+            "grammar_focus": "Movement verbs (iku\/kuru\/kaeru), Particles he, de.",
+            "vocab": {
+                "ikimasu": {
+                    "meaning": "To go",
+                    "example": "I will go to school tomorrow."
+                },
+                "kimasu": {
+                    "meaning": "To come",
+                    "example": "I came to Japan."
+                },
+                "kaerimasu": {
+                    "meaning": "To return \/ go home",
+                    "example": "I return home."
+                },
+                "hikouki": {
+                    "meaning": "Airplane",
+                    "example": "I go by airplane."
+                },
+                "fune": {
+                    "meaning": "Ship \/ boat",
+                    "example": "I came by ship."
+                },
+                "densha": {
+                    "meaning": "Train",
+                    "example": "I return by train."
+                },
+                "chikatetsu": {
+                    "meaning": "Subway",
+                    "example": "I go by subway."
+                },
+                "shinkansen": {
+                    "meaning": "Bullet train (Shinkansen)",
+                    "example": "The Shinkansen is fast."
+                },
+                "basu": {
+                    "meaning": "Bus",
+                    "example": "I go to school by bus."
+                },
+                "takushii": {
+                    "meaning": "Taxi",
+                    "example": "I return by taxi."
+                },
+                "jitensha": {
+                    "meaning": "Bicycle",
+                    "example": "I go by bicycle."
+                },
+                "aruite": {
+                    "meaning": "On foot",
+                    "example": "I return home on foot."
+                },
+                "gakkou": {
+                    "meaning": "School",
+                    "example": "I go to school."
+                },
+                "suupaa": {
+                    "meaning": "Supermarket",
+                    "example": "I go to the supermarket."
+                },
+                "eki": {
+                    "meaning": "Station",
+                    "example": "I meet my friend at the station."
+                },
+                "tomodachi": {
+                    "meaning": "Friend",
+                    "example": "I go with a friend."
+                },
+                "kazoku": {
+                    "meaning": "Family",
+                    "example": "I came with my family."
+                },
+                "hitoride": {
+                    "meaning": "Alone",
+                    "example": "I return alone."
+                },
+                "senshuu": {
+                    "meaning": "Last week",
+                    "example": "I came to Japan last week."
+                },
+                "konshuu": {
+                    "meaning": "This week",
+                    "example": "I am busy this week."
+                },
+                "raishuu": {
+                    "meaning": "Next week",
+                    "example": "I will return to my country next week."
+                },
+                "sengetsu": {
+                    "meaning": "Last month",
+                    "example": "I came to Japan last month."
+                },
+                "kongetsu": {
+                    "meaning": "This month",
+                    "example": "There are many holidays this month."
+                },
+                "raigetsu": {
+                    "meaning": "Next month",
+                    "example": "There is an exam next month."
+                },
+                "kyonen": {
+                    "meaning": "Last year",
+                    "example": "I came to Japan last year."
+                },
+                "kotoshi": {
+                    "meaning": "This year",
+                    "example": "It is hot this year."
+                },
+                "rainen": {
+                    "meaning": "Next year",
+                    "example": "I will return to my country next year."
+                },
+                "nangatsu": {
+                    "meaning": "What month",
+                    "example": "What month is it now?"
+                },
+                "nannichi": {
+                    "meaning": "What day of the month \/ How many days",
+                    "example": "How many days does it take?"
+                },
+                "itsu": {
+                    "meaning": "When",
+                    "example": "When did you come to Japan?"
+                }
+            }
+        },
+        "lesson2": {
+            "title": "Lesson 2: Objects & Demonstratives (kore\/sore\/are)",
+            "grammar_focus": "Demonstratives (kore\/sore\/are), Possessive particle (no).",
+            "vocab": {
+                "kore": {
+                    "meaning": "This (near speaker)",
+                    "example": "This is a book."
+                },
+                "sore": {
+                    "meaning": "That (near listener)",
+                    "example": "That is my umbrella."
+                },
+                "are": {
+                    "meaning": "That over there (far)",
+                    "example": "That over there is a car."
+                },
+                "kono": {
+                    "meaning": "This ~",
+                    "example": "This book is mine."
+                },
+                "sono": {
+                    "meaning": "That ~",
+                    "example": "Whose is that key?"
+                },
+                "ano": {
+                    "meaning": "That ~ over there",
+                    "example": "That person over there is a teacher."
+                },
+                "hon": {
+                    "meaning": "Book",
+                    "example": "This is a book."
+                },
+                "jisho": {
+                    "meaning": "Dictionary",
+                    "example": "That is an English dictionary."
+                },
+                "zasshi": {
+                    "meaning": "Magazine",
+                    "example": "I read a car magazine."
+                },
+                "shinbun": {
+                    "meaning": "Newspaper",
+                    "example": "I read the newspaper every morning."
+                },
+                "nooto": {
+                    "meaning": "Notebook",
+                    "example": "I write in a notebook."
+                },
+                "techou": {
+                    "meaning": "Pocket notebook",
+                    "example": "This is my pocket notebook."
+                },
+                "meishi": {
+                    "meaning": "Business card",
+                    "example": "Please give me a business card."
+                },
+                "kaado": {
+                    "meaning": "Card",
+                    "example": "I pay by card."
+                },
+                "enpitsu": {
+                    "meaning": "Pencil",
+                    "example": "I write with a pencil."
+                },
+                "boorupen": {
+                    "meaning": "Ballpoint pen",
+                    "example": "Please lend me a ballpoint pen."
+                },
+                "shaapupenshiru": {
+                    "meaning": "Mechanical pencil",
+                    "example": "That is a mechanical pencil."
+                },
+                "kagi": {
+                    "meaning": "Key",
+                    "example": "It is the room key."
+                },
+                "tokei": {
+                    "meaning": "Clock \/ Watch",
+                    "example": "Whose watch is this?"
+                },
+                "kasa": {
+                    "meaning": "Umbrella",
+                    "example": "I will not forget my umbrella."
+                },
+                "kaban": {
+                    "meaning": "Bag",
+                    "example": "It is my bag."
+                },
+                "terebi": {
+                    "meaning": "Television",
+                    "example": "I watch television."
+                },
+                "rajio": {
+                    "meaning": "Radio",
+                    "example": "I listen to the radio."
+                },
+                "kamera": {
+                    "meaning": "Camera",
+                    "example": "I bought a camera."
+                },
+                "konpyuutaa": {
+                    "meaning": "Computer",
+                    "example": "This is a computer."
+                },
+                "kuruma": {
+                    "meaning": "Car",
+                    "example": "It is a Japanese car."
+                },
+                "tsukue": {
+                    "meaning": "Desk",
+                    "example": "It is the teacher's desk."
+                },
+                "isu": {
+                    "meaning": "Chair",
+                    "example": "I sit on the chair."
+                },
+                "chokoreeto": {
+                    "meaning": "Chocolate",
+                    "example": "I give chocolate."
+                },
+                "koohii": {
+                    "meaning": "Coffee",
+                    "example": "I drink coffee."
+                },
+                "omiyage": {
+                    "meaning": "Souvenir",
+                    "example": "This is a souvenir from Japan."
+                },
+                "soudesu": {
+                    "meaning": "That's right",
+                    "example": "Yes, that's right."
+                },
+                "chigaimasu": {
+                    "meaning": "No, it isn't \/ You are wrong",
+                    "example": "No, it's not."
+                },
+                "soudesuka": {
+                    "meaning": "Is that so? \/ I see",
+                    "example": "Ah, is that so?"
+                },
+                "douzo": {
+                    "meaning": "Please \/ Here you go",
+                    "example": "Please have some tea."
+                },
+                "doumo": {
+                    "meaning": "Thank you",
+                    "example": "Thank you very much."
+                }
+            },
+            "grammar": {
+                "g2": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                }
+            }
+        },
+        "lesson3": {
+            "title": "Lesson 3: Locations & Shopping (koko\/soko\/asoko)",
+            "grammar_focus": "Demonstratives of place (koko\/soko\/asoko), Asking for price (ikura).",
+            "vocab": {
+                "koko": {
+                    "meaning": "Here, this place",
+                    "example": "Here is the dining hall."
+                },
+                "soko": {
+                    "meaning": "There, that place",
+                    "example": "The restroom is there."
+                },
+                "asoko": {
+                    "meaning": "Over there, that place over there",
+                    "example": "Over there is the classroom."
+                },
+                "doko": {
+                    "meaning": "Where, what place",
+                    "example": "Where is the office?"
+                },
+                "kochira": {
+                    "meaning": "This way, this place (polite)",
+                    "example": "This way is the reception desk."
+                },
+                "sochira": {
+                    "meaning": "That way, that place (polite)",
+                    "example": "That way is the meeting room."
+                },
+                "achira": {
+                    "meaning": "That way over there (polite)",
+                    "example": "That way over there is the lobby."
+                },
+                "dochira": {
+                    "meaning": "Which way, where (polite)",
+                    "example": "Which way is the elevator?"
+                },
+                "kyoushitsu": {
+                    "meaning": "Classroom",
+                    "example": "There are students in the classroom."
+                },
+                "shokudou": {
+                    "meaning": "Dining hall, canteen",
+                    "example": "I eat at the dining hall."
+                },
+                "jimusho": {
+                    "meaning": "Office",
+                    "example": "I call the office."
+                },
+                "kaigishitsu": {
+                    "meaning": "Meeting room",
+                    "example": "The meeting room is on the 2nd floor."
+                },
+                "uketsuke": {
+                    "meaning": "Reception desk",
+                    "example": "The reception desk is on the 1st floor."
+                },
+                "robii": {
+                    "meaning": "Lobby",
+                    "example": "I wait in the lobby."
+                },
+                "heya": {
+                    "meaning": "Room",
+                    "example": "It is my room."
+                },
+                "toire": {
+                    "meaning": "Restroom, toilet",
+                    "example": "Where is the restroom?"
+                },
+                "kaidan": {
+                    "meaning": "Stairs",
+                    "example": "Over there are the stairs."
+                },
+                "erebeetaa": {
+                    "meaning": "Elevator",
+                    "example": "I take the elevator."
+                },
+                "esukareetaa": {
+                    "meaning": "Escalator",
+                    "example": "The escalator is over there."
+                },
+                "uriba": {
+                    "meaning": "Sales counter, department",
+                    "example": "Where is the shoe department?"
+                },
+                "kuni": {
+                    "meaning": "Country",
+                    "example": "Which country are you from?"
+                },
+                "kaisha": {
+                    "meaning": "Company",
+                    "example": "Where is your company?"
+                },
+                "uchi": {
+                    "meaning": "House, home",
+                    "example": "I go home."
+                },
+                "denwa": {
+                    "meaning": "Telephone",
+                    "example": "Where is the telephone?"
+                },
+                "kutsu": {
+                    "meaning": "Shoes",
+                    "example": "These are Italian shoes."
+                },
+                "nekutai": {
+                    "meaning": "Necktie",
+                    "example": "This is a French necktie."
+                },
+                "wain": {
+                    "meaning": "Wine",
+                    "example": "I drink wine."
+                },
+                "tabako": {
+                    "meaning": "Tobacco, cigarette",
+                    "example": "I buy cigarettes."
+                },
+                "chika": {
+                    "meaning": "Basement",
+                    "example": "The dining hall is in the basement."
+                },
+                "kai": {
+                    "meaning": "~ th floor",
+                    "example": "3rd floor."
+                },
+                "nankai": {
+                    "meaning": "Which floor",
+                    "example": "Which floor is the restroom on?"
+                },
+                "en": {
+                    "meaning": "~ Yen",
+                    "example": "One thousand yen."
+                },
+                "ikura": {
+                    "meaning": "How much",
+                    "example": "How much is this watch?"
+                },
+                "hyaku": {
+                    "meaning": "Hundred",
+                    "example": "Three hundred yen."
+                },
+                "sen": {
+                    "meaning": "Thousand",
+                    "example": "Three thousand yen."
+                },
+                "man": {
+                    "meaning": "Ten thousand",
+                    "example": "Ten thousand yen."
+                },
+                "sumimasen": {
+                    "meaning": "Excuse me",
+                    "example": "Excuse me."
+                },
+                "misetekudasai": {
+                    "meaning": "Please show me ~",
+                    "example": "Please show me those shoes."
+                },
+                "ja": {
+                    "meaning": "Well then, in that case",
+                    "example": "Well then, I will take this."
+                },
+                "okudasai": {
+                    "meaning": "Please give me ~",
+                    "example": "Please give me this."
+                }
+            },
+            "grammar": {
+                "g3": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                }
+            }
+        },
+        "lesson4": {
+            "title": "Lesson 4: Time & Daily Activities",
+            "grammar_focus": "Asking for time (nanji), Days of the week, Verbs masu\/masen\/mashita.",
+            "vocab": {
+                "ima": {
+                    "meaning": "Now",
+                    "example": "What time is it now?"
+                },
+                "ji": {
+                    "meaning": "~ o'clock",
+                    "example": "What time is it now?"
+                },
+                "fun": {
+                    "meaning": "~ minute(s)",
+                    "example": "I will wait for 5 minutes."
+                },
+                "han": {
+                    "meaning": "Half past (time)",
+                    "example": "It is half past nine."
+                },
+                "nanji": {
+                    "meaning": "What time",
+                    "example": "What time is the meeting?"
+                },
+                "nanpun": {
+                    "meaning": "How many minutes",
+                    "example": "How many minutes does it take?"
+                },
+                "gozen": {
+                    "meaning": "a.m. \/ Morning",
+                    "example": "I wake up at 9 a.m."
+                },
+                "gogo": {
+                    "meaning": "p.m. \/ Afternoon",
+                    "example": "I work from the afternoon."
+                },
+                "asa": {
+                    "meaning": "Morning",
+                    "example": "I eat breakfast."
+                },
+                "hiru": {
+                    "meaning": "Noon \/ Daytime",
+                    "example": "I rest at noon."
+                },
+                "ban_yoru": {
+                    "meaning": "Evening \/ Night",
+                    "example": "I study at night."
+                },
+                "ototoi": {
+                    "meaning": "The day before yesterday",
+                    "example": "I met my friend the day before yesterday."
+                },
+                "kinou": {
+                    "meaning": "Yesterday",
+                    "example": "Yesterday was a day off."
+                },
+                "kyou": {
+                    "meaning": "Today",
+                    "example": "Today is Monday."
+                },
+                "ashita": {
+                    "meaning": "Tomorrow",
+                    "example": "I will go to school tomorrow."
+                },
+                "asatte": {
+                    "meaning": "The day after tomorrow",
+                    "example": "I will work the day after tomorrow."
+                },
+                "kesa": {
+                    "meaning": "This morning",
+                    "example": "I read the newspaper this morning."
+                },
+                "konban": {
+                    "meaning": "Tonight",
+                    "example": "I will watch TV tonight."
+                },
+                "getsuyoubi": {
+                    "meaning": "Monday",
+                    "example": "Monday is busy."
+                },
+                "kayoubi": {
+                    "meaning": "Tuesday",
+                    "example": "There is a test on Tuesday."
+                },
+                "suiyoubi": {
+                    "meaning": "Wednesday",
+                    "example": "Wednesday is a day off."
+                },
+                "mokuyoubi": {
+                    "meaning": "Thursday",
+                    "example": "I watch a movie on Thursday."
+                },
+                "kinyoubi": {
+                    "meaning": "Friday",
+                    "example": "Friday night."
+                },
+                "doyoubi": {
+                    "meaning": "Saturday",
+                    "example": "I play on Saturday."
+                },
+                "nichiyoubi": {
+                    "meaning": "Sunday",
+                    "example": "I do not work on Sunday."
+                },
+                "nanyoubi": {
+                    "meaning": "What day of the week",
+                    "example": "What day of the week is it today?"
+                },
+                "okimasu": {
+                    "meaning": "To wake up \/ get up",
+                    "example": "I wake up at 6 every morning."
+                },
+                "nemasu": {
+                    "meaning": "To sleep \/ go to bed",
+                    "example": "I go to sleep at 11."
+                },
+                "hatarakimasu": {
+                    "meaning": "To work",
+                    "example": "I work every day."
+                },
+                "yasumimasu": {
+                    "meaning": "To rest \/ take a day off",
+                    "example": "I rest in my room."
+                },
+                "benkyoushimasu": {
+                    "meaning": "To study",
+                    "example": "I study Japanese."
+                },
+                "owarimasu": {
+                    "meaning": "To finish \/ end",
+                    "example": "Work finishes."
+                },
+                "yasumi": {
+                    "meaning": "Holiday \/ break \/ rest",
+                    "example": "Tomorrow is a holiday."
+                },
+                "shiken": {
+                    "meaning": "Exam",
+                    "example": "There is an exam tomorrow."
+                },
+                "mai_": {
+                    "meaning": "Every ~",
+                    "example": "Every day."
+                },
+                "_kara": {
+                    "meaning": "From ~",
+                    "example": "I work from 9 o'clock."
+                },
+                "_made": {
+                    "meaning": "Until ~",
+                    "example": "I work until 5 o'clock."
+                }
+            },
+            "grammar": {
+                "g4": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                }
+            }
+        },
+        "lesson6": {
+            "title": "Lesson 6: Action with Objects & Locations",
+            "grammar_focus": "Transitive verbs (o), Action locations (de), Invitations (~masenka \/ ~mashou).",
+            "vocab": {
+                "tabemasu": {
+                    "meaning": "To eat",
+                    "example": "I eat breakfast."
+                },
+                "nomimasu": {
+                    "meaning": "To drink",
+                    "example": "I drink water."
+                },
+                "suimasu": {
+                    "meaning": "To smoke",
+                    "example": "I smoke a cigarette."
+                },
+                "mimasu": {
+                    "meaning": "To see \/ watch \/ look",
+                    "example": "I watch a movie."
+                },
+                "kikimasu": {
+                    "meaning": "To listen \/ hear",
+                    "example": "I listen to music."
+                },
+                "yomimasu": {
+                    "meaning": "To read",
+                    "example": "I read a book."
+                },
+                "kakimasu": {
+                    "meaning": "To write \/ draw",
+                    "example": "I write a letter."
+                },
+                "kaimasu": {
+                    "meaning": "To buy",
+                    "example": "I buy shoes."
+                },
+                "torimasu": {
+                    "meaning": "To take a photo",
+                    "example": "I take a photo."
+                },
+                "shimasu": {
+                    "meaning": "To do \/ play (sports)",
+                    "example": "I play soccer."
+                },
+                "aimasu": {
+                    "meaning": "To meet (a friend)",
+                    "example": "I meet a friend."
+                },
+                "gohan": {
+                    "meaning": "Rice \/ meal",
+                    "example": "I eat rice."
+                },
+                "asagohan": {
+                    "meaning": "Breakfast",
+                    "example": "I eat breakfast."
+                },
+                "hirugohan": {
+                    "meaning": "Lunch",
+                    "example": "I eat lunch."
+                },
+                "bangohan": {
+                    "meaning": "Dinner",
+                    "example": "I eat dinner."
+                },
+                "pan": {
+                    "meaning": "Bread",
+                    "example": "I eat bread."
+                },
+                "tamago": {
+                    "meaning": "Egg",
+                    "example": "I buy eggs."
+                },
+                "niku": {
+                    "meaning": "Meat",
+                    "example": "I eat meat."
+                },
+                "sakana": {
+                    "meaning": "Fish",
+                    "example": "I buy fish."
+                },
+                "yasai": {
+                    "meaning": "Vegetable",
+                    "example": "I eat vegetables."
+                },
+                "kudamono": {
+                    "meaning": "Fruit",
+                    "example": "I eat fruits."
+                },
+                "mizu": {
+                    "meaning": "Water",
+                    "example": "I drink water."
+                },
+                "ocha": {
+                    "meaning": "Green tea",
+                    "example": "I drink green tea."
+                },
+                "koucha": {
+                    "meaning": "Black tea",
+                    "example": "I drink black tea."
+                },
+                "gyuunyuu_miruku": {
+                    "meaning": "Milk",
+                    "example": "I drink milk."
+                },
+                "juusu": {
+                    "meaning": "Juice",
+                    "example": "I drink juice."
+                },
+                "biiru": {
+                    "meaning": "Beer",
+                    "example": "I drink beer."
+                },
+                "osake": {
+                    "meaning": "Sake \/ Alcohol",
+                    "example": "I drink sake."
+                },
+                "tegami": {
+                    "meaning": "Letter",
+                    "example": "I read a letter."
+                },
+                "repooto": {
+                    "meaning": "Report",
+                    "example": "I write a report."
+                },
+                "shashin": {
+                    "meaning": "Photograph",
+                    "example": "I take a photo."
+                },
+                "mise": {
+                    "meaning": "Store \/ shop",
+                    "example": "I buy at the store."
+                },
+                "niwa": {
+                    "meaning": "Garden",
+                    "example": "I take a photo in the garden."
+                },
+                "nani": {
+                    "meaning": "What",
+                    "example": "What do you buy?"
+                },
+                "isshoni": {
+                    "meaning": "Together",
+                    "example": "Let's eat together."
+                },
+                "chotto": {
+                    "meaning": "A little \/ a while",
+                    "example": "I wait for a while."
+                },
+                "itsumo": {
+                    "meaning": "Always",
+                    "example": "I always eat bread."
+                },
+                "tokidoki": {
+                    "meaning": "Sometimes",
+                    "example": "I sometimes watch a movie."
+                },
+                "masenka": {
+                    "meaning": "Won't you ~ ? (Invitation)",
+                    "example": "Won't you drink beer together?"
+                },
+                "mashou": {
+                    "meaning": "Let's ~",
+                    "example": "Let's go."
+                },
+                "wakarimashita": {
+                    "meaning": "I understand \/ OK",
+                    "example": "Yes, I understood."
+                }
+            }
+        }
+    }
+}

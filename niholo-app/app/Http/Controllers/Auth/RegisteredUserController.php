@@ -43,6 +43,19 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
+        if ($request->has('guest_reviews') && is_array($request->guest_reviews)) {
+            $totalXp = count($request->guest_reviews) * 3; // 3 XP per card for guest
+            foreach ($request->guest_reviews as $cardId => $reviewData) {
+                // Ensure only fillable fields are updated, and user_id is correct
+                $reviewData['user_id'] = $user->id;
+                $reviewData['card_id'] = $cardId;
+                \App\Models\UserReview::create($reviewData);
+            }
+            if ($totalXp > 0) {
+                app(\App\Services\GamificationService::class)->awardXp($user, $totalXp);
+            }
+        }
+
         event(new Registered($user));
 
         Auth::login($user);

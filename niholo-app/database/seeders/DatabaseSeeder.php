@@ -15,6 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(RolePermissionSeeder::class);
+        $this->call([
+            RolePermissionSeeder::class,
+            \Database\Seeders\DataVocabularySeeder::class,
+            \Database\Seeders\DataGrammarSeeder::class,
+            \Database\Seeders\DataKanjiSeeder::class,
+        ]);
     }
 }

@@ -7,4 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Quest extends Model
 {
     //
+
+    protected $guarded = [];
+
+    public function userQuests()
+    {
+        return $this->hasMany(UserQuest::class);
+    }
 }

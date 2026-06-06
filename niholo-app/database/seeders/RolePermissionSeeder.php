@@ -19,8 +19,19 @@ class RolePermissionSeeder extends Seeder
         // Create basic roles
         Role::firstOrCreate(['name' => 'guest']);
         Role::firstOrCreate(['name' => 'pro']);
-        Role::firstOrCreate(['name' => 'admin']);
+        $adminRole = Role::firstOrCreate(['name' => 'admin']);
 
-        // Permissions can be added later when we build the CMS or specific features
+        // Create a default admin user
+        $adminUser = \App\Models\User::firstOrCreate(
+            ['email' => 'admin@niholo.com'],
+            [
+                'name' => 'Niholo Admin',
+                'password' => \Illuminate\Support\Facades\Hash::make('password'),
+            ]
+        );
+
+        if (!$adminUser->hasRole('admin')) {
+            $adminUser->assignRole($adminRole);
+        }
     }
 }

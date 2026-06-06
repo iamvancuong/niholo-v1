@@ -14,9 +14,69 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        $user = auth()->user();
+        $stat = $user->stat;
+        $leaderboard = app(\App\Services\GamificationService::class)->getWeeklyLeaderboard(10);
+        
+        $totalCardsN5 = \App\Models\Card::whereIn('type', ['vocabulary', 'kanji'])->count();
+        $totalGrammarN5 = \App\Models\Card::where('type', 'grammar')->count();
+        
+        $learnedCards = \App\Models\UserReview::where('user_id', $user->id)
+            ->whereHas('card', function ($q) {
+                $q->whereIn('type', ['vocabulary', 'kanji']);
+            })->count();
+            
+        $learnedGrammar = \App\Models\UserReview::where('user_id', $user->id)
+            ->whereHas('card', function ($q) {
+                $q->where('type', 'grammar');
+            })->count();
+
+        return Inertia::render('Dashboard', [
+            'userStat' => $stat,
+            'leaderboard' => $leaderboard,
+            'progress' => [
+                'totalCardsN5' => $totalCardsN5,
+                'totalGrammarN5' => $totalGrammarN5,
+                'learnedCards' => $learnedCards,
+                'learnedGrammar' => $learnedGrammar,
+            ]
+        ]);
+    })->name('dashboard');
+
+    // Suspended Cards Vault
+    Route::get('/vault', [\App\Http\Controllers\SuspendedCardController::class, 'index'])->name('vault.index');
+    Route::post('/vault/reviews/{review}/unsuspend', [\App\Http\Controllers\SuspendedCardController::class, 'unsuspend'])->name('vault.unsuspend');
+    
+    // Leech Quarantine
+    Route::get('/leech-quarantine', [App\Http\Controllers\LeechQuarantineController::class, 'index'])->name('leech.index');
+    Route::post('/leech-quarantine/{id}/reset', [App\Http\Controllers\LeechQuarantineController::class, 'reset'])->name('leech.reset');
+});
+
+// Learning Routes (Public for Invisible Onboarding)
+Route::get('/courses', [\App\Http\Controllers\CourseController::class, 'index'])->name('courses.index');
+Route::get('/courses/{course}', [\App\Http\Controllers\CourseController::class, 'show'])->name('courses.show');
+Route::get('/courses/{course}/{category}', [\App\Http\Controllers\LessonController::class, 'index'])->name('lessons.index');
+
+// Theory Routes
+Route::get('/lessons/{lesson}/vocabulary', [\App\Http\Controllers\VocabularyController::class, 'theory'])->name('vocabulary.theory');
+Route::get('/lessons/{lesson}/grammar', [\App\Http\Controllers\GrammarController::class, 'theory'])->name('grammar.theory');
+Route::get('/lessons/{lesson}/kanji', [\App\Http\Controllers\KanjiController::class, 'theory'])->name('kanji.theory');
+
+// Study & Reviews (Public, progress saved to localStorage for guests)
+Route::get('/lessons/{lesson}/study', [\App\Http\Controllers\StudyController::class, 'session'])->name('study.session');
+Route::post('/api/study/finish-session', [\App\Http\Controllers\StudySessionController::class, 'finish'])->name('study.finish-session');
+
+// Keep old route if any puzzle or other thing uses it temporarily, but we won't use it in Session.vue
+Route::post('/cards/{card}/review', [\App\Http\Controllers\ReviewController::class, 'store'])->name('review.store');
+
+// Grammar & Puzzles
+Route::get('/lessons/{lesson}/puzzle/{card}', [\App\Http\Controllers\PuzzleController::class, 'show'])->name('puzzle.show');
+Route::post('/lessons/{lesson}/puzzle/{card}/submit', [\App\Http\Controllers\PuzzleController::class, 'submit'])->name('puzzle.submit');
+
+// Leaderboard API
+Route::get('/api/leaderboard', [\App\Http\Controllers\LeaderboardController::class, 'weekly'])->name('api.leaderboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

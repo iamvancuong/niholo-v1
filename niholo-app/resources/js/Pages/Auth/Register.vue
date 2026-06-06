@@ -11,11 +11,26 @@ const form = useForm({
     email: '',
     password: '',
     password_confirmation: '',
+    guest_reviews: null,
 });
 
 const submit = () => {
+    // Collect guest progress from localStorage
+    try {
+        const reviews = localStorage.getItem('guest_reviews');
+        if (reviews) {
+            form.guest_reviews = JSON.parse(reviews);
+        }
+    } catch (e) {
+        // Ignore
+    }
+
     form.post(route('register'), {
-        onFinish: () => form.reset('password', 'password_confirmation'),
+        onFinish: () => {
+            form.reset('password', 'password_confirmation');
+            // Clear localStorage on success
+            localStorage.removeItem('guest_reviews');
+        },
     });
 };
 </script>
