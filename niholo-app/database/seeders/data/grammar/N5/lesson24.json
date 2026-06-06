@@ -1,0 +1,61 @@
+[
+  {
+    "lesson_id": 24,
+    "title": "Ai đó cho mình: くれます",
+    "description": "Giống あげます nhưng người nhận luôn là Tôi (hoặc người nhà mình).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g24_ex1",
+        "vietnamese_meaning": "Anh Kimura đã tặng sách cho tôi.",
+        "correct_sentence": "きむらさん は わたし に ほん を くれました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きむらさん", "furigana": "kimurasan", "meaning": "Kimura" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "cho" },
+          { "id": "b5", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b6", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b7", "type": "grammar_ending", "text": "くれました", "furigana": "kuremashita", "meaning": "đã cho/tặng" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 24,
+    "title": "Nhờ làm / Làm giúp: Vて + もらいます / くれます / あげます",
+    "description": "Vてもらう: Mình nhận được hành động. Vてくれる: Ai đó làm hành động cho mình. Vてあげる: Mình làm hành động cho ai.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g24_ex2",
+        "vietnamese_meaning": "Tôi đã được anh ấy giúp đỡ.",
+        "correct_sentence": "わたし は かれ に てつだって もらいました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "かれ", "furigana": "kare", "meaning": "Anh ấy" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "(nhận từ ai)" },
+          { "id": "b5", "type": "grammar_ending", "text": "てつだって", "furigana": "tetsudatte", "meaning": "giúp đỡ (thể te)" },
+          { "id": "b6", "type": "grammar_ending", "text": "もらいました", "furigana": "moraimashita", "meaning": "đã nhận được" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      },
+      {
+        "exercise_id": "g24_ex3",
+        "vietnamese_meaning": "Anh ấy đã giúp đỡ tôi.",
+        "correct_sentence": "かれ は わたし を てつだって くれました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "かれ", "furigana": "kare", "meaning": "Anh ấy" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "てつだって", "furigana": "tetsudatte", "meaning": "giúp đỡ" },
+          { "id": "b6", "type": "grammar_ending", "text": "くれました", "furigana": "kuremashita", "meaning": "đã làm cho" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

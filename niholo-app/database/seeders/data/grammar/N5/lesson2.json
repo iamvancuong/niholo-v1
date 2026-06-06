@@ -1,0 +1,79 @@
+[
+  {
+    "lesson_id": 2,
+    "title": "Chỉ thị từ: これ / それ / あれ は N です",
+    "description": "Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g2_ex1",
+        "vietnamese_meaning": "Cái này là quyển sách.",
+        "correct_sentence": "これ は ほん です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "これ", "furigana": "kore", "meaning": "Cái này" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Quyển sách" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b5", "type": "distractor", "text": "それ", "furigana": "sore", "meaning": "Cái đó" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g2_ex2",
+        "vietnamese_meaning": "Cái kia là từ điển phải không?",
+        "correct_sentence": "あれ は じしょ ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あれ", "furigana": "are", "meaning": "Cái kia" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "じしょ", "furigana": "jisho", "meaning": "Từ điển" },
+          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "phải không?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 2,
+    "title": "Chỉ thị từ bổ nghĩa: この / その / あの N は ...",
+    "description": "この/その/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g2_ex3",
+        "vietnamese_meaning": "Quyển sách này là của tôi.",
+        "correct_sentence": "この ほん は わたし の です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "この", "furigana": "kono", "meaning": "Này" },
+          { "id": "b2", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Quyển sách" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b4", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b5", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 2,
+    "title": "Câu hỏi lựa chọn: N1 ですか、N2 ですか",
+    "description": "Dùng để hỏi sự lựa chọn giữa N1 và N2. Khi trả lời, không cần dùng 'はい' hay 'いいえ'.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g2_ex4",
+        "vietnamese_meaning": "Đây là chữ 'a' hay chữ 'o'?",
+        "correct_sentence": "これ は 「あ」 ですか、 「お」 ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "これ", "furigana": "kore", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "「あ」", "furigana": "", "meaning": "chữ a" },
+          { "id": "b4", "type": "grammar_ending", "text": "ですか、", "furigana": "desuka,", "meaning": "hay là" },
+          { "id": "b5", "type": "vocabulary", "text": "「お」", "furigana": "", "meaning": "chữ o" },
+          { "id": "b6", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "vậy?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

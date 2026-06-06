@@ -1,0 +1,78 @@
+[
+  {
+    "lesson_id": 15,
+    "title": "Xin phép: Vてもいいですか",
+    "description": "Dùng để xin phép người khác xem mình làm hành động V có được không.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g15_ex1",
+        "vietnamese_meaning": "Tôi chụp ảnh có được không?",
+        "correct_sentence": "しゃしん を とっても いいですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "しゃしん", "furigana": "shashin", "meaning": "Ảnh" },
+          { "id": "b2", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b3", "type": "grammar_ending", "text": "とっても", "furigana": "tottemo", "meaning": "chụp (thì)" },
+          { "id": "b4", "type": "grammar_ending", "text": "いいですか", "furigana": "ii desuka", "meaning": "có được không?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 15,
+    "title": "Cấm đoán: Vてはいけません",
+    "description": "Dùng để cấm đoán, không được phép làm gì.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g15_ex2",
+        "vietnamese_meaning": "Không được hút thuốc ở đây.",
+        "correct_sentence": "ここ で たばこ を すってはいけません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ここ", "furigana": "koko", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "で", "furigana": "de", "meaning": "ở/tại" },
+          { "id": "b3", "type": "vocabulary", "text": "たばこ", "furigana": "tabako", "meaning": "Thuốc lá" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "すってはいけません", "furigana": "suttekewaikemasen", "meaning": "không được hút" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 15,
+    "title": "Trạng thái / Thói quen: Vています",
+    "description": "Diễn tả một trạng thái (đã kết hôn, biết, sống ở đâu) hoặc một thói quen lặp đi lặp lại (nghề nghiệp).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g15_ex3",
+        "vietnamese_meaning": "Tôi đang sống ở Osaka.",
+        "correct_sentence": "わたし は おおさか に すんでいます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "おおさか", "furigana": "oosaka", "meaning": "Osaka" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "ở (tồn tại)" },
+          { "id": "b5", "type": "grammar_ending", "text": "すんでいます", "furigana": "sundeimasu", "meaning": "đang sống" },
+          { "id": "b6", "type": "distractor", "text": "で", "furigana": "de", "meaning": "ở (hành động)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      },
+      {
+        "exercise_id": "g15_ex4",
+        "vietnamese_meaning": "Tôi đã kết hôn.",
+        "correct_sentence": "わたし は けっこんして います",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "grammar_ending", "text": "けっこんして", "furigana": "kekkonshite", "meaning": "kết hôn" },
+          { "id": "b4", "type": "grammar_ending", "text": "います", "furigana": "imasu", "meaning": "đang (trạng thái)" },
+          { "id": "b5", "type": "distractor", "text": "けっこんしました", "furigana": "kekkonshimashita", "meaning": "đã kết hôn" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  }
+]

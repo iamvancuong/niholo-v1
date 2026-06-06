@@ -1,0 +1,89 @@
+[
+  {
+    "lesson_id": 12,
+    "title": "Thì quá khứ của Danh từ và Tính từ な",
+    "description": "Khẳng định: でした. Phủ định: じゃありませんでした.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g12_ex1",
+        "vietnamese_meaning": "Hôm qua trời đã mưa.",
+        "correct_sentence": "きのう は あめ でした",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きのう", "furigana": "kinou", "meaning": "Hôm qua" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "あめ", "furigana": "ame", "meaning": "Mưa" },
+          { "id": "b4", "type": "grammar_ending", "text": "でした", "furigana": "deshita", "meaning": "đã là" },
+          { "id": "b5", "type": "distractor", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 12,
+    "title": "Thì quá khứ của Tính từ い",
+    "description": "Bỏ い thêm かったです (khẳng định). Phủ định: くなかったです.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g12_ex2",
+        "vietnamese_meaning": "Bộ phim hôm qua rất thú vị.",
+        "correct_sentence": "きのう の えいが は おもしろかったです",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きのう", "furigana": "kinou", "meaning": "Hôm qua" },
+          { "id": "b2", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b3", "type": "vocabulary", "text": "えいが", "furigana": "eiga", "meaning": "Phim" },
+          { "id": "b4", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b5", "type": "grammar_ending", "text": "おもしろかったです", "furigana": "omoshirokatta desu", "meaning": "đã thú vị" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 12,
+    "title": "So sánh hơn: N1 は N2 より Adj です",
+    "description": "N1 có tính chất Adj hơn N2. (より: hơn).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g12_ex3",
+        "vietnamese_meaning": "Tokyo lớn hơn Osaka.",
+        "correct_sentence": "とうきょう は おおさか より おおきい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "とうきょう", "furigana": "toukyou", "meaning": "Tokyo" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "おおさか", "furigana": "oosaka", "meaning": "Osaka" },
+          { "id": "b4", "type": "particle", "text": "より", "furigana": "yori", "meaning": "hơn" },
+          { "id": "b5", "type": "grammar_ending", "text": "おおきい", "furigana": "ookii", "meaning": "lớn" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 12,
+    "title": "So sánh nhất: Phạm vi で Nghi vấn từ が いちばん Adj です",
+    "description": "Trong một phạm vi (thế giới, Nhật Bản, một năm...), cái gì/ai/khi nào là nhất.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g12_ex4",
+        "vietnamese_meaning": "Trong một năm, khi nào là nóng nhất?",
+        "correct_sentence": "いちねん で いつ が いちばん あつい ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いちねん", "furigana": "ichinen", "meaning": "Một năm" },
+          { "id": "b2", "type": "particle", "text": "で", "furigana": "de", "meaning": "trong" },
+          { "id": "b3", "type": "vocabulary", "text": "いつ", "furigana": "itsu", "meaning": "khi nào" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b5", "type": "vocabulary", "text": "いちばん", "furigana": "ichiban", "meaning": "nhất" },
+          { "id": "b6", "type": "grammar_ending", "text": "あつい", "furigana": "atsui", "meaning": "nóng" },
+          { "id": "b7", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  }
+]

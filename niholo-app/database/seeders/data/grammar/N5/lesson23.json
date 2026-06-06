@@ -1,0 +1,63 @@
+[
+  {
+    "lesson_id": 23,
+    "title": "Khi...: Thể thông thường / Nの / Aい / Aな + とき、~",
+    "description": "Nối hai mệnh đề để nói 'Khi làm trạng thái/hành động 1 thì xảy ra hành động 2'.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g23_ex1",
+        "vietnamese_meaning": "Khi không hiểu cách sử dụng, hãy hỏi tôi.",
+        "correct_sentence": "つかいかた が わからない とき わたし に きいて ください",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "つかいかた", "furigana": "tsukaikata", "meaning": "Cách sử dụng" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b3", "type": "grammar_ending", "text": "わからない", "furigana": "wakaranai", "meaning": "không hiểu (thể ngắn)" },
+          { "id": "b4", "type": "vocabulary", "text": "とき", "furigana": "toki", "meaning": "khi" },
+          { "id": "b5", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b6", "type": "particle", "text": "に", "furigana": "ni", "meaning": "(cho)" },
+          { "id": "b7", "type": "grammar_ending", "text": "きいて", "furigana": "kiite", "meaning": "hỏi" },
+          { "id": "b8", "type": "grammar_ending", "text": "ください", "furigana": "kudasai", "meaning": "hãy" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8"]
+      },
+      {
+        "exercise_id": "g23_ex2",
+        "vietnamese_meaning": "Khi là trẻ con, tôi rất khỏe.",
+        "correct_sentence": "こども の とき げんき でした",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "こども", "furigana": "kodomo", "meaning": "Trẻ con" },
+          { "id": "b2", "type": "particle", "text": "の", "furigana": "no", "meaning": "(nối N)" },
+          { "id": "b3", "type": "vocabulary", "text": "とき", "furigana": "toki", "meaning": "khi" },
+          { "id": "b4", "type": "vocabulary", "text": "げんき", "furigana": "genki", "meaning": "Khỏe" },
+          { "id": "b5", "type": "grammar_ending", "text": "でした", "furigana": "deshita", "meaning": "đã (tính từ na)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 23,
+    "title": "Hễ (điều kiện tất yếu): Vる / Vない + と、~",
+    "description": "Chỉ đường, hướng dẫn sử dụng máy móc hoặc hiện tượng tự nhiên. Hễ vế 1 xảy ra thì chắc chắn vế 2 xảy ra.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g23_ex3",
+        "vietnamese_meaning": "Hễ bấm nút này thì tiền sẽ ra.",
+        "correct_sentence": "この ぼたん を おす と おかね が でます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "この", "furigana": "kono", "meaning": "Này" },
+          { "id": "b2", "type": "vocabulary", "text": "ぼたん", "furigana": "botan", "meaning": "Nút" },
+          { "id": "b3", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b4", "type": "grammar_ending", "text": "おす", "furigana": "osu", "meaning": "bấm" },
+          { "id": "b5", "type": "grammar_ending", "text": "と", "furigana": "to", "meaning": "thì" },
+          { "id": "b6", "type": "vocabulary", "text": "おかね", "furigana": "okane", "meaning": "Tiền" },
+          { "id": "b7", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b8", "type": "grammar_ending", "text": "でます", "furigana": "demasu", "meaning": "ra" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8"]
+      }
+    ]
+  }
+]

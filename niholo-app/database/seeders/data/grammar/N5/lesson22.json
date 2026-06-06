@@ -1,0 +1,43 @@
+[
+  {
+    "lesson_id": 22,
+    "title": "Mệnh đề bổ nghĩa cho Danh từ",
+    "description": "Câu/Mệnh đề (chia ở Thể thông thường) + Danh từ. Dùng để làm rõ đặc điểm cho danh từ phía sau. Chủ ngữ trong mệnh đề phụ đi với が.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g22_ex1",
+        "vietnamese_meaning": "Đây là bức ảnh mà tôi đã chụp ở Nhật.",
+        "correct_sentence": "これ は わたし が にほん で とった しゃしん です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "これ", "furigana": "kore", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể mệnh đề phụ)" },
+          { "id": "b5", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật" },
+          { "id": "b6", "type": "particle", "text": "で", "furigana": "de", "meaning": "ở" },
+          { "id": "b7", "type": "grammar_ending", "text": "とった", "furigana": "totta", "meaning": "đã chụp" },
+          { "id": "b8", "type": "vocabulary", "text": "しゃしん", "furigana": "shashin", "meaning": "Bức ảnh" },
+          { "id": "b9", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"]
+      },
+      {
+        "exercise_id": "g22_ex2",
+        "vietnamese_meaning": "Tôi không có thời gian đọc sách.",
+        "correct_sentence": "わたし は ほん を よむ じかん が ありません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "よむ", "furigana": "yomu", "meaning": "đọc (bổ nghĩa cho thời gian)" },
+          { "id": "b6", "type": "vocabulary", "text": "じかん", "furigana": "jikan", "meaning": "Thời gian" },
+          { "id": "b7", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chỉ tân ngữ)" },
+          { "id": "b8", "type": "grammar_ending", "text": "ありません", "furigana": "arimasen", "meaning": "không có" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "lesson_id": 14,
+    "title": "Cách chia động từ thể Te (て形)",
+    "description": "Nhóm 1: い、ち、り -> って / み、に、び -> んで / き -> いて / ぎ -> いで / し -> して. Nhóm 2: Bỏ ます thêm て. Nhóm 3: します -> して / きます -> きて.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g14_ex1",
+        "vietnamese_meaning": "Xin hãy đợi một chút.",
+        "correct_sentence": "ちょっと まって ください",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ちょっと", "furigana": "chotto", "meaning": "Một chút" },
+          { "id": "b2", "type": "grammar_ending", "text": "まって", "furigana": "matte", "meaning": "đợi (thể te)" },
+          { "id": "b3", "type": "grammar_ending", "text": "ください", "furigana": "kudasai", "meaning": "xin hãy" }
+        ],
+        "correct_order": ["b1", "b2", "b3"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 14,
+    "title": "Yêu cầu: Vてください",
+    "description": "Dùng để nhờ vả, yêu cầu ai đó làm gì một cách lịch sự.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g14_ex2",
+        "vietnamese_meaning": "Xin hãy viết tên vào đây.",
+        "correct_sentence": "ここ に なまえ を かいて ください",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ここ", "furigana": "koko", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "に", "furigana": "ni", "meaning": "vào" },
+          { "id": "b3", "type": "vocabulary", "text": "なまえ", "furigana": "namae", "meaning": "Tên" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "かいて", "furigana": "kaite", "meaning": "viết" },
+          { "id": "b6", "type": "grammar_ending", "text": "ください", "furigana": "kudasai", "meaning": "xin hãy" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 14,
+    "title": "Hành động đang diễn ra: Vています",
+    "description": "Thể hiện hành động đang diễn ra tại thời điểm nói.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g14_ex3",
+        "vietnamese_meaning": "Bây giờ trời đang mưa.",
+        "correct_sentence": "いま あめ が ふって います",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いま", "furigana": "ima", "meaning": "Bây giờ" },
+          { "id": "b2", "type": "vocabulary", "text": "あめ", "furigana": "ame", "meaning": "Mưa" },
+          { "id": "b3", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ ngữ)" },
+          { "id": "b4", "type": "grammar_ending", "text": "ふって", "furigana": "futte", "meaning": "rơi" },
+          { "id": "b5", "type": "grammar_ending", "text": "います", "furigana": "imasu", "meaning": "đang" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 14,
+    "title": "Đề nghị giúp đỡ: Vましょうか",
+    "description": "Dùng khi người nói chủ động đề nghị làm giúp người nghe việc gì đó.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g14_ex4",
+        "vietnamese_meaning": "Tôi mở cửa sổ giúp bạn nhé?",
+        "correct_sentence": "まど を あけましょうか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "まど", "furigana": "mado", "meaning": "Cửa sổ" },
+          { "id": "b2", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b3", "type": "grammar_ending", "text": "あけましょうか", "furigana": "akemashouka", "meaning": "tôi mở nhé?" },
+          { "id": "b4", "type": "distractor", "text": "あけますか", "furigana": "akemasuka", "meaning": "bạn mở à?" }
+        ],
+        "correct_order": ["b1", "b2", "b3"]
+      }
+    ]
+  }
+]

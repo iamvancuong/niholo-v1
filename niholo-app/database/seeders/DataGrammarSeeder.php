@@ -12,145 +12,13 @@ class DataGrammarSeeder extends Seeder
 {
     public function run(): void
     {
-        $json = <<<'JSON'
-[
-  {
-    "lesson_id": 1,
-    "title": "Khẳng định: N1 は N2 です",
-    "description": "Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
-    "jlpt_level": "N5",
-    "exercises": [
-      {
-        "exercise_id": "g1_ex1",
-        "vietnamese_meaning": "Tôi là học sinh.",
-        "correct_sentence": "わたし は がくせい です",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
-          { "id": "b2", "type": "vocabulary", "text": "がくせい", "furigana": "gakusei", "meaning": "Học sinh" },
-          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
-          { "id": "b5", "type": "distractor", "text": "が", "furigana": "ga", "meaning": "(Nhiễu)" }
-        ],
-        "correct_order": ["b1", "b3", "b2", "b4"]
-      },
-      {
-        "exercise_id": "g1_ex2",
-        "vietnamese_meaning": "Cô ấy là người Việt Nam.",
-        "correct_sentence": "かのじょ は べとなむ じん です",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "かのじょ", "furigana": "kanojo", "meaning": "Cô ấy" },
-          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b3", "type": "vocabulary", "text": "べとなむ", "furigana": "betonamu", "meaning": "Việt Nam" },
-          { "id": "b4", "type": "vocabulary", "text": "じん", "furigana": "jin", "meaning": "Người" },
-          { "id": "b5", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
-          { "id": "b6", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
-      }
-    ]
-  },
-  {
-    "lesson_id": 1,
-    "title": "Phủ định: N1 は N2 じゃありません",
-    "description": "Dùng để phủ định: N1 không phải là N2.",
-    "jlpt_level": "N5",
-    "exercises": [
-      {
-        "exercise_id": "g1_ex3",
-        "vietnamese_meaning": "Anh ấy không phải là giáo viên.",
-        "correct_sentence": "かれ は せんせい じゃありません",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "かれ", "furigana": "kare", "meaning": "Anh ấy" },
-          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b3", "type": "vocabulary", "text": "せんせい", "furigana": "sensei", "meaning": "Giáo viên" },
-          { "id": "b4", "type": "grammar_ending", "text": "じゃありません", "furigana": "ja arimasen", "meaning": "không phải là" },
-          { "id": "b5", "type": "distractor", "text": "です", "furigana": "desu", "meaning": "là" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4"]
-      }
-    ]
-  },
-  {
-    "lesson_id": 1,
-    "title": "Câu hỏi: N1 は N2 ですか / Từ để hỏi: だれ",
-    "description": "Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
-    "jlpt_level": "N5",
-    "exercises": [
-      {
-        "exercise_id": "g1_ex4",
-        "vietnamese_meaning": "Bạn là nhân viên ngân hàng phải không?",
-        "correct_sentence": "あなた は ぎんこういん ですか",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "あなた", "furigana": "anata", "meaning": "Bạn" },
-          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b3", "type": "vocabulary", "text": "ぎんこういん", "furigana": "ginkouin", "meaning": "Nhân viên NH" },
-          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "phải không?" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4"]
-      },
-      {
-        "exercise_id": "g1_ex5",
-        "vietnamese_meaning": "Người kia là ai?",
-        "correct_sentence": "あのひと は だれ ですか",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "あのひと", "furigana": "anohito", "meaning": "Người kia" },
-          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b3", "type": "vocabulary", "text": "だれ", "furigana": "dare", "meaning": "Ai" },
-          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "vậy?" },
-          { "id": "b5", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4"]
-      }
-    ]
-  },
-  {
-    "lesson_id": 1,
-    "title": "Trợ từ も (Cũng)",
-    "description": "Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
-    "jlpt_level": "N5",
-    "exercises": [
-      {
-        "exercise_id": "g1_ex6",
-        "vietnamese_meaning": "Tôi cũng là kỹ sư.",
-        "correct_sentence": "わたし も えんじにあ です",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
-          { "id": "b2", "type": "particle", "text": "も", "furigana": "mo", "meaning": "cũng" },
-          { "id": "b3", "type": "vocabulary", "text": "えんじにあ", "furigana": "enjinia", "meaning": "Kỹ sư" },
-          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
-          { "id": "b5", "type": "distractor", "text": "は", "furigana": "wa", "meaning": "thì/là" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4"]
-      }
-    ]
-  },
-  {
-    "lesson_id": 1,
-    "title": "Trợ từ の (Sở hữu / Bổ nghĩa)",
-    "description": "Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.\n\n*Lưu ý:* Khi N2 đã rõ từ ngữ cảnh, có thể bỏ N2 (Ví dụ: `これは わたしの です` - Cái này là của tôi).",
-    "jlpt_level": "N5",
-    "exercises": [
-      {
-        "exercise_id": "g1_ex7",
-        "vietnamese_meaning": "Người kia là nhân viên của IMC.",
-        "correct_sentence": "あのひと は IMC の しゃいん です",
-        "blocks": [
-          { "id": "b1", "type": "vocabulary", "text": "あのひと", "furigana": "anohito", "meaning": "Người kia" },
-          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
-          { "id": "b3", "type": "vocabulary", "text": "IMC", "furigana": "", "meaning": "IMC" },
-          { "id": "b4", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
-          { "id": "b5", "type": "vocabulary", "text": "しゃいん", "furigana": "shain", "meaning": "nhân viên" },
-          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
-          { "id": "b7", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
-        ],
-        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
-      }
-    ]
-  }
-]
-JSON;
+        $grammarPath = database_path('seeders/data/grammar/N5/*.json');
+        $files = glob($grammarPath);
 
-        $data = json_decode($json, true);
+        if (empty($files)) {
+            $this->command->warn("No grammar JSON files found in database/seeders/data/grammar/N5/");
+            return;
+        }
 
         $viPath = resource_path('js/locales/vi.json');
         $enPath = resource_path('js/locales/en.json');
@@ -158,16 +26,21 @@ JSON;
         $viData = json_decode(file_get_contents($viPath), true);
         $enData = json_decode(file_get_contents($enPath), true);
 
-        $grammarCount = 1;
-
         $course = Course::where('level', 'N5')->first();
         if (!$course) {
             $this->command->error("Course N5 not found.");
             return;
         }
 
-        foreach ($data as $lessonData) {
-            $lessonIndex = $lessonData['lesson_id'];
+        foreach ($files as $file) {
+            $data = json_decode(file_get_contents($file), true);
+            if (!$data) continue;
+
+            // In our JSON, all objects inside one file usually belong to the same lesson,
+            // but we process per point.
+            $lessonIndex = $data[0]['lesson_id'] ?? null;
+            if (!$lessonIndex) continue;
+            
             $lessonKey = "lesson{$lessonIndex}";
 
             if (!isset($viData['N5'][$lessonKey]['grammar'])) {
@@ -190,64 +63,71 @@ JSON;
                 ]
             );
 
-            $gKey = "g{$grammarCount}";
-            
-            // Store in vi.json
-            $viData['N5'][$lessonKey]['grammar'][$gKey] = [
-                'title' => $lessonData['title'],
-                'description' => $lessonData['description'],
-                'exercises' => []
-            ];
-            $enData['N5'][$lessonKey]['grammar'][$gKey] = [
-                'title' => "(EN) " . $lessonData['title'],
-                'description' => "(EN) " . $lessonData['description'],
-                'exercises' => []
-            ];
+            // Calculate current grammar count for this lesson based on viData to avoid overriding
+            $grammarCount = count($viData['N5'][$lessonKey]['grammar']) + 1;
 
-            // Create GrammarPoint in DB
-            $grammarPoint = GrammarPoint::firstOrCreate(
-                [
-                    'lesson_id' => $lesson->id,
-                    'title' => "N5.{$lessonKey}.grammar.{$gKey}.title"
-                ],
-                [
-                    'cure_dolly_explanation' => "N5.{$lessonKey}.grammar.{$gKey}.description"
-                ]
-            );
-
-            foreach ($lessonData['exercises'] as $index => $ex) {
-                $exKey = "ex" . ($index + 1);
-
-                $viData['N5'][$lessonKey]['grammar'][$gKey]['exercises'][$exKey] = $ex['vietnamese_meaning'];
-                $enData['N5'][$lessonKey]['grammar'][$gKey]['exercises'][$exKey] = "(EN) " . $ex['vietnamese_meaning'];
-
-                $blocksJson = [
-                    'blocks' => $ex['blocks'],
-                    'correct_order' => $ex['correct_order']
+            foreach ($data as $lessonData) {
+                $gKey = "g{$grammarCount}";
+                
+                // Store in vi.json
+                $viData['N5'][$lessonKey]['grammar'][$gKey] = [
+                    'title' => $lessonData['title'],
+                    'description' => $lessonData['description'],
+                    'exercises' => []
+                ];
+                $enData['N5'][$lessonKey]['grammar'][$gKey] = [
+                    'title' => "(EN) " . $lessonData['title'],
+                    'description' => "(EN) " . $lessonData['description'],
+                    'exercises' => []
                 ];
 
-                // Create Card in DB
-                Card::firstOrCreate(
+                // Create GrammarPoint in DB
+                $grammarPoint = GrammarPoint::firstOrCreate(
                     [
                         'lesson_id' => $lesson->id,
-                        'grammar_point_id' => $grammarPoint->id,
-                        'type' => 'grammar',
-                        'front_text' => "N5.{$lessonKey}.grammar.{$gKey}.exercises.{$exKey}",
-                        'back_text' => "N5.{$lessonKey}.grammar.{$gKey}.exercises.{$exKey}",
+                        'title' => "N5.{$lessonKey}.grammar.{$gKey}.title"
                     ],
                     [
-                        'example_japanese' => $ex['correct_sentence'],
-                        'example_blocks_json' => $blocksJson
+                        'cure_dolly_explanation' => "N5.{$lessonKey}.grammar.{$gKey}.description"
                     ]
                 );
+
+                if (isset($lessonData['exercises'])) {
+                    foreach ($lessonData['exercises'] as $index => $ex) {
+                        $exKey = "ex" . ($index + 1);
+
+                        $viData['N5'][$lessonKey]['grammar'][$gKey]['exercises'][$exKey] = $ex['vietnamese_meaning'];
+                        $enData['N5'][$lessonKey]['grammar'][$gKey]['exercises'][$exKey] = "(EN) " . $ex['vietnamese_meaning'];
+
+                        $blocksJson = [
+                            'blocks' => $ex['blocks'],
+                            'correct_order' => $ex['correct_order']
+                        ];
+
+                        // Create Card in DB
+                        Card::firstOrCreate(
+                            [
+                                'lesson_id' => $lesson->id,
+                                'grammar_point_id' => $grammarPoint->id,
+                                'type' => 'grammar',
+                                'front_text' => "N5.{$lessonKey}.grammar.{$gKey}.exercises.{$exKey}",
+                            ],
+                            [
+                                'back_text' => "N5.{$lessonKey}.grammar.{$gKey}.exercises.{$exKey}",
+                                'example_japanese' => $ex['correct_sentence'],
+                                'example_blocks_json' => $blocksJson
+                            ]
+                        );
+                    }
+                }
+                
+                $grammarCount++;
             }
-            
-            $grammarCount++;
         }
 
         file_put_contents($viPath, json_encode($viData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         file_put_contents($enPath, json_encode($enData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
-        $this->command->info("Grammar data seeded successfully!");
+        $this->command->info("Grammar data seeded successfully from JSON files!");
     }
 }

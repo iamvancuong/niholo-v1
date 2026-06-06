@@ -1,0 +1,65 @@
+[
+  {
+    "lesson_id": 21,
+    "title": "Nghĩ là: Thể thông thường + と おもいます",
+    "description": "Dùng để bày tỏ suy nghĩ, quan điểm cá nhân. Động từ, tính từ, danh từ trước と phải chia về Thể thông thường.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g21_ex1",
+        "vietnamese_meaning": "Tôi nghĩ ngày mai trời sẽ mưa.",
+        "correct_sentence": "あした あめ が ふる と おもいます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あした", "furigana": "ashita", "meaning": "Ngày mai" },
+          { "id": "b2", "type": "vocabulary", "text": "あめ", "furigana": "ame", "meaning": "Mưa" },
+          { "id": "b3", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b4", "type": "grammar_ending", "text": "ふる", "furigana": "furu", "meaning": "rơi (thể ngắn)" },
+          { "id": "b5", "type": "grammar_ending", "text": "と おもいます", "furigana": "to omoimasu", "meaning": "tôi nghĩ là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 21,
+    "title": "Trích dẫn: Thể thông thường + と いいました",
+    "description": "Dùng để tường thuật lại lời nói của ai đó.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g21_ex2",
+        "vietnamese_meaning": "Anh Kimura đã nói là sẽ đi Tokyo.",
+        "correct_sentence": "きむらさん は とうきょう へ いく と いいました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きむらさん", "furigana": "kimurasan", "meaning": "Kimura" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "とうきょう", "furigana": "toukyou", "meaning": "Tokyo" },
+          { "id": "b4", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b5", "type": "grammar_ending", "text": "いく", "furigana": "iku", "meaning": "đi" },
+          { "id": "b6", "type": "grammar_ending", "text": "と いいました", "furigana": "to iimashita", "meaning": "đã nói là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 21,
+    "title": "Phải không / Đúng không: Thể thông thường + でしょう",
+    "description": "Dùng để xác nhận lại thông tin với người nghe, mong đợi sự đồng tình.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g21_ex3",
+        "vietnamese_meaning": "Ngày mai bạn rảnh đúng không?",
+        "correct_sentence": "あした ひま でしょう",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あした", "furigana": "ashita", "meaning": "Ngày mai" },
+          { "id": "b2", "type": "vocabulary", "text": "ひま", "furigana": "hima", "meaning": "Rảnh rỗi" },
+          { "id": "b3", "type": "grammar_ending", "text": "でしょう", "furigana": "deshou", "meaning": "phải không?" },
+          { "id": "b4", "type": "distractor", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3"]
+      }
+    ]
+  }
+]

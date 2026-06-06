@@ -95,25 +95,42 @@ class GamificationService
             // Get top users (scores in descending order)
             $topUsers = Redis::zrevrange($leaderboardKey, 0, $limit - 1, 'WITHSCORES');
 
+            // Fallback to database if Redis is empty (e.g. new week or seeded data)
+            if (empty($topUsers)) {
+                $dbStats = \App\Models\UserStat::orderBy('total_xp', 'desc')
+                    ->where('total_xp', '>', 0)
+                    ->limit($limit)
+                    ->get();
+                
+                foreach ($dbStats as $stat) {
+                    $topUsers[$stat->user_id] = $stat->total_xp;
+                }
+            }
+
             if (empty($topUsers)) {
                 return [];
             }
 
             $userIds = array_keys($topUsers);
             
-            // Fetch user models to get names and avatars
-            $users = User::whereIn('id', $userIds)->get()->keyBy('id');
+            // Fetch user models to get names, avatars, stats, and roles
+            $users = User::with(['stat', 'roles'])->whereIn('id', $userIds)->get()->keyBy('id');
 
             $leaderboard = [];
             $rank = 1;
 
             foreach ($topUsers as $userId => $score) {
                 if (isset($users[$userId])) {
+                    $user = $users[$userId];
                     $leaderboard[] = [
                         'rank' => $rank++,
                         'user_id' => $userId,
-                        'name' => $users[$userId]->name,
+                        'name' => $user->name,
+                        'avatar_url' => 'https://ui-avatars.com/api/?name=' . urlencode($user->name) . '&background=random&color=fff&bold=true',
+                        'is_premium' => $user->hasRole('pro'),
                         'score' => (int) $score,
+                        'streak' => $user->stat ? $user->stat->current_streak : 0,
+                        'total_cards' => \App\Models\UserReview::where('user_id', $userId)->count(), // In a real app, you might want to cache this or store it in UserStat to avoid N+1, but for Top 10-50 it's ok for now
                     ];
                 }
             }

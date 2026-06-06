@@ -1,0 +1,117 @@
+{
+  "title": "N5.exam_2023_07.title",
+  "level": "N5",
+  "is_published": true,
+  "sections": [
+    {
+      "type": "moji_goi",
+      "duration_minutes": 25,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "＿＿＿の ことばは ひらがなで どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "新しい【車】を買いました。",
+              "options": [
+                { "id": 1, "text": "くるま" },
+                { "id": 2, "text": "くろま" },
+                { "id": 3, "text": "ぐろま" },
+                { "id": 4, "text": "ぐるま" }
+              ],
+              "correct_option_id": 1
+            },
+            {
+              "text": "【先生】に 本を もらいました。",
+              "options": [
+                { "id": 1, "text": "ぜんせい" },
+                { "id": 2, "text": "せんせえ" },
+                { "id": 3, "text": "せんせい" },
+                { "id": 4, "text": "せんせ" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        },
+        {
+          "mondai_number": 2,
+          "instruction": "＿＿＿の ことばは どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "わたしは まいにち 【みず】を のみます。",
+              "options": [
+                { "id": 1, "text": "氷" },
+                { "id": 2, "text": "水" },
+                { "id": 3, "text": "木" },
+                { "id": 4, "text": "火" }
+              ],
+              "correct_option_id": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bunpou_dokkai",
+      "duration_minutes": 50,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "（　　　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "わたしは きのう ともだち（　　　） えいがを みました。",
+              "options": [
+                { "id": 1, "text": "が" },
+                { "id": 2, "text": "を" },
+                { "id": 3, "text": "と" },
+                { "id": 4, "text": "で" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        },
+        {
+           "mondai_number": 4,
+           "instruction": "つぎの ぶんしょうを よんで、しつもんに こたえて ください。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+           "passage": "わたしは きのう ともだちと えいがを みに いきました。そのあとで、レストランで ばんごはんを たべました。とても たのしかったです。",
+           "questions": [
+             {
+               "text": "きのう なにを しましたか。",
+               "options": [
+                 { "id": 1, "text": "えいがを みて、ごはんを たべました。" },
+                 { "id": 2, "text": "ごはんを たべて、えいがを みました。" },
+                 { "id": 3, "text": "ともだちと かいものを しました。" },
+                 { "id": 4, "text": "ひとりで えいがを みました。" }
+               ],
+               "correct_option_id": 1
+             }
+           ]
+        }
+      ]
+    },
+    {
+      "type": "choukai",
+      "duration_minutes": 30,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "もんだい１では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １・２・３・４から、いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "おとこの ひとと おんなの ひとが はなして います。おとこの ひとは なにを かいますか。",
+              "audio_timestamp": 0,
+              "options": [
+                { "id": 1, "text": "りんご ３つ" },
+                { "id": 2, "text": "りんご ２つ と みかん ３つ" },
+                { "id": 3, "text": "みかん ３つ" },
+                { "id": 4, "text": "りんご ２つ と みかん ２つ" }
+              ],
+              "correct_option_id": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

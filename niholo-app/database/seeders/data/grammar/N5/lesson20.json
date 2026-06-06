@@ -1,0 +1,55 @@
+[
+  {
+    "lesson_id": 20,
+    "title": "Thể thông thường của Động từ",
+    "description": "Thể lịch sự (ます/ません/ました/ませんでした) chuyển sang Thể thông thường (る/ない/た/なかった).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g20_ex1",
+        "vietnamese_meaning": "(Thể ngắn) Ngày mai tôi sẽ đi Osaka.",
+        "correct_sentence": "あした おおさか へ いく",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あした", "furigana": "ashita", "meaning": "Ngày mai" },
+          { "id": "b2", "type": "vocabulary", "text": "おおさか", "furigana": "oosaka", "meaning": "Osaka" },
+          { "id": "b3", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b4", "type": "grammar_ending", "text": "いく", "furigana": "iku", "meaning": "đi (thể ngắn)" },
+          { "id": "b5", "type": "distractor", "text": "いきます", "furigana": "ikimasu", "meaning": "đi (lịch sự)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 20,
+    "title": "Thể thông thường của Tính từ / Danh từ",
+    "description": "です đổi thành だ. じゃありません đổi thành じゃない. でした đổi thành だった. じゃありませんでした đổi thành じゃなかった. (Tính từ い: です bị lược bỏ).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g20_ex2",
+        "vietnamese_meaning": "(Thể ngắn) Mỗi ngày đều bận rộn.",
+        "correct_sentence": "まいにち いそがしい",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "まいにち", "furigana": "mainichi", "meaning": "Mỗi ngày" },
+          { "id": "b2", "type": "grammar_ending", "text": "いそがしい", "furigana": "isogashii", "meaning": "bận rộn (thể ngắn)" },
+          { "id": "b3", "type": "distractor", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2"]
+      },
+      {
+        "exercise_id": "g20_ex3",
+        "vietnamese_meaning": "(Thể ngắn) Hôm qua là ngày nghỉ.",
+        "correct_sentence": "きのう は やすみ だった",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きのう", "furigana": "kinou", "meaning": "Hôm qua" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "やすみ", "furigana": "yasumi", "meaning": "Nghỉ" },
+          { "id": "b4", "type": "grammar_ending", "text": "だった", "furigana": "datta", "meaning": "đã là (thể ngắn)" },
+          { "id": "b5", "type": "distractor", "text": "でした", "furigana": "deshita", "meaning": "đã là (lịch sự)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  }
+]

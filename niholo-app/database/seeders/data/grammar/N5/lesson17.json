@@ -1,0 +1,86 @@
+[
+  {
+    "lesson_id": 17,
+    "title": "Cách chia Thể Nai (ない形)",
+    "description": "Nhóm 1: Đổi hàng い sang hàng あ + ない (VD: いきます -> いかない). Trừ: あります -> ない. Nhóm 2: Bỏ ます thêm ない. Nhóm 3: します -> しない / きます -> こない.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g17_ex1",
+        "vietnamese_meaning": "Hôm nay tôi không đi học.",
+        "correct_sentence": "きょう わたし は がっこう へ いかない",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きょう", "furigana": "kyou", "meaning": "Hôm nay" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "vocabulary", "text": "がっこう", "furigana": "gakkou", "meaning": "Trường" },
+          { "id": "b5", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b6", "type": "grammar_ending", "text": "いかない", "furigana": "ikanai", "meaning": "không đi" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 17,
+    "title": "Yêu cầu đừng làm gì: Vないで ください",
+    "description": "Dùng để khuyên, yêu cầu ai đó ĐỪNG làm hành động V.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g17_ex2",
+        "vietnamese_meaning": "Xin đừng chụp ảnh ở đây.",
+        "correct_sentence": "ここ で しゃしん を とらないで ください",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ここ", "furigana": "koko", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "で", "furigana": "de", "meaning": "ở" },
+          { "id": "b3", "type": "vocabulary", "text": "しゃしん", "furigana": "shashin", "meaning": "Ảnh" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "とらないで", "furigana": "toranaide", "meaning": "đừng chụp" },
+          { "id": "b6", "type": "grammar_ending", "text": "ください", "furigana": "kudasai", "meaning": "xin hãy" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 17,
+    "title": "Phải làm V: Vなければ なりません",
+    "description": "Thể ない bỏ い thêm ければ なりません. Nghĩa là 'Phải làm gì đó' (Bắt buộc).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g17_ex3",
+        "vietnamese_meaning": "Ngày mai tôi phải dậy sớm.",
+        "correct_sentence": "あした はやく おきなければ なりません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あした", "furigana": "ashita", "meaning": "Ngày mai" },
+          { "id": "b2", "type": "vocabulary", "text": "はやく", "furigana": "hayaku", "meaning": "Sớm" },
+          { "id": "b3", "type": "grammar_ending", "text": "おきなければ", "furigana": "okinakereba", "meaning": "nếu không dậy" },
+          { "id": "b4", "type": "grammar_ending", "text": "なりません", "furigana": "narimasen", "meaning": "thì không được (phải dậy)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 17,
+    "title": "Không cần làm V cũng được: Vなくても いいです",
+    "description": "Thể ない bỏ い thêm くても いいです. Nghĩa là 'Không làm V cũng không sao'.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g17_ex4",
+        "vietnamese_meaning": "Không cần cởi giày cũng được.",
+        "correct_sentence": "くつ を ぬがなくても いいです",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "くつ", "furigana": "kutsu", "meaning": "Giày" },
+          { "id": "b2", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b3", "type": "grammar_ending", "text": "ぬがなくても", "furigana": "nuganakutemo", "meaning": "không cần cởi" },
+          { "id": "b4", "type": "grammar_ending", "text": "いいです", "furigana": "ii desu", "meaning": "cũng được" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  }
+]

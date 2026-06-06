@@ -1,0 +1,69 @@
+[
+  {
+    "lesson_id": 16,
+    "title": "Nối câu bằng thể Te (て形)",
+    "description": "Nối các hành động theo trình tự thời gian (Làm V1 rồi V2).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g16_ex1",
+        "vietnamese_meaning": "Sáng nay tôi thức dậy rồi chạy bộ.",
+        "correct_sentence": "けさ わたし は おきて じょぎんぐを します",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "けさ", "furigana": "kesa", "meaning": "Sáng nay" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "grammar_ending", "text": "おきて", "furigana": "okite", "meaning": "thức dậy rồi" },
+          { "id": "b5", "type": "vocabulary", "text": "じょぎんぐを", "furigana": "jogingu o", "meaning": "chạy bộ (tân ngữ)" },
+          { "id": "b6", "type": "grammar_ending", "text": "します", "furigana": "shimasu", "meaning": "làm" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 16,
+    "title": "Sau khi làm V1 thì làm V2: V1てから、V2",
+    "description": "Nhấn mạnh hành động V1 phải hoàn thành xong rồi mới đến V2.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g16_ex2",
+        "vietnamese_meaning": "Sau khi kết thúc công việc, tôi đi uống rượu.",
+        "correct_sentence": "しごと が おわってから おさけ を のみに いきます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "しごと", "furigana": "shigoto", "meaning": "Công việc" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b3", "type": "grammar_ending", "text": "おわってから", "furigana": "owatte kara", "meaning": "sau khi kết thúc" },
+          { "id": "b4", "type": "vocabulary", "text": "おさけ", "furigana": "osake", "meaning": "Rượu" },
+          { "id": "b5", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b6", "type": "grammar_ending", "text": "のみに", "furigana": "nomi ni", "meaning": "đi uống" },
+          { "id": "b7", "type": "grammar_ending", "text": "いきます", "furigana": "ikimasu", "meaning": "đi" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 16,
+    "title": "Nối Tính từ / Danh từ",
+    "description": "Tính từ い -> Bỏ い thêm くて. Tính từ な -> Bỏ な thêm で. Danh từ -> Thêm で.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g16_ex3",
+        "vietnamese_meaning": "Cô gái kia vừa trẻ vừa đẹp.",
+        "correct_sentence": "あの ひと は わかくて きれい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あの", "furigana": "ano", "meaning": "Kia" },
+          { "id": "b2", "type": "vocabulary", "text": "ひと", "furigana": "hito", "meaning": "Người" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "grammar_ending", "text": "わかくて", "furigana": "wakakute", "meaning": "trẻ và" },
+          { "id": "b5", "type": "vocabulary", "text": "きれい", "furigana": "kirei", "meaning": "đẹp" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

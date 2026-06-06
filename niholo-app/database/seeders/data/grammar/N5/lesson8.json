@@ -1,0 +1,90 @@
+[
+  {
+    "lesson_id": 8,
+    "title": "Tính từ (な và い) bổ nghĩa",
+    "description": "Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g8_ex1",
+        "vietnamese_meaning": "Thầy Sakura là giáo viên tốt bụng.",
+        "correct_sentence": "さくらさん は しんせつな せんせい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "さくらさん", "furigana": "sakurasan", "meaning": "Thầy Sakura" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "しんせつな", "furigana": "shinsetsu na", "meaning": "tốt bụng (な)" },
+          { "id": "b4", "type": "vocabulary", "text": "せんせい", "furigana": "sensei", "meaning": "giáo viên" },
+          { "id": "b5", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      },
+      {
+        "exercise_id": "g8_ex2",
+        "vietnamese_meaning": "Núi Phú Sĩ là ngọn núi cao.",
+        "correct_sentence": "ふじさん は たかい やま です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ふじさん", "furigana": "fujisan", "meaning": "Núi Phú Sĩ" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "たかい", "furigana": "takai", "meaning": "cao (い)" },
+          { "id": "b4", "type": "vocabulary", "text": "やま", "furigana": "yama", "meaning": "núi" },
+          { "id": "b5", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 8,
+    "title": "Phủ định của tính từ: じゃありません / くないです",
+    "description": "Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g8_ex3",
+        "vietnamese_meaning": "Chỗ này không yên tĩnh.",
+        "correct_sentence": "ここ は しずか じゃありません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ここ", "furigana": "koko", "meaning": "Chỗ này" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "しずか", "furigana": "shizuka", "meaning": "yên tĩnh (な)" },
+          { "id": "b4", "type": "grammar_ending", "text": "じゃありません", "furigana": "ja arimasen", "meaning": "không" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g8_ex4",
+        "vietnamese_meaning": "Quyển sách này không đắt.",
+        "correct_sentence": "この ほん は たかくない です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "この", "furigana": "kono", "meaning": "Này" },
+          { "id": "b2", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "grammar_ending", "text": "たかくない", "furigana": "takakunai", "meaning": "không đắt" },
+          { "id": "b5", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "(lịch sự)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 8,
+    "title": "Câu hỏi: どうですか / どんな",
+    "description": "どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g8_ex5",
+        "vietnamese_meaning": "Cuộc sống ở Nhật thế nào?",
+        "correct_sentence": "にほん の せいかつ は どうですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật Bản" },
+          { "id": "b2", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b3", "type": "vocabulary", "text": "せいかつ", "furigana": "seikatsu", "meaning": "Cuộc sống" },
+          { "id": "b4", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b5", "type": "grammar_ending", "text": "どうですか", "furigana": "dou desuka", "meaning": "thế nào?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  }
+]

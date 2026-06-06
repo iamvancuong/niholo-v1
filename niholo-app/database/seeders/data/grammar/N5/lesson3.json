@@ -1,0 +1,77 @@
+[
+  {
+    "lesson_id": 3,
+    "title": "Chỉ thị địa điểm: ここ / そこ / あそこ は N です",
+    "description": "Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g3_ex1",
+        "vietnamese_meaning": "Chỗ này là nhà ăn.",
+        "correct_sentence": "ここ は しょくどう です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ここ", "furigana": "koko", "meaning": "Chỗ này" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "しょくどう", "furigana": "shokudou", "meaning": "Nhà ăn" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g3_ex2",
+        "vietnamese_meaning": "Nhà vệ sinh ở đâu vậy?",
+        "correct_sentence": "といれ は どこ ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "といれ", "furigana": "toire", "meaning": "Nhà vệ sinh" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "どこ", "furigana": "doko", "meaning": "Ở đâu" },
+          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "vậy?" },
+          { "id": "b5", "type": "distractor", "text": "そこ", "furigana": "soko", "meaning": "Chỗ đó" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 3,
+    "title": "Chỉ thị địa điểm lịch sự: こちら / そちら / あちら",
+    "description": "Cách nói lịch sự của ここ / そこ / あそこ. Từ để hỏi là どちら.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g3_ex3",
+        "vietnamese_meaning": "Phòng họp là ở phía kia.",
+        "correct_sentence": "かいぎしつ は あちら です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "かいぎしつ", "furigana": "kaigishitsu", "meaning": "Phòng họp" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "あちら", "furigana": "achira", "meaning": "Phía kia" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 3,
+    "title": "Xuất xứ, nơi sản xuất: N1 の N2",
+    "description": "Dùng để nói về xuất xứ (quốc gia, công ty) sản xuất ra đồ vật.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g3_ex4",
+        "vietnamese_meaning": "Đây là ô tô của Nhật Bản.",
+        "correct_sentence": "これ は にほん の くるま です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "これ", "furigana": "kore", "meaning": "Đây" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật Bản" },
+          { "id": "b4", "type": "particle", "text": "の", "furigana": "no", "meaning": "của (xuất xứ)" },
+          { "id": "b5", "type": "vocabulary", "text": "くるま", "furigana": "kuruma", "meaning": "Ô tô" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

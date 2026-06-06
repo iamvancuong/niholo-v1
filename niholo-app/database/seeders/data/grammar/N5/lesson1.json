@@ -1,0 +1,135 @@
+[
+  {
+    "lesson_id": 1,
+    "title": "Khẳng định: N1 は N2 です",
+    "description": "Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g1_ex1",
+        "vietnamese_meaning": "Tôi là học sinh.",
+        "correct_sentence": "わたし は がくせい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "vocabulary", "text": "がくせい", "furigana": "gakusei", "meaning": "Học sinh" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b5", "type": "distractor", "text": "が", "furigana": "ga", "meaning": "(Nhiễu)" }
+        ],
+        "correct_order": ["b1", "b3", "b2", "b4"]
+      },
+      {
+        "exercise_id": "g1_ex2",
+        "vietnamese_meaning": "Cô ấy là người Việt Nam.",
+        "correct_sentence": "かのじょ は べとなむ じん です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "かのじょ", "furigana": "kanojo", "meaning": "Cô ấy" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "べとなむ", "furigana": "betonamu", "meaning": "Việt Nam" },
+          { "id": "b4", "type": "vocabulary", "text": "じん", "furigana": "jin", "meaning": "Người" },
+          { "id": "b5", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b6", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 1,
+    "title": "Phủ định: N1 は N2 じゃありません",
+    "description": "Dùng để phủ định: N1 không phải là N2.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g1_ex3",
+        "vietnamese_meaning": "Anh ấy không phải là giáo viên.",
+        "correct_sentence": "かれ は せんせい じゃありません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "かれ", "furigana": "kare", "meaning": "Anh ấy" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "せんせい", "furigana": "sensei", "meaning": "Giáo viên" },
+          { "id": "b4", "type": "grammar_ending", "text": "じゃありません", "furigana": "ja arimasen", "meaning": "không phải là" },
+          { "id": "b5", "type": "distractor", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 1,
+    "title": "Câu hỏi: N1 は N2 ですか / Từ để hỏi: だれ",
+    "description": "Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g1_ex4",
+        "vietnamese_meaning": "Bạn là nhân viên ngân hàng phải không?",
+        "correct_sentence": "あなた は ぎんこういん ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あなた", "furigana": "anata", "meaning": "Bạn" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "ぎんこういん", "furigana": "ginkouin", "meaning": "Nhân viên NH" },
+          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "phải không?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g1_ex5",
+        "vietnamese_meaning": "Người kia là ai?",
+        "correct_sentence": "あのひと は だれ ですか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あのひと", "furigana": "anohito", "meaning": "Người kia" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "だれ", "furigana": "dare", "meaning": "Ai" },
+          { "id": "b4", "type": "grammar_ending", "text": "ですか", "furigana": "desuka", "meaning": "vậy?" },
+          { "id": "b5", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 1,
+    "title": "Trợ từ も (Cũng)",
+    "description": "Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g1_ex6",
+        "vietnamese_meaning": "Tôi cũng là kỹ sư.",
+        "correct_sentence": "わたし も えんじにあ です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "も", "furigana": "mo", "meaning": "cũng" },
+          { "id": "b3", "type": "vocabulary", "text": "えんじにあ", "furigana": "enjinia", "meaning": "Kỹ sư" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b5", "type": "distractor", "text": "は", "furigana": "wa", "meaning": "thì/là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 1,
+    "title": "Trợ từ の (Sở hữu / Bổ nghĩa)",
+    "description": "Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g1_ex7",
+        "vietnamese_meaning": "Người kia là nhân viên của IMC.",
+        "correct_sentence": "あのひと は IMC の しゃいん です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あのひと", "furigana": "anohito", "meaning": "Người kia" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì/là" },
+          { "id": "b3", "type": "vocabulary", "text": "IMC", "furigana": "", "meaning": "IMC" },
+          { "id": "b4", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b5", "type": "vocabulary", "text": "しゃいん", "furigana": "shain", "meaning": "nhân viên" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b7", "type": "distractor", "text": "も", "furigana": "mo", "meaning": "cũng" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

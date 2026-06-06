@@ -1,0 +1,78 @@
+[
+  {
+    "lesson_id": 10,
+    "title": "Tồn tại: N が あります / います",
+    "description": "あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g10_ex1",
+        "vietnamese_meaning": "Có máy tính.",
+        "correct_sentence": "こんぴゅーたー が あります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "こんぴゅーたー", "furigana": "konpyuutaa", "meaning": "Máy tính" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b3", "type": "grammar_ending", "text": "あります", "furigana": "arimasu", "meaning": "có" },
+          { "id": "b4", "type": "distractor", "text": "います", "furigana": "imasu", "meaning": "có (động vật)" }
+        ],
+        "correct_order": ["b1", "b2", "b3"]
+      },
+      {
+        "exercise_id": "g10_ex2",
+        "vietnamese_meaning": "Có con mèo.",
+        "correct_sentence": "ねこ が います",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ねこ", "furigana": "neko", "meaning": "Con mèo" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b3", "type": "grammar_ending", "text": "います", "furigana": "imasu", "meaning": "có" },
+          { "id": "b4", "type": "distractor", "text": "あります", "furigana": "arimasu", "meaning": "có (đồ vật)" }
+        ],
+        "correct_order": ["b1", "b2", "b3"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 10,
+    "title": "Vị trí: Địa điểm に N が あります / います",
+    "description": "Để nói ở đâu có cái gì/ai đó. Trợ từ に chỉ nơi tồn tại.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g10_ex3",
+        "vietnamese_meaning": "Trong phòng có cái bàn.",
+        "correct_sentence": "へや に つくえ が あります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "へや", "furigana": "heya", "meaning": "Phòng" },
+          { "id": "b2", "type": "particle", "text": "に", "furigana": "ni", "meaning": "ở/trong" },
+          { "id": "b3", "type": "vocabulary", "text": "つくえ", "furigana": "tsukue", "meaning": "Cái bàn" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b5", "type": "grammar_ending", "text": "あります", "furigana": "arimasu", "meaning": "có" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 10,
+    "title": "Vị trí tương đối: N1(vật) の Vị trí",
+    "description": "Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g10_ex4",
+        "vietnamese_meaning": "Quyển sách ở trên bàn.",
+        "correct_sentence": "ほん は つくえ の うえ に あります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "つくえ", "furigana": "tsukue", "meaning": "Cái bàn" },
+          { "id": "b4", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b5", "type": "vocabulary", "text": "うえ", "furigana": "ue", "meaning": "Trên" },
+          { "id": "b6", "type": "particle", "text": "に", "furigana": "ni", "meaning": "ở" },
+          { "id": "b7", "type": "grammar_ending", "text": "あります", "furigana": "arimasu", "meaning": "có" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  }
+]

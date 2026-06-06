@@ -1,0 +1,69 @@
+[
+  {
+    "lesson_id": 18,
+    "title": "Cách chia Thể Từ Điển (辞書形)",
+    "description": "Nhóm 1: Đổi hàng い sang hàng う. Nhóm 2: Bỏ ます thêm る. Nhóm 3: します -> する / きます -> くる.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g18_ex1",
+        "vietnamese_meaning": "Tôi có thể nói tiếng Nhật.",
+        "correct_sentence": "わたし は にほんご を はなす ことが できます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "にほんご", "furigana": "nihongo", "meaning": "Tiếng Nhật" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "はなす", "furigana": "hanasu", "meaning": "nói (từ điển)" },
+          { "id": "b6", "type": "grammar_ending", "text": "ことが できます", "furigana": "koto ga dekimasu", "meaning": "có thể" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 18,
+    "title": "Sở thích là làm việc gì đó: N / Vること です",
+    "description": "Để nói sở thích là gì. Dùng danh từ hoặc Vる + こと (Danh từ hóa động từ).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g18_ex2",
+        "vietnamese_meaning": "Sở thích của tôi là xem phim.",
+        "correct_sentence": "わたし の しゅみ は えいが を みる こと です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "の", "furigana": "no", "meaning": "của" },
+          { "id": "b3", "type": "vocabulary", "text": "しゅみ", "furigana": "shumi", "meaning": "Sở thích" },
+          { "id": "b4", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b5", "type": "vocabulary", "text": "えいが", "furigana": "eiga", "meaning": "Phim" },
+          { "id": "b6", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b7", "type": "grammar_ending", "text": "みる", "furigana": "miru", "meaning": "xem" },
+          { "id": "b8", "type": "grammar_ending", "text": "こと です", "furigana": "koto desu", "meaning": "việc ~" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 18,
+    "title": "Trước khi: Vる / Nの / Thời gian + まえに、V2",
+    "description": "Làm V2 trước khi làm V1/N/Thời gian. V1 luôn ở thể từ điển, dù quá khứ hay hiện tại.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g18_ex3",
+        "vietnamese_meaning": "Trước khi ngủ tôi đọc sách.",
+        "correct_sentence": "ねる まえに ほん を よみます",
+        "blocks": [
+          { "id": "b1", "type": "grammar_ending", "text": "ねる", "furigana": "neru", "meaning": "ngủ (từ điển)" },
+          { "id": "b2", "type": "vocabulary", "text": "まえに", "furigana": "mae ni", "meaning": "trước khi" },
+          { "id": "b3", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "よみます", "furigana": "yomimasu", "meaning": "đọc" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  }
+]

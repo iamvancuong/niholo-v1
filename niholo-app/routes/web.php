@@ -49,12 +49,20 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/vault', [\App\Http\Controllers\SuspendedCardController::class, 'index'])->name('vault.index');
     Route::post('/vault/reviews/{review}/unsuspend', [\App\Http\Controllers\SuspendedCardController::class, 'unsuspend'])->name('vault.unsuspend');
     
-    // Leech Quarantine
-    Route::get('/leech-quarantine', [App\Http\Controllers\LeechQuarantineController::class, 'index'])->name('leech.index');
-    Route::post('/leech-quarantine/{id}/reset', [App\Http\Controllers\LeechQuarantineController::class, 'reset'])->name('leech.reset');
+    Route::get('/leech-quarantine', function () {
+        return redirect()->route('vault.index', ['tab' => 'leech']);
+    })->name('leech.index');
 });
 
+// Leaderboard Web
+Route::get('/leaderboard', [\App\Http\Controllers\LeaderboardController::class, 'index'])->name('leaderboard.index');
+
 // Learning Routes (Public for Invisible Onboarding)
+Route::get('/exams', [\App\Http\Controllers\ExamController::class, 'index'])->name('exams.index');
+Route::get('/exams/{exam}', [\App\Http\Controllers\ExamController::class, 'show'])->name('exams.show');
+Route::get('/exams/{exam}/take', [\App\Http\Controllers\ExamController::class, 'take'])->name('exams.take');
+Route::post('/exams/{exam}/submit', [\App\Http\Controllers\ExamController::class, 'submit'])->name('exams.submit');
+Route::get('/exams/results/{attempt}', [\App\Http\Controllers\ExamController::class, 'result'])->name('exams.result');
 Route::get('/courses', [\App\Http\Controllers\CourseController::class, 'index'])->name('courses.index');
 Route::get('/courses/{course}', [\App\Http\Controllers\CourseController::class, 'show'])->name('courses.show');
 Route::get('/courses/{course}/{category}', [\App\Http\Controllers\LessonController::class, 'index'])->name('lessons.index');

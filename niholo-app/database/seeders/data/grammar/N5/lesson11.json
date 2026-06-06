@@ -1,0 +1,68 @@
+[
+  {
+    "lesson_id": 11,
+    "title": "Lượng từ: Số đếm + Lượng từ",
+    "description": "Lượng từ dùng để đếm đồ vật, con người (Ví dụ: つ, 人, 枚, 台). Lượng từ thường đứng ngay sau tân ngữ và trước động từ.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g11_ex1",
+        "vietnamese_meaning": "Tôi đã mua hai quả táo.",
+        "correct_sentence": "わたし は りんご を ふたつ かいました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "りんご", "furigana": "ringo", "meaning": "Táo" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "vocabulary", "text": "ふたつ", "furigana": "futatsu", "meaning": "2 quả" },
+          { "id": "b6", "type": "grammar_ending", "text": "かいました", "furigana": "kaimashita", "meaning": "đã mua" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 11,
+    "title": "Tần suất: Khoảng thời gian に ~ 回 Vます",
+    "description": "Biểu thị tần suất làm việc gì đó trong một khoảng thời gian.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g11_ex2",
+        "vietnamese_meaning": "Một tháng tôi xem phim 2 lần.",
+        "correct_sentence": "いっかげつ に にかい えいが を みます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いっかげつ", "furigana": "ikkagetsu", "meaning": "1 tháng" },
+          { "id": "b2", "type": "particle", "text": "に", "furigana": "ni", "meaning": "trong" },
+          { "id": "b3", "type": "vocabulary", "text": "にかい", "furigana": "nikai", "meaning": "2 lần" },
+          { "id": "b4", "type": "vocabulary", "text": "えいが", "furigana": "eiga", "meaning": "phim" },
+          { "id": "b5", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b6", "type": "grammar_ending", "text": "みます", "furigana": "mimasu", "meaning": "xem" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 11,
+    "title": "Thời gian tiêu tốn: かかります",
+    "description": "Dùng để nói mất bao lâu (thời gian) hoặc tốn bao nhiêu (tiền bạc).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g11_ex3",
+        "vietnamese_meaning": "Từ nhà đến trường mất 1 tiếng.",
+        "correct_sentence": "うち から がっこう まで いちじかん かかります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "うち", "furigana": "uchi", "meaning": "Nhà" },
+          { "id": "b2", "type": "particle", "text": "から", "furigana": "kara", "meaning": "từ" },
+          { "id": "b3", "type": "vocabulary", "text": "がっこう", "furigana": "gakkou", "meaning": "Trường" },
+          { "id": "b4", "type": "particle", "text": "まで", "furigana": "made", "meaning": "đến" },
+          { "id": "b5", "type": "vocabulary", "text": "いちじかん", "furigana": "ichijikan", "meaning": "1 tiếng" },
+          { "id": "b6", "type": "grammar_ending", "text": "かかります", "furigana": "kakarimasu", "meaning": "mất/tốn" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

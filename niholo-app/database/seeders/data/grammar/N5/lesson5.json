@@ -1,0 +1,105 @@
+[
+  {
+    "lesson_id": 5,
+    "title": "Động từ di chuyển: 行きます / 来ます / 帰ります",
+    "description": "Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g5_ex1",
+        "vietnamese_meaning": "Tôi đi siêu thị.",
+        "correct_sentence": "わたし は すーぱー へ いきます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "すーぱー", "furigana": "suupaa", "meaning": "Siêu thị" },
+          { "id": "b4", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b5", "type": "grammar_ending", "text": "いきます", "furigana": "ikimasu", "meaning": "đi" },
+          { "id": "b6", "type": "distractor", "text": "に", "furigana": "ni", "meaning": "vào lúc" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      },
+      {
+        "exercise_id": "g5_ex2",
+        "vietnamese_meaning": "Tháng trước tôi đã đến Nhật Bản.",
+        "correct_sentence": "せんげつ わたし は にほん へ きました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "せんげつ", "furigana": "sengetsu", "meaning": "Tháng trước" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật Bản" },
+          { "id": "b5", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b6", "type": "grammar_ending", "text": "きました", "furigana": "kimashita", "meaning": "đã đến" },
+          { "id": "b7", "type": "distractor", "text": "かえりました", "furigana": "kaerimashita", "meaning": "đã về" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 5,
+    "title": "Phủ định hoàn toàn: どこへも 行きません",
+    "description": "Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g5_ex3",
+        "vietnamese_meaning": "Hôm qua tôi đã không đi đâu cả.",
+        "correct_sentence": "きのう わたし は どこへも いきませんでした",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きのう", "furigana": "kinou", "meaning": "Hôm qua" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "vocabulary", "text": "どこへも", "furigana": "dokoemo", "meaning": "đâu cả" },
+          { "id": "b5", "type": "grammar_ending", "text": "いきませんでした", "furigana": "ikimasendeshita", "meaning": "đã không đi" },
+          { "id": "b6", "type": "distractor", "text": "いきません", "furigana": "ikimasen", "meaning": "không đi" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 5,
+    "title": "Phương tiện di chuyển: Phương tiện + で",
+    "description": "Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g5_ex4",
+        "vietnamese_meaning": "Tôi về nhà bằng xe buýt.",
+        "correct_sentence": "わたし は ばす で うち へ かえります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ばす", "furigana": "basu", "meaning": "Xe buýt" },
+          { "id": "b4", "type": "particle", "text": "で", "furigana": "de", "meaning": "bằng" },
+          { "id": "b5", "type": "vocabulary", "text": "うち", "furigana": "uchi", "meaning": "Nhà" },
+          { "id": "b6", "type": "particle", "text": "へ", "furigana": "e", "meaning": "về" },
+          { "id": "b7", "type": "grammar_ending", "text": "かえります", "furigana": "kaerimasu", "meaning": "về" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 5,
+    "title": "Người đồng hành: Người/Động vật + と",
+    "description": "Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g5_ex5",
+        "vietnamese_meaning": "Tôi đi đến Nhật Bản cùng với gia đình.",
+        "correct_sentence": "かぞく と にほん へ いきます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "かぞく", "furigana": "kazoku", "meaning": "Gia đình" },
+          { "id": "b2", "type": "particle", "text": "と", "furigana": "to", "meaning": "cùng với" },
+          { "id": "b3", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật Bản" },
+          { "id": "b4", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b5", "type": "grammar_ending", "text": "いきます", "furigana": "ikimasu", "meaning": "đi" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  }
+]

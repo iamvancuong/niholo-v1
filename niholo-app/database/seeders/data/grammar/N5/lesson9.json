@@ -1,0 +1,81 @@
+[
+  {
+    "lesson_id": 9,
+    "title": "Sở thích / Khả năng: N が あります / わかります / すきです",
+    "description": "Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g9_ex1",
+        "vietnamese_meaning": "Tôi thích thể thao.",
+        "correct_sentence": "わたし は すぽーつ が すき です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "すぽーつ", "furigana": "supootsu", "meaning": "Thể thao" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chỉ tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "すき", "furigana": "suki", "meaning": "thích" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      },
+      {
+        "exercise_id": "g9_ex2",
+        "vietnamese_meaning": "Tôi hiểu tiếng Nhật.",
+        "correct_sentence": "わたし は にほんご が わかります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "にほんご", "furigana": "nihongo", "meaning": "Tiếng Nhật" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chỉ tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "わかります", "furigana": "wakarimasu", "meaning": "hiểu" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 9,
+    "title": "Mức độ: よく / だいたい / すこし / あまり / ぜんぜん",
+    "description": "よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g9_ex3",
+        "vietnamese_meaning": "Tôi hoàn toàn không có tiền.",
+        "correct_sentence": "わたし は おかね が ぜんぜん ありません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "おかね", "furigana": "okane", "meaning": "Tiền" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chỉ đối tượng)" },
+          { "id": "b5", "type": "grammar_ending", "text": "ぜんぜん", "furigana": "zenzen", "meaning": "hoàn toàn (không)" },
+          { "id": "b6", "type": "grammar_ending", "text": "ありません", "furigana": "arimasen", "meaning": "không có" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 9,
+    "title": "Lý do: S1 から、S2",
+    "description": "Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g9_ex4",
+        "vietnamese_meaning": "Vì bận rộn nên tôi không xem TV.",
+        "correct_sentence": "いそがしい です から てれび を みません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いそがしい", "furigana": "isogashii", "meaning": "Bận rộn" },
+          { "id": "b2", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b3", "type": "grammar_ending", "text": "から", "furigana": "kara", "meaning": "vì" },
+          { "id": "b4", "type": "vocabulary", "text": "てれび", "furigana": "terebi", "meaning": "TV" },
+          { "id": "b5", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b6", "type": "grammar_ending", "text": "みません", "furigana": "mimasen", "meaning": "không xem" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  }
+]

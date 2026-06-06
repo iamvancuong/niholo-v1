@@ -18,6 +18,7 @@ class LessonController extends Controller
 
         $lessons = $course->lessons()
             ->where('category', $category)
+            ->orderBy('order_index')
             ->withCount(['cards', 'grammarPoints'])
             ->with(['cards' => function($query) {
                 $query->whereNotNull('example_blocks_json')->select('id', 'lesson_id')->limit(1);

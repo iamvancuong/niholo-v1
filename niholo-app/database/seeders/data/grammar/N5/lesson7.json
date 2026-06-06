@@ -1,0 +1,82 @@
+[
+  {
+    "lesson_id": 7,
+    "title": "Công cụ/Phương tiện: N (công cụ) で Vます",
+    "description": "Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g7_ex1",
+        "vietnamese_meaning": "Tôi ăn cơm bằng đũa.",
+        "correct_sentence": "はし で ごはん を たべます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "はし", "furigana": "hashi", "meaning": "Đũa" },
+          { "id": "b2", "type": "particle", "text": "で", "furigana": "de", "meaning": "bằng" },
+          { "id": "b3", "type": "vocabulary", "text": "ごはん", "furigana": "gohan", "meaning": "Cơm" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "たべます", "furigana": "tabemasu", "meaning": "ăn" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 7,
+    "title": "Cho/Nhận: あげます / もらいます",
+    "description": "あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g7_ex2",
+        "vietnamese_meaning": "Tôi đã tặng hoa cho bạn.",
+        "correct_sentence": "わたし は ともだち に はな を あげました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ともだち", "furigana": "tomodachi", "meaning": "Bạn" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "cho" },
+          { "id": "b5", "type": "vocabulary", "text": "はな", "furigana": "hana", "meaning": "Hoa" },
+          { "id": "b6", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b7", "type": "grammar_ending", "text": "あげました", "furigana": "agemashita", "meaning": "đã tặng" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      },
+      {
+        "exercise_id": "g7_ex3",
+        "vietnamese_meaning": "Tôi đã nhận tiền từ gia đình.",
+        "correct_sentence": "わたし は かぞく に おかね を もらいました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "かぞく", "furigana": "kazoku", "meaning": "Gia đình" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "từ" },
+          { "id": "b5", "type": "vocabulary", "text": "おかね", "furigana": "okane", "meaning": "Tiền" },
+          { "id": "b6", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b7", "type": "grammar_ending", "text": "もらいました", "furigana": "moraimashita", "meaning": "đã nhận" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 7,
+    "title": "Đã làm gì chưa?: もう Vました (か)",
+    "description": "もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g7_ex4",
+        "vietnamese_meaning": "Bạn đã ăn báo cáo chưa?",
+        "correct_sentence": "もう れぽーと を かきました か",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "もう", "furigana": "mou", "meaning": "Đã ~ rồi" },
+          { "id": "b2", "type": "vocabulary", "text": "れぽーと", "furigana": "repooto", "meaning": "Báo cáo" },
+          { "id": "b3", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b4", "type": "grammar_ending", "text": "かきました", "furigana": "kakimashita", "meaning": "đã viết" },
+          { "id": "b5", "type": "particle", "text": "か", "furigana": "ka", "meaning": "chưa?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  }
+]

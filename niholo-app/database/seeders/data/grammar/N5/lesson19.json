@@ -1,0 +1,67 @@
+[
+  {
+    "lesson_id": 19,
+    "title": "Cách chia Thể Ta (た形) và Kinh nghiệm: Vた ことがあります",
+    "description": "Cách chia giống thể て nhưng thay て/で bằng た/だ. Mẫu câu dùng để nói kinh nghiệm 'Đã từng làm V'.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g19_ex1",
+        "vietnamese_meaning": "Tôi đã từng cưỡi ngựa.",
+        "correct_sentence": "うま に のった ことが あります",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "うま", "furigana": "uma", "meaning": "Ngựa" },
+          { "id": "b2", "type": "particle", "text": "に", "furigana": "ni", "meaning": "(vào)" },
+          { "id": "b3", "type": "grammar_ending", "text": "のった", "furigana": "notta", "meaning": "cưỡi (thể ta)" },
+          { "id": "b4", "type": "grammar_ending", "text": "ことが あります", "furigana": "koto ga arimasu", "meaning": "đã từng" },
+          { "id": "b5", "type": "distractor", "text": "のって", "furigana": "notte", "meaning": "cưỡi (thể te)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 19,
+    "title": "Liệt kê hành động: V1たり、V2たり します",
+    "description": "Liệt kê các hành động tiêu biểu. Chia động từ về thể た + り.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g19_ex2",
+        "vietnamese_meaning": "Chủ nhật tôi thường đọc sách, xem TV...",
+        "correct_sentence": "にちようび は ほん を よんだり てれび を みたり します",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "にちようび", "furigana": "nichiyoubi", "meaning": "Chủ nhật" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ほん", "furigana": "hon", "meaning": "Sách" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "よんだり", "furigana": "yondari", "meaning": "nào là đọc" },
+          { "id": "b6", "type": "vocabulary", "text": "てれび", "furigana": "terebi", "meaning": "TV" },
+          { "id": "b7", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b8", "type": "grammar_ending", "text": "みたり", "furigana": "mitari", "meaning": "nào là xem" },
+          { "id": "b9", "type": "grammar_ending", "text": "します", "furigana": "shimasu", "meaning": "làm" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 19,
+    "title": "Trở nên: A(bỏ い)く / Aな / N に なります",
+    "description": "Thể hiện sự thay đổi trạng thái. (VD: Nóng lên, trở nên đẹp, trở thành giáo viên).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g19_ex3",
+        "vietnamese_meaning": "Trời đã trở lạnh.",
+        "correct_sentence": "さむく なりました",
+        "blocks": [
+          { "id": "b1", "type": "grammar_ending", "text": "さむく", "furigana": "samuku", "meaning": "lạnh (bỏ i)" },
+          { "id": "b2", "type": "grammar_ending", "text": "なりました", "furigana": "narimashita", "meaning": "đã trở nên" },
+          { "id": "b3", "type": "distractor", "text": "さむいに", "furigana": "samui ni", "meaning": "lạnh (sai)" }
+        ],
+        "correct_order": ["b1", "b2"]
+      }
+    ]
+  }
+]

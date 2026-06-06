@@ -1,0 +1,69 @@
+[
+  {
+    "lesson_id": 13,
+    "title": "Mong muốn có danh từ: N が ほしいです",
+    "description": "Dùng để diễn tả mong muốn sở hữu một vật gì đó. Trợ từ đi kèm luôn là が.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g13_ex1",
+        "vietnamese_meaning": "Tôi muốn có máy tính.",
+        "correct_sentence": "わたし は ぱそこん が ほしい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ぱそこん", "furigana": "pasokon", "meaning": "Máy tính" },
+          { "id": "b4", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "ほしい", "furigana": "hoshii", "meaning": "muốn có" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 13,
+    "title": "Mong muốn làm gì: V たいです",
+    "description": "Bỏ ます thêm たいです. Diễn tả mong muốn thực hiện hành động. Trợ từ を có thể thay bằng が.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g13_ex2",
+        "vietnamese_meaning": "Tôi muốn đi Nhật Bản.",
+        "correct_sentence": "わたし は にほん へ いきたい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "にほん", "furigana": "nihon", "meaning": "Nhật Bản" },
+          { "id": "b4", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b5", "type": "grammar_ending", "text": "いきたい", "furigana": "ikitai", "meaning": "muốn đi" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 13,
+    "title": "Mục đích di chuyển: Địa điểm へ V / N に 行きます",
+    "description": "Đi/Đến/Về đâu đó ĐỂ làm gì. Nếu là động từ thì bỏ ます. Nếu là danh từ (danh động từ) thì giữ nguyên.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g13_ex3",
+        "vietnamese_meaning": "Tôi đi bưu điện để gửi thư.",
+        "correct_sentence": "ゆうびんきょく へ てがみ を だし に いきます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ゆうびんきょく", "furigana": "yuubinkyoku", "meaning": "Bưu điện" },
+          { "id": "b2", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b3", "type": "vocabulary", "text": "てがみ", "furigana": "tegami", "meaning": "Thư" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "だし", "furigana": "dashi", "meaning": "gửi (bỏ ます)" },
+          { "id": "b6", "type": "particle", "text": "に", "furigana": "ni", "meaning": "để" },
+          { "id": "b7", "type": "grammar_ending", "text": "いきます", "furigana": "ikimasu", "meaning": "đi" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "lesson_id": 25,
+    "title": "Điều kiện giả định (Nếu): Thể た + ら、~",
+    "description": "Nối hai mệnh đề với nghĩa Nếu... thì... hoặc Sau khi... thì...",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g25_ex1",
+        "vietnamese_meaning": "Nếu trời mưa thì tôi sẽ không ra ngoài.",
+        "correct_sentence": "あめ が ふったら わたし は でかけません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あめ", "furigana": "ame", "meaning": "Mưa" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(chủ thể)" },
+          { "id": "b3", "type": "grammar_ending", "text": "ふったら", "furigana": "futtara", "meaning": "nếu rơi" },
+          { "id": "b4", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b5", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b6", "type": "grammar_ending", "text": "でかけません", "furigana": "dekakemasen", "meaning": "không ra ngoài" },
+          { "id": "b7", "type": "distractor", "text": "ふって", "furigana": "futte", "meaning": "rơi (sai)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      },
+      {
+        "exercise_id": "g25_ex2",
+        "vietnamese_meaning": "Nếu có tiền tôi muốn đi du lịch.",
+        "correct_sentence": "おかね が あったら りょこう したい です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "おかね", "furigana": "okane", "meaning": "Tiền" },
+          { "id": "b2", "type": "particle", "text": "が", "furigana": "ga", "meaning": "(tân ngữ)" },
+          { "id": "b3", "type": "grammar_ending", "text": "あったら", "furigana": "attara", "meaning": "nếu có" },
+          { "id": "b4", "type": "vocabulary", "text": "りょこう", "furigana": "ryokou", "meaning": "Du lịch" },
+          { "id": "b5", "type": "grammar_ending", "text": "したい", "furigana": "shitai", "meaning": "muốn làm" },
+          { "id": "b6", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 25,
+    "title": "Nhượng bộ (Dù... nhưng...): Thể て + も、~",
+    "description": "Trái với kì vọng. (Tính từ い -> くても / Tính từ な/Danh từ -> でも).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g25_ex3",
+        "vietnamese_meaning": "Dù nghĩ nhưng tôi vẫn không hiểu.",
+        "correct_sentence": "かんがえても わかりません",
+        "blocks": [
+          { "id": "b1", "type": "grammar_ending", "text": "かんがえても", "furigana": "kangaetemo", "meaning": "dù nghĩ" },
+          { "id": "b2", "type": "grammar_ending", "text": "わかりません", "furigana": "wakarimasen", "meaning": "cũng không hiểu" },
+          { "id": "b3", "type": "distractor", "text": "かんがえたら", "furigana": "kangaetara", "meaning": "nếu nghĩ (sai)" }
+        ],
+        "correct_order": ["b1", "b2"]
+      },
+      {
+        "exercise_id": "g25_ex4",
+        "vietnamese_meaning": "Dù rẻ tôi cũng không mua.",
+        "correct_sentence": "やすくても かいません",
+        "blocks": [
+          { "id": "b1", "type": "grammar_ending", "text": "やすくても", "furigana": "yasukutemo", "meaning": "dù rẻ" },
+          { "id": "b2", "type": "grammar_ending", "text": "かいません", "furigana": "kaimasen", "meaning": "cũng không mua" }
+        ],
+        "correct_order": ["b1", "b2"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "lesson_id": 6,
+    "title": "Tân ngữ trực tiếp: N を Vます",
+    "description": "Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g6_ex1",
+        "vietnamese_meaning": "Tôi ăn cơm.",
+        "correct_sentence": "わたし は ごはん を たべます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ごはん", "furigana": "gohan", "meaning": "Cơm" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(chỉ tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "たべます", "furigana": "tabemasu", "meaning": "ăn" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 6,
+    "title": "Hành động tại địa điểm: N (địa điểm) で Vます",
+    "description": "Trợ từ で chỉ nơi xảy ra hành động.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g6_ex2",
+        "vietnamese_meaning": "Tôi học tiếng Nhật ở trường.",
+        "correct_sentence": "がっこう で にほんご を べんきょうします",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "がっこう", "furigana": "gakkou", "meaning": "Trường học" },
+          { "id": "b2", "type": "particle", "text": "で", "furigana": "de", "meaning": "ở/tại" },
+          { "id": "b3", "type": "vocabulary", "text": "にほんご", "furigana": "nihongo", "meaning": "Tiếng Nhật" },
+          { "id": "b4", "type": "particle", "text": "を", "furigana": "o", "meaning": "(chỉ tân ngữ)" },
+          { "id": "b5", "type": "grammar_ending", "text": "べんきょうします", "furigana": "benkyoushimasu", "meaning": "học" },
+          { "id": "b6", "type": "distractor", "text": "に", "furigana": "ni", "meaning": "vào lúc" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 6,
+    "title": "Mời rủ: Vませんか / Vましょう",
+    "description": "Vませんか: Anh/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g6_ex3",
+        "vietnamese_meaning": "Cùng đi đến Tokyo không?",
+        "correct_sentence": "いっしょに とうきょう へ いきませんか",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いっしょに", "furigana": "isshoni", "meaning": "Cùng nhau" },
+          { "id": "b2", "type": "vocabulary", "text": "とうきょう", "furigana": "toukyou", "meaning": "Tokyo" },
+          { "id": "b3", "type": "particle", "text": "へ", "furigana": "e", "meaning": "đến" },
+          { "id": "b4", "type": "grammar_ending", "text": "いきませんか", "furigana": "ikimasenka", "meaning": "đi không?" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g6_ex4",
+        "vietnamese_meaning": "Cùng nghỉ ngơi một chút nhé.",
+        "correct_sentence": "すこし やすみましょう",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "すこし", "furigana": "sukoshi", "meaning": "Một chút" },
+          { "id": "b2", "type": "grammar_ending", "text": "やすみましょう", "furigana": "yasumimashou", "meaning": "cùng nghỉ ngơi nhé" },
+          { "id": "b3", "type": "distractor", "text": "やすみます", "furigana": "yasumimasu", "meaning": "nghỉ ngơi" }
+        ],
+        "correct_order": ["b1", "b2"]
+      }
+    ]
+  }
+]

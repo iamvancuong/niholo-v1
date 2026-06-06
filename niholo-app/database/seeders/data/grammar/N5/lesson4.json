@@ -1,0 +1,101 @@
+[
+  {
+    "lesson_id": 4,
+    "title": "Thời gian: 今 〜時 〜分 です",
+    "description": "Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun/pun): phút.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g4_ex1",
+        "vietnamese_meaning": "Bây giờ là 4 giờ 5 phút.",
+        "correct_sentence": "いま よじ ごふん です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "いま", "furigana": "ima", "meaning": "Bây giờ" },
+          { "id": "b2", "type": "vocabulary", "text": "よじ", "furigana": "yoji", "meaning": "4 giờ" },
+          { "id": "b3", "type": "vocabulary", "text": "ごふん", "furigana": "gofun", "meaning": "5 phút" },
+          { "id": "b4", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" },
+          { "id": "b5", "type": "distractor", "text": "よんじ", "furigana": "yonji", "meaning": "4 giờ (sai)" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 4,
+    "title": "Động từ: ます / ません / ました / ませんでした",
+    "description": "Thể hiện thì hiện tại/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g4_ex2",
+        "vietnamese_meaning": "Hôm qua tôi đã học bài.",
+        "correct_sentence": "きのう わたし は べんきょうしました",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "きのう", "furigana": "kinou", "meaning": "Hôm qua" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "grammar_ending", "text": "べんきょうしました", "furigana": "benkyoushimashita", "meaning": "đã học" },
+          { "id": "b5", "type": "distractor", "text": "べんきょうします", "furigana": "benkyoushimasu", "meaning": "sẽ học" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      },
+      {
+        "exercise_id": "g4_ex3",
+        "vietnamese_meaning": "Ngày mai tôi sẽ không làm việc.",
+        "correct_sentence": "あした わたし は はたらきません",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "あした", "furigana": "ashita", "meaning": "Ngày mai" },
+          { "id": "b2", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b3", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b4", "type": "grammar_ending", "text": "はたらきません", "furigana": "hatarakimasen", "meaning": "không làm việc" },
+          { "id": "b5", "type": "distractor", "text": "はたらきませんでした", "furigana": "hatarakimasendeshita", "meaning": "đã không làm" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 4,
+    "title": "Trợ từ thời gian: に",
+    "description": "Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g4_ex4",
+        "vietnamese_meaning": "Tôi thức dậy lúc 6 rưỡi.",
+        "correct_sentence": "わたし は ろくじはん に おきます",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "わたし", "furigana": "watashi", "meaning": "Tôi" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "ろくじはん", "furigana": "rokujihan", "meaning": "6 giờ rưỡi" },
+          { "id": "b4", "type": "particle", "text": "に", "furigana": "ni", "meaning": "vào lúc" },
+          { "id": "b5", "type": "grammar_ending", "text": "おきます", "furigana": "okimasu", "meaning": "thức dậy" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5"]
+      }
+    ]
+  },
+  {
+    "lesson_id": 4,
+    "title": "Khoảng thời gian/địa điểm: から 〜 まで",
+    "description": "から: từ ~, まで: đến ~.",
+    "jlpt_level": "N5",
+    "exercises": [
+      {
+        "exercise_id": "g4_ex5",
+        "vietnamese_meaning": "Ngân hàng mở cửa từ 9 giờ đến 3 giờ.",
+        "correct_sentence": "ぎんこう は くじ から さんじ まで です",
+        "blocks": [
+          { "id": "b1", "type": "vocabulary", "text": "ぎんこう", "furigana": "ginkou", "meaning": "Ngân hàng" },
+          { "id": "b2", "type": "particle", "text": "は", "furigana": "wa", "meaning": "thì" },
+          { "id": "b3", "type": "vocabulary", "text": "くじ", "furigana": "kuji", "meaning": "9 giờ" },
+          { "id": "b4", "type": "particle", "text": "から", "furigana": "kara", "meaning": "từ" },
+          { "id": "b5", "type": "vocabulary", "text": "さんじ", "furigana": "sanji", "meaning": "3 giờ" },
+          { "id": "b6", "type": "particle", "text": "まで", "furigana": "made", "meaning": "đến" },
+          { "id": "b7", "type": "grammar_ending", "text": "です", "furigana": "desu", "meaning": "là" }
+        ],
+        "correct_order": ["b1", "b2", "b3", "b4", "b5", "b6", "b7"]
+      }
+    ]
+  }
+]

@@ -179,6 +179,228 @@
                     "exercises": {
                         "ex1": "(EN) Người kia là nhân viên của IMC."
                     }
+                },
+                "g6": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                },
+                "g16": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g17": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g18": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g19": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g20": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                },
+                "g21": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g22": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g23": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g24": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g25": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                },
+                "g26": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g27": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g28": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g29": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g30": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
+                },
+                "g31": {
+                    "title": "(EN) Khẳng định: N1 は N2 です",
+                    "description": "(EN) Dùng để giới thiệu N1 là N2. Trợ từ 'は' đọc là 'wa'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi là học sinh.",
+                        "ex2": "(EN) Cô ấy là người Việt Nam."
+                    }
+                },
+                "g32": {
+                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
+                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "exercises": {
+                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                    }
+                },
+                "g33": {
+                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
+                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
+                        "ex2": "(EN) Người kia là ai?"
+                    }
+                },
+                "g34": {
+                    "title": "(EN) Trợ từ も (Cũng)",
+                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                    }
+                },
+                "g35": {
+                    "title": "(EN) Trợ từ の (Sở hữu \/ Bổ nghĩa)",
+                    "description": "(EN) Trợ từ **の** nối hai danh từ. N1 bổ nghĩa cho N2 để thể hiện: sở hữu, phạm vi, xuất xứ, loại, v.v.",
+                    "exercises": {
+                        "ex1": "(EN) Người kia là nhân viên của IMC."
+                    }
                 }
             }
         },
@@ -305,6 +527,182 @@
                 "itsu": {
                     "meaning": "When",
                     "example": "When did you come to Japan?"
+                }
+            },
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g16": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
+                },
+                "g17": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g18": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g19": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g20": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
+                },
+                "g21": {
+                    "title": "(EN) Động từ di chuyển: 行きます \/ 来ます \/ 帰ります",
+                    "description": "(EN) Dùng để diễn tả sự di chuyển đến một địa điểm. Đi kèm với trợ từ へ (đọc là e) chỉ phương hướng.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi siêu thị.",
+                        "ex2": "(EN) Tháng trước tôi đã đến Nhật Bản."
+                    }
+                },
+                "g22": {
+                    "title": "(EN) Phủ định hoàn toàn: どこへも 行きません",
+                    "description": "(EN) Từ để hỏi + trợ từ も + động từ phủ định = phủ định hoàn toàn. Không đi đâu cả.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã không đi đâu cả."
+                    }
+                },
+                "g23": {
+                    "title": "(EN) Phương tiện di chuyển: Phương tiện + で",
+                    "description": "(EN) Trợ từ で đứng sau phương tiện di chuyển mang nghĩa 'bằng ~'. Ngoại trừ: đi bộ là あるいて.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi về nhà bằng xe buýt."
+                    }
+                },
+                "g24": {
+                    "title": "(EN) Người đồng hành: Người\/Động vật + と",
+                    "description": "(EN) Trợ từ と mang nghĩa 'cùng với ~'. Nếu đi một mình thì dùng ひとりで.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi đến Nhật Bản cùng với gia đình."
+                    }
                 }
             }
         },
@@ -459,10 +857,100 @@
             },
             "grammar": {
                 "g2": {
-                    "title": "(EN) Phủ định: N1 は N2 じゃありません",
-                    "description": "(EN) Dùng để phủ định: N1 không phải là N2.",
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
                     "exercises": {
-                        "ex1": "(EN) Anh ấy không phải là giáo viên."
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+                    "exercises": {
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+                    "exercises": {
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+                    "exercises": {
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+                    "exercises": {
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Chỉ thị từ: これ \/ それ \/ あれ は N です",
+                    "description": "(EN) Dùng để chỉ đồ vật. これ: gần người nói. それ: gần người nghe. あれ: xa cả hai.",
+                    "exercises": {
+                        "ex1": "(EN) Cái này là quyển sách.",
+                        "ex2": "(EN) Cái kia là từ điển phải không?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Chỉ thị từ bổ nghĩa: この \/ その \/ あの N は ...",
+                    "description": "(EN) この\/その\/あの phải luôn đi kèm với Danh từ ở phía sau. Dùng để xác định rõ Danh từ đó.",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách này là của tôi."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Câu hỏi lựa chọn: N1 ですか、N2 ですか",
+                    "description": "(EN) Dùng để hỏi sự lựa chọn giữa N1 và N2. Khi trả lời, không cần dùng 'はい' hay 'いいえ'.",
+                    "exercises": {
+                        "ex1": "(EN) Đây là chữ 'a' hay chữ 'o'?"
                     }
                 }
             }
@@ -634,11 +1122,100 @@
             },
             "grammar": {
                 "g3": {
-                    "title": "(EN) Câu hỏi: N1 は N2 ですか \/ Từ để hỏi: だれ",
-                    "description": "(EN) Dùng để hỏi N1 có phải là N2 không? Hoặc hỏi thông tin (Ai).",
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
                     "exercises": {
-                        "ex1": "(EN) Bạn là nhân viên ngân hàng phải không?",
-                        "ex2": "(EN) Người kia là ai?"
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
+                    "exercises": {
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
+                    "exercises": {
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
+                    "exercises": {
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
+                    "exercises": {
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Chỉ thị địa điểm: ここ \/ そこ \/ あそこ は N です",
+                    "description": "(EN) Dùng để chỉ địa điểm. ここ: chỗ này. そこ: chỗ đó. あそこ: chỗ kia. どこ: ở đâu.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này là nhà ăn.",
+                        "ex2": "(EN) Nhà vệ sinh ở đâu vậy?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Chỉ thị địa điểm lịch sự: こちら \/ そちら \/ あちら",
+                    "description": "(EN) Cách nói lịch sự của ここ \/ そこ \/ あそこ. Từ để hỏi là どちら.",
+                    "exercises": {
+                        "ex1": "(EN) Phòng họp là ở phía kia."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Xuất xứ, nơi sản xuất: N1 の N2",
+                    "description": "(EN) Dùng để nói về xuất xứ (quốc gia, công ty) sản xuất ra đồ vật.",
+                    "exercises": {
+                        "ex1": "(EN) Đây là ô tô của Nhật Bản."
                     }
                 }
             }
@@ -798,10 +1375,142 @@
             },
             "grammar": {
                 "g4": {
-                    "title": "(EN) Trợ từ も (Cũng)",
-                    "description": "(EN) Dùng để thể hiện sự tương đồng, thay thế cho trợ từ は.",
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
                     "exercises": {
-                        "ex1": "(EN) Tôi cũng là kỹ sư."
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g16": {
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g17": {
+                    "title": "(EN) Thời gian: 今 〜時 〜分 です",
+                    "description": "(EN) Dùng để nói giờ phút hiện tại. 時 (ji): giờ, 分 (fun\/pun): phút.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ là 4 giờ 5 phút."
+                    }
+                },
+                "g18": {
+                    "title": "(EN) Động từ: ます \/ ません \/ ました \/ ませんでした",
+                    "description": "(EN) Thể hiện thì hiện tại\/tương lai (ます), phủ định (ません), quá khứ (ました), phủ định quá khứ (ませんでした).",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua tôi đã học bài.",
+                        "ex2": "(EN) Ngày mai tôi sẽ không làm việc."
+                    }
+                },
+                "g19": {
+                    "title": "(EN) Trợ từ thời gian: に",
+                    "description": "(EN) Thêm trợ từ に sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thức dậy lúc 6 rưỡi."
+                    }
+                },
+                "g20": {
+                    "title": "(EN) Khoảng thời gian\/địa điểm: から 〜 まで",
+                    "description": "(EN) から: từ ~, まで: đến ~.",
+                    "exercises": {
+                        "ex1": "(EN) Ngân hàng mở cửa từ 9 giờ đến 3 giờ."
                     }
                 }
             }
@@ -973,6 +1682,1587 @@
                 "wakarimashita": {
                     "meaning": "I understand \/ OK",
                     "example": "Yes, I understood."
+                }
+            },
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Tân ngữ trực tiếp: N を Vます",
+                    "description": "(EN) Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Hành động tại địa điểm: N (địa điểm) で Vます",
+                    "description": "(EN) Trợ từ で chỉ nơi xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi học tiếng Nhật ở trường."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Mời rủ: Vませんか \/ Vましょう",
+                    "description": "(EN) Vませんか: Anh\/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+                    "exercises": {
+                        "ex1": "(EN) Cùng đi đến Tokyo không?",
+                        "ex2": "(EN) Cùng nghỉ ngơi một chút nhé."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Tân ngữ trực tiếp: N を Vます",
+                    "description": "(EN) Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Hành động tại địa điểm: N (địa điểm) で Vます",
+                    "description": "(EN) Trợ từ で chỉ nơi xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi học tiếng Nhật ở trường."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Mời rủ: Vませんか \/ Vましょう",
+                    "description": "(EN) Vませんか: Anh\/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+                    "exercises": {
+                        "ex1": "(EN) Cùng đi đến Tokyo không?",
+                        "ex2": "(EN) Cùng nghỉ ngơi một chút nhé."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Tân ngữ trực tiếp: N を Vます",
+                    "description": "(EN) Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Hành động tại địa điểm: N (địa điểm) で Vます",
+                    "description": "(EN) Trợ từ で chỉ nơi xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi học tiếng Nhật ở trường."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Mời rủ: Vませんか \/ Vましょう",
+                    "description": "(EN) Vませんか: Anh\/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+                    "exercises": {
+                        "ex1": "(EN) Cùng đi đến Tokyo không?",
+                        "ex2": "(EN) Cùng nghỉ ngơi một chút nhé."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Tân ngữ trực tiếp: N を Vます",
+                    "description": "(EN) Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Hành động tại địa điểm: N (địa điểm) で Vます",
+                    "description": "(EN) Trợ từ で chỉ nơi xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi học tiếng Nhật ở trường."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Mời rủ: Vませんか \/ Vましょう",
+                    "description": "(EN) Vませんか: Anh\/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+                    "exercises": {
+                        "ex1": "(EN) Cùng đi đến Tokyo không?",
+                        "ex2": "(EN) Cùng nghỉ ngơi một chút nhé."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Tân ngữ trực tiếp: N を Vます",
+                    "description": "(EN) Trợ từ を (đọc là o) đứng sau tân ngữ chịu tác động trực tiếp của động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Hành động tại địa điểm: N (địa điểm) で Vます",
+                    "description": "(EN) Trợ từ で chỉ nơi xảy ra hành động.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi học tiếng Nhật ở trường."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Mời rủ: Vませんか \/ Vましょう",
+                    "description": "(EN) Vませんか: Anh\/chị cùng làm V với tôi không? (mời rủ lịch sự).\nVましょう: Chúng ta cùng làm V nhé! (hô hào, đồng ý).",
+                    "exercises": {
+                        "ex1": "(EN) Cùng đi đến Tokyo không?",
+                        "ex2": "(EN) Cùng nghỉ ngơi một chút nhé."
+                    }
+                }
+            }
+        },
+        "lesson10": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Tồn tại: N が あります \/ います",
+                    "description": "(EN) あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+                    "exercises": {
+                        "ex1": "(EN) Có máy tính.",
+                        "ex2": "(EN) Có con mèo."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Vị trí: Địa điểm に N が あります \/ います",
+                    "description": "(EN) Để nói ở đâu có cái gì\/ai đó. Trợ từ に chỉ nơi tồn tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trong phòng có cái bàn."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Vị trí tương đối: N1(vật) の Vị trí",
+                    "description": "(EN) Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách ở trên bàn."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Tồn tại: N が あります \/ います",
+                    "description": "(EN) あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+                    "exercises": {
+                        "ex1": "(EN) Có máy tính.",
+                        "ex2": "(EN) Có con mèo."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Vị trí: Địa điểm に N が あります \/ います",
+                    "description": "(EN) Để nói ở đâu có cái gì\/ai đó. Trợ từ に chỉ nơi tồn tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trong phòng có cái bàn."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Vị trí tương đối: N1(vật) の Vị trí",
+                    "description": "(EN) Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách ở trên bàn."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Tồn tại: N が あります \/ います",
+                    "description": "(EN) あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+                    "exercises": {
+                        "ex1": "(EN) Có máy tính.",
+                        "ex2": "(EN) Có con mèo."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Vị trí: Địa điểm に N が あります \/ います",
+                    "description": "(EN) Để nói ở đâu có cái gì\/ai đó. Trợ từ に chỉ nơi tồn tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trong phòng có cái bàn."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Vị trí tương đối: N1(vật) の Vị trí",
+                    "description": "(EN) Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách ở trên bàn."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Tồn tại: N が あります \/ います",
+                    "description": "(EN) あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+                    "exercises": {
+                        "ex1": "(EN) Có máy tính.",
+                        "ex2": "(EN) Có con mèo."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Vị trí: Địa điểm に N が あります \/ います",
+                    "description": "(EN) Để nói ở đâu có cái gì\/ai đó. Trợ từ に chỉ nơi tồn tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trong phòng có cái bàn."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Vị trí tương đối: N1(vật) の Vị trí",
+                    "description": "(EN) Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách ở trên bàn."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Tồn tại: N が あります \/ います",
+                    "description": "(EN) あります dùng cho đồ vật vô tri (cây cỏ, đồ vật). います dùng cho sinh vật (người, động vật).",
+                    "exercises": {
+                        "ex1": "(EN) Có máy tính.",
+                        "ex2": "(EN) Có con mèo."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Vị trí: Địa điểm に N が あります \/ います",
+                    "description": "(EN) Để nói ở đâu có cái gì\/ai đó. Trợ từ に chỉ nơi tồn tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trong phòng có cái bàn."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Vị trí tương đối: N1(vật) の Vị trí",
+                    "description": "(EN) Vị trí như 上(trên), 下(dưới), 前(trước), 後ろ(sau), 右(phải), 左(trái), 中(trong), 外(ngoài), 隣(cạnh).",
+                    "exercises": {
+                        "ex1": "(EN) Quyển sách ở trên bàn."
+                    }
+                }
+            }
+        },
+        "lesson7": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Công cụ\/Phương tiện: N (công cụ) で Vます",
+                    "description": "(EN) Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm bằng đũa."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Cho\/Nhận: あげます \/ もらいます",
+                    "description": "(EN) あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã tặng hoa cho bạn.",
+                        "ex2": "(EN) Tôi đã nhận tiền từ gia đình."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Đã làm gì chưa?: もう Vました (か)",
+                    "description": "(EN) もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn đã ăn báo cáo chưa?"
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Công cụ\/Phương tiện: N (công cụ) で Vます",
+                    "description": "(EN) Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm bằng đũa."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Cho\/Nhận: あげます \/ もらいます",
+                    "description": "(EN) あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã tặng hoa cho bạn.",
+                        "ex2": "(EN) Tôi đã nhận tiền từ gia đình."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Đã làm gì chưa?: もう Vました (か)",
+                    "description": "(EN) もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn đã ăn báo cáo chưa?"
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Công cụ\/Phương tiện: N (công cụ) で Vます",
+                    "description": "(EN) Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm bằng đũa."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Cho\/Nhận: あげます \/ もらいます",
+                    "description": "(EN) あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã tặng hoa cho bạn.",
+                        "ex2": "(EN) Tôi đã nhận tiền từ gia đình."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Đã làm gì chưa?: もう Vました (か)",
+                    "description": "(EN) もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn đã ăn báo cáo chưa?"
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Công cụ\/Phương tiện: N (công cụ) で Vます",
+                    "description": "(EN) Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm bằng đũa."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Cho\/Nhận: あげます \/ もらいます",
+                    "description": "(EN) あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã tặng hoa cho bạn.",
+                        "ex2": "(EN) Tôi đã nhận tiền từ gia đình."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Đã làm gì chưa?: もう Vました (か)",
+                    "description": "(EN) もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn đã ăn báo cáo chưa?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Công cụ\/Phương tiện: N (công cụ) で Vます",
+                    "description": "(EN) Dùng trợ từ で để diễn tả hành động được thực hiện bằng công cụ hay phương tiện gì (kể cả ngôn ngữ).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi ăn cơm bằng đũa."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Cho\/Nhận: あげます \/ もらいます",
+                    "description": "(EN) あげます (cho, tặng): Người nhận đi với trợ từ に.\nもらいます (nhận): Người cho đi với trợ từ に (hoặc から).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã tặng hoa cho bạn.",
+                        "ex2": "(EN) Tôi đã nhận tiền từ gia đình."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Đã làm gì chưa?: もう Vました (か)",
+                    "description": "(EN) もう Vました (Đã V rồi). いいえ、まだです (Chưa, vẫn chưa).",
+                    "exercises": {
+                        "ex1": "(EN) Bạn đã ăn báo cáo chưa?"
+                    }
+                }
+            }
+        },
+        "lesson8": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Tính từ (な và い) bổ nghĩa",
+                    "description": "(EN) Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+                    "exercises": {
+                        "ex1": "(EN) Thầy Sakura là giáo viên tốt bụng.",
+                        "ex2": "(EN) Núi Phú Sĩ là ngọn núi cao."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Phủ định của tính từ: じゃありません \/ くないです",
+                    "description": "(EN) Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này không yên tĩnh.",
+                        "ex2": "(EN) Quyển sách này không đắt."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Câu hỏi: どうですか \/ どんな",
+                    "description": "(EN) どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+                    "exercises": {
+                        "ex1": "(EN) Cuộc sống ở Nhật thế nào?"
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Tính từ (な và い) bổ nghĩa",
+                    "description": "(EN) Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+                    "exercises": {
+                        "ex1": "(EN) Thầy Sakura là giáo viên tốt bụng.",
+                        "ex2": "(EN) Núi Phú Sĩ là ngọn núi cao."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Phủ định của tính từ: じゃありません \/ くないです",
+                    "description": "(EN) Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này không yên tĩnh.",
+                        "ex2": "(EN) Quyển sách này không đắt."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Câu hỏi: どうですか \/ どんな",
+                    "description": "(EN) どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+                    "exercises": {
+                        "ex1": "(EN) Cuộc sống ở Nhật thế nào?"
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Tính từ (な và い) bổ nghĩa",
+                    "description": "(EN) Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+                    "exercises": {
+                        "ex1": "(EN) Thầy Sakura là giáo viên tốt bụng.",
+                        "ex2": "(EN) Núi Phú Sĩ là ngọn núi cao."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Phủ định của tính từ: じゃありません \/ くないです",
+                    "description": "(EN) Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này không yên tĩnh.",
+                        "ex2": "(EN) Quyển sách này không đắt."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Câu hỏi: どうですか \/ どんな",
+                    "description": "(EN) どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+                    "exercises": {
+                        "ex1": "(EN) Cuộc sống ở Nhật thế nào?"
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Tính từ (な và い) bổ nghĩa",
+                    "description": "(EN) Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+                    "exercises": {
+                        "ex1": "(EN) Thầy Sakura là giáo viên tốt bụng.",
+                        "ex2": "(EN) Núi Phú Sĩ là ngọn núi cao."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Phủ định của tính từ: じゃありません \/ くないです",
+                    "description": "(EN) Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này không yên tĩnh.",
+                        "ex2": "(EN) Quyển sách này không đắt."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Câu hỏi: どうですか \/ どんな",
+                    "description": "(EN) どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+                    "exercises": {
+                        "ex1": "(EN) Cuộc sống ở Nhật thế nào?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Tính từ (な và い) bổ nghĩa",
+                    "description": "(EN) Tính từ đuôi な: A な N. Tính từ đuôi い: A い N. Dùng để miêu tả đặc điểm của danh từ.",
+                    "exercises": {
+                        "ex1": "(EN) Thầy Sakura là giáo viên tốt bụng.",
+                        "ex2": "(EN) Núi Phú Sĩ là ngọn núi cao."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Phủ định của tính từ: じゃありません \/ くないです",
+                    "description": "(EN) Phủ định tính từ な: A じゃありません. Phủ định tính từ い: Bỏ い thêm くないです.",
+                    "exercises": {
+                        "ex1": "(EN) Chỗ này không yên tĩnh.",
+                        "ex2": "(EN) Quyển sách này không đắt."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Câu hỏi: どうですか \/ どんな",
+                    "description": "(EN) どうですか: Hỏi về cảm nhận (Như thế nào?). どんな N: Hỏi về tính chất (N như thế nào?).",
+                    "exercises": {
+                        "ex1": "(EN) Cuộc sống ở Nhật thế nào?"
+                    }
+                }
+            }
+        },
+        "lesson9": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Sở thích \/ Khả năng: N が あります \/ わかります \/ すきです",
+                    "description": "(EN) Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thích thể thao.",
+                        "ex2": "(EN) Tôi hiểu tiếng Nhật."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Mức độ: よく \/ だいたい \/ すこし \/ あまり \/ ぜんぜん",
+                    "description": "(EN) よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi hoàn toàn không có tiền."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Lý do: S1 から、S2",
+                    "description": "(EN) Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+                    "exercises": {
+                        "ex1": "(EN) Vì bận rộn nên tôi không xem TV."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Sở thích \/ Khả năng: N が あります \/ わかります \/ すきです",
+                    "description": "(EN) Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thích thể thao.",
+                        "ex2": "(EN) Tôi hiểu tiếng Nhật."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Mức độ: よく \/ だいたい \/ すこし \/ あまり \/ ぜんぜん",
+                    "description": "(EN) よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi hoàn toàn không có tiền."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Lý do: S1 から、S2",
+                    "description": "(EN) Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+                    "exercises": {
+                        "ex1": "(EN) Vì bận rộn nên tôi không xem TV."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Sở thích \/ Khả năng: N が あります \/ わかります \/ すきです",
+                    "description": "(EN) Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thích thể thao.",
+                        "ex2": "(EN) Tôi hiểu tiếng Nhật."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Mức độ: よく \/ だいたい \/ すこし \/ あまり \/ ぜんぜん",
+                    "description": "(EN) よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi hoàn toàn không có tiền."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Lý do: S1 から、S2",
+                    "description": "(EN) Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+                    "exercises": {
+                        "ex1": "(EN) Vì bận rộn nên tôi không xem TV."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Sở thích \/ Khả năng: N が あります \/ わかります \/ すきです",
+                    "description": "(EN) Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thích thể thao.",
+                        "ex2": "(EN) Tôi hiểu tiếng Nhật."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Mức độ: よく \/ だいたい \/ すこし \/ あまり \/ ぜんぜん",
+                    "description": "(EN) よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi hoàn toàn không có tiền."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Lý do: S1 から、S2",
+                    "description": "(EN) Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+                    "exercises": {
+                        "ex1": "(EN) Vì bận rộn nên tôi không xem TV."
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Sở thích \/ Khả năng: N が あります \/ わかります \/ すきです",
+                    "description": "(EN) Đi với trợ từ が. Thể hiện năng lực (hiểu, có) hoặc sở thích (thích, ghét, giỏi, kém).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi thích thể thao.",
+                        "ex2": "(EN) Tôi hiểu tiếng Nhật."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Mức độ: よく \/ だいたい \/ すこし \/ あまり \/ ぜんぜん",
+                    "description": "(EN) よく (rất tốt), だいたい (đại khái), すこし (một chút) đi với khẳng định. あまり (không lắm), ぜんぜん (hoàn toàn không) đi với phủ định.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi hoàn toàn không có tiền."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Lý do: S1 から、S2",
+                    "description": "(EN) Dùng から nối 2 mệnh đề: Vì S1 nên S2. Dùng để chỉ lý do.",
+                    "exercises": {
+                        "ex1": "(EN) Vì bận rộn nên tôi không xem TV."
+                    }
+                }
+            }
+        },
+        "lesson11": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Lượng từ: Số đếm + Lượng từ",
+                    "description": "(EN) Lượng từ dùng để đếm đồ vật, con người (Ví dụ: つ, 人, 枚, 台). Lượng từ thường đứng ngay sau tân ngữ và trước động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã mua hai quả táo."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Tần suất: Khoảng thời gian に ~ 回 Vます",
+                    "description": "(EN) Biểu thị tần suất làm việc gì đó trong một khoảng thời gian.",
+                    "exercises": {
+                        "ex1": "(EN) Một tháng tôi xem phim 2 lần."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Thời gian tiêu tốn: かかります",
+                    "description": "(EN) Dùng để nói mất bao lâu (thời gian) hoặc tốn bao nhiêu (tiền bạc).",
+                    "exercises": {
+                        "ex1": "(EN) Từ nhà đến trường mất 1 tiếng."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Lượng từ: Số đếm + Lượng từ",
+                    "description": "(EN) Lượng từ dùng để đếm đồ vật, con người (Ví dụ: つ, 人, 枚, 台). Lượng từ thường đứng ngay sau tân ngữ và trước động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã mua hai quả táo."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Tần suất: Khoảng thời gian に ~ 回 Vます",
+                    "description": "(EN) Biểu thị tần suất làm việc gì đó trong một khoảng thời gian.",
+                    "exercises": {
+                        "ex1": "(EN) Một tháng tôi xem phim 2 lần."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Thời gian tiêu tốn: かかります",
+                    "description": "(EN) Dùng để nói mất bao lâu (thời gian) hoặc tốn bao nhiêu (tiền bạc).",
+                    "exercises": {
+                        "ex1": "(EN) Từ nhà đến trường mất 1 tiếng."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Lượng từ: Số đếm + Lượng từ",
+                    "description": "(EN) Lượng từ dùng để đếm đồ vật, con người (Ví dụ: つ, 人, 枚, 台). Lượng từ thường đứng ngay sau tân ngữ và trước động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã mua hai quả táo."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Tần suất: Khoảng thời gian に ~ 回 Vます",
+                    "description": "(EN) Biểu thị tần suất làm việc gì đó trong một khoảng thời gian.",
+                    "exercises": {
+                        "ex1": "(EN) Một tháng tôi xem phim 2 lần."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Thời gian tiêu tốn: かかります",
+                    "description": "(EN) Dùng để nói mất bao lâu (thời gian) hoặc tốn bao nhiêu (tiền bạc).",
+                    "exercises": {
+                        "ex1": "(EN) Từ nhà đến trường mất 1 tiếng."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Lượng từ: Số đếm + Lượng từ",
+                    "description": "(EN) Lượng từ dùng để đếm đồ vật, con người (Ví dụ: つ, 人, 枚, 台). Lượng từ thường đứng ngay sau tân ngữ và trước động từ.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã mua hai quả táo."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Tần suất: Khoảng thời gian に ~ 回 Vます",
+                    "description": "(EN) Biểu thị tần suất làm việc gì đó trong một khoảng thời gian.",
+                    "exercises": {
+                        "ex1": "(EN) Một tháng tôi xem phim 2 lần."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Thời gian tiêu tốn: かかります",
+                    "description": "(EN) Dùng để nói mất bao lâu (thời gian) hoặc tốn bao nhiêu (tiền bạc).",
+                    "exercises": {
+                        "ex1": "(EN) Từ nhà đến trường mất 1 tiếng."
+                    }
+                }
+            }
+        },
+        "lesson12": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Thì quá khứ của Danh từ và Tính từ な",
+                    "description": "(EN) Khẳng định: でした. Phủ định: じゃありませんでした.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua trời đã mưa."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Thì quá khứ của Tính từ い",
+                    "description": "(EN) Bỏ い thêm かったです (khẳng định). Phủ định: くなかったです.",
+                    "exercises": {
+                        "ex1": "(EN) Bộ phim hôm qua rất thú vị."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) So sánh hơn: N1 は N2 より Adj です",
+                    "description": "(EN) N1 có tính chất Adj hơn N2. (より: hơn).",
+                    "exercises": {
+                        "ex1": "(EN) Tokyo lớn hơn Osaka."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) So sánh nhất: Phạm vi で Nghi vấn từ が いちばん Adj です",
+                    "description": "(EN) Trong một phạm vi (thế giới, Nhật Bản, một năm...), cái gì\/ai\/khi nào là nhất.",
+                    "exercises": {
+                        "ex1": "(EN) Trong một năm, khi nào là nóng nhất?"
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Thì quá khứ của Danh từ và Tính từ な",
+                    "description": "(EN) Khẳng định: でした. Phủ định: じゃありませんでした.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua trời đã mưa."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Thì quá khứ của Tính từ い",
+                    "description": "(EN) Bỏ い thêm かったです (khẳng định). Phủ định: くなかったです.",
+                    "exercises": {
+                        "ex1": "(EN) Bộ phim hôm qua rất thú vị."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) So sánh hơn: N1 は N2 より Adj です",
+                    "description": "(EN) N1 có tính chất Adj hơn N2. (より: hơn).",
+                    "exercises": {
+                        "ex1": "(EN) Tokyo lớn hơn Osaka."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) So sánh nhất: Phạm vi で Nghi vấn từ が いちばん Adj です",
+                    "description": "(EN) Trong một phạm vi (thế giới, Nhật Bản, một năm...), cái gì\/ai\/khi nào là nhất.",
+                    "exercises": {
+                        "ex1": "(EN) Trong một năm, khi nào là nóng nhất?"
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Thì quá khứ của Danh từ và Tính từ な",
+                    "description": "(EN) Khẳng định: でした. Phủ định: じゃありませんでした.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua trời đã mưa."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Thì quá khứ của Tính từ い",
+                    "description": "(EN) Bỏ い thêm かったです (khẳng định). Phủ định: くなかったです.",
+                    "exercises": {
+                        "ex1": "(EN) Bộ phim hôm qua rất thú vị."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) So sánh hơn: N1 は N2 より Adj です",
+                    "description": "(EN) N1 có tính chất Adj hơn N2. (より: hơn).",
+                    "exercises": {
+                        "ex1": "(EN) Tokyo lớn hơn Osaka."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) So sánh nhất: Phạm vi で Nghi vấn từ が いちばん Adj です",
+                    "description": "(EN) Trong một phạm vi (thế giới, Nhật Bản, một năm...), cái gì\/ai\/khi nào là nhất.",
+                    "exercises": {
+                        "ex1": "(EN) Trong một năm, khi nào là nóng nhất?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Thì quá khứ của Danh từ và Tính từ な",
+                    "description": "(EN) Khẳng định: でした. Phủ định: じゃありませんでした.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm qua trời đã mưa."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Thì quá khứ của Tính từ い",
+                    "description": "(EN) Bỏ い thêm かったです (khẳng định). Phủ định: くなかったです.",
+                    "exercises": {
+                        "ex1": "(EN) Bộ phim hôm qua rất thú vị."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) So sánh hơn: N1 は N2 より Adj です",
+                    "description": "(EN) N1 có tính chất Adj hơn N2. (より: hơn).",
+                    "exercises": {
+                        "ex1": "(EN) Tokyo lớn hơn Osaka."
+                    }
+                },
+                "g16": {
+                    "title": "(EN) So sánh nhất: Phạm vi で Nghi vấn từ が いちばん Adj です",
+                    "description": "(EN) Trong một phạm vi (thế giới, Nhật Bản, một năm...), cái gì\/ai\/khi nào là nhất.",
+                    "exercises": {
+                        "ex1": "(EN) Trong một năm, khi nào là nóng nhất?"
+                    }
+                }
+            }
+        },
+        "lesson13": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Mong muốn có danh từ: N が ほしいです",
+                    "description": "(EN) Dùng để diễn tả mong muốn sở hữu một vật gì đó. Trợ từ đi kèm luôn là が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn có máy tính."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Mong muốn làm gì: V たいです",
+                    "description": "(EN) Bỏ ます thêm たいです. Diễn tả mong muốn thực hiện hành động. Trợ từ を có thể thay bằng が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn đi Nhật Bản."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Mục đích di chuyển: Địa điểm へ V \/ N に 行きます",
+                    "description": "(EN) Đi\/Đến\/Về đâu đó ĐỂ làm gì. Nếu là động từ thì bỏ ます. Nếu là danh từ (danh động từ) thì giữ nguyên.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi bưu điện để gửi thư."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Mong muốn có danh từ: N が ほしいです",
+                    "description": "(EN) Dùng để diễn tả mong muốn sở hữu một vật gì đó. Trợ từ đi kèm luôn là が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn có máy tính."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Mong muốn làm gì: V たいです",
+                    "description": "(EN) Bỏ ます thêm たいです. Diễn tả mong muốn thực hiện hành động. Trợ từ を có thể thay bằng が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn đi Nhật Bản."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Mục đích di chuyển: Địa điểm へ V \/ N に 行きます",
+                    "description": "(EN) Đi\/Đến\/Về đâu đó ĐỂ làm gì. Nếu là động từ thì bỏ ます. Nếu là danh từ (danh động từ) thì giữ nguyên.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi bưu điện để gửi thư."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Mong muốn có danh từ: N が ほしいです",
+                    "description": "(EN) Dùng để diễn tả mong muốn sở hữu một vật gì đó. Trợ từ đi kèm luôn là が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn có máy tính."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Mong muốn làm gì: V たいです",
+                    "description": "(EN) Bỏ ます thêm たいです. Diễn tả mong muốn thực hiện hành động. Trợ từ を có thể thay bằng が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn đi Nhật Bản."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Mục đích di chuyển: Địa điểm へ V \/ N に 行きます",
+                    "description": "(EN) Đi\/Đến\/Về đâu đó ĐỂ làm gì. Nếu là động từ thì bỏ ます. Nếu là danh từ (danh động từ) thì giữ nguyên.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi bưu điện để gửi thư."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Mong muốn có danh từ: N が ほしいです",
+                    "description": "(EN) Dùng để diễn tả mong muốn sở hữu một vật gì đó. Trợ từ đi kèm luôn là が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn có máy tính."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Mong muốn làm gì: V たいです",
+                    "description": "(EN) Bỏ ます thêm たいです. Diễn tả mong muốn thực hiện hành động. Trợ từ を có thể thay bằng が.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi muốn đi Nhật Bản."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Mục đích di chuyển: Địa điểm へ V \/ N に 行きます",
+                    "description": "(EN) Đi\/Đến\/Về đâu đó ĐỂ làm gì. Nếu là động từ thì bỏ ます. Nếu là danh từ (danh động từ) thì giữ nguyên.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đi bưu điện để gửi thư."
+                    }
+                }
+            }
+        },
+        "lesson14": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Cách chia động từ thể Te (て形)",
+                    "description": "(EN) Nhóm 1: い、ち、り -> って \/ み、に、び -> んで \/ き -> いて \/ ぎ -> いで \/ し -> して. Nhóm 2: Bỏ ます thêm て. Nhóm 3: します -> して \/ きます -> きて.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy đợi một chút."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Yêu cầu: Vてください",
+                    "description": "(EN) Dùng để nhờ vả, yêu cầu ai đó làm gì một cách lịch sự.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy viết tên vào đây."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Hành động đang diễn ra: Vています",
+                    "description": "(EN) Thể hiện hành động đang diễn ra tại thời điểm nói.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ trời đang mưa."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Đề nghị giúp đỡ: Vましょうか",
+                    "description": "(EN) Dùng khi người nói chủ động đề nghị làm giúp người nghe việc gì đó.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi mở cửa sổ giúp bạn nhé?"
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Cách chia động từ thể Te (て形)",
+                    "description": "(EN) Nhóm 1: い、ち、り -> って \/ み、に、び -> んで \/ き -> いて \/ ぎ -> いで \/ し -> して. Nhóm 2: Bỏ ます thêm て. Nhóm 3: します -> して \/ きます -> きて.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy đợi một chút."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Yêu cầu: Vてください",
+                    "description": "(EN) Dùng để nhờ vả, yêu cầu ai đó làm gì một cách lịch sự.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy viết tên vào đây."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Hành động đang diễn ra: Vています",
+                    "description": "(EN) Thể hiện hành động đang diễn ra tại thời điểm nói.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ trời đang mưa."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Đề nghị giúp đỡ: Vましょうか",
+                    "description": "(EN) Dùng khi người nói chủ động đề nghị làm giúp người nghe việc gì đó.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi mở cửa sổ giúp bạn nhé?"
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Cách chia động từ thể Te (て形)",
+                    "description": "(EN) Nhóm 1: い、ち、り -> って \/ み、に、び -> んで \/ き -> いて \/ ぎ -> いで \/ し -> して. Nhóm 2: Bỏ ます thêm て. Nhóm 3: します -> して \/ きます -> きて.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy đợi một chút."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Yêu cầu: Vてください",
+                    "description": "(EN) Dùng để nhờ vả, yêu cầu ai đó làm gì một cách lịch sự.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy viết tên vào đây."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Hành động đang diễn ra: Vています",
+                    "description": "(EN) Thể hiện hành động đang diễn ra tại thời điểm nói.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ trời đang mưa."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Đề nghị giúp đỡ: Vましょうか",
+                    "description": "(EN) Dùng khi người nói chủ động đề nghị làm giúp người nghe việc gì đó.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi mở cửa sổ giúp bạn nhé?"
+                    }
+                },
+                "g13": {
+                    "title": "(EN) Cách chia động từ thể Te (て形)",
+                    "description": "(EN) Nhóm 1: い、ち、り -> って \/ み、に、び -> んで \/ き -> いて \/ ぎ -> いで \/ し -> して. Nhóm 2: Bỏ ます thêm て. Nhóm 3: します -> して \/ きます -> きて.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy đợi một chút."
+                    }
+                },
+                "g14": {
+                    "title": "(EN) Yêu cầu: Vてください",
+                    "description": "(EN) Dùng để nhờ vả, yêu cầu ai đó làm gì một cách lịch sự.",
+                    "exercises": {
+                        "ex1": "(EN) Xin hãy viết tên vào đây."
+                    }
+                },
+                "g15": {
+                    "title": "(EN) Hành động đang diễn ra: Vています",
+                    "description": "(EN) Thể hiện hành động đang diễn ra tại thời điểm nói.",
+                    "exercises": {
+                        "ex1": "(EN) Bây giờ trời đang mưa."
+                    }
+                },
+                "g16": {
+                    "title": "(EN) Đề nghị giúp đỡ: Vましょうか",
+                    "description": "(EN) Dùng khi người nói chủ động đề nghị làm giúp người nghe việc gì đó.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi mở cửa sổ giúp bạn nhé?"
+                    }
+                }
+            }
+        },
+        "lesson15": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Xin phép: Vてもいいですか",
+                    "description": "(EN) Dùng để xin phép người khác xem mình làm hành động V có được không.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi chụp ảnh có được không?"
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Cấm đoán: Vてはいけません",
+                    "description": "(EN) Dùng để cấm đoán, không được phép làm gì.",
+                    "exercises": {
+                        "ex1": "(EN) Không được hút thuốc ở đây."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Trạng thái \/ Thói quen: Vています",
+                    "description": "(EN) Diễn tả một trạng thái (đã kết hôn, biết, sống ở đâu) hoặc một thói quen lặp đi lặp lại (nghề nghiệp).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đang sống ở Osaka.",
+                        "ex2": "(EN) Tôi đã kết hôn."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Xin phép: Vてもいいですか",
+                    "description": "(EN) Dùng để xin phép người khác xem mình làm hành động V có được không.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi chụp ảnh có được không?"
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Cấm đoán: Vてはいけません",
+                    "description": "(EN) Dùng để cấm đoán, không được phép làm gì.",
+                    "exercises": {
+                        "ex1": "(EN) Không được hút thuốc ở đây."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Trạng thái \/ Thói quen: Vています",
+                    "description": "(EN) Diễn tả một trạng thái (đã kết hôn, biết, sống ở đâu) hoặc một thói quen lặp đi lặp lại (nghề nghiệp).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đang sống ở Osaka.",
+                        "ex2": "(EN) Tôi đã kết hôn."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Xin phép: Vてもいいですか",
+                    "description": "(EN) Dùng để xin phép người khác xem mình làm hành động V có được không.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi chụp ảnh có được không?"
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Cấm đoán: Vてはいけません",
+                    "description": "(EN) Dùng để cấm đoán, không được phép làm gì.",
+                    "exercises": {
+                        "ex1": "(EN) Không được hút thuốc ở đây."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Trạng thái \/ Thói quen: Vています",
+                    "description": "(EN) Diễn tả một trạng thái (đã kết hôn, biết, sống ở đâu) hoặc một thói quen lặp đi lặp lại (nghề nghiệp).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đang sống ở Osaka.",
+                        "ex2": "(EN) Tôi đã kết hôn."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Xin phép: Vてもいいですか",
+                    "description": "(EN) Dùng để xin phép người khác xem mình làm hành động V có được không.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi chụp ảnh có được không?"
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Cấm đoán: Vてはいけません",
+                    "description": "(EN) Dùng để cấm đoán, không được phép làm gì.",
+                    "exercises": {
+                        "ex1": "(EN) Không được hút thuốc ở đây."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Trạng thái \/ Thói quen: Vています",
+                    "description": "(EN) Diễn tả một trạng thái (đã kết hôn, biết, sống ở đâu) hoặc một thói quen lặp đi lặp lại (nghề nghiệp).",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đang sống ở Osaka.",
+                        "ex2": "(EN) Tôi đã kết hôn."
+                    }
+                }
+            }
+        },
+        "lesson16": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Nối câu bằng thể Te (て形)",
+                    "description": "(EN) Nối các hành động theo trình tự thời gian (Làm V1 rồi V2).",
+                    "exercises": {
+                        "ex1": "(EN) Sáng nay tôi thức dậy rồi chạy bộ."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Sau khi làm V1 thì làm V2: V1てから、V2",
+                    "description": "(EN) Nhấn mạnh hành động V1 phải hoàn thành xong rồi mới đến V2.",
+                    "exercises": {
+                        "ex1": "(EN) Sau khi kết thúc công việc, tôi đi uống rượu."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Nối Tính từ \/ Danh từ",
+                    "description": "(EN) Tính từ い -> Bỏ い thêm くて. Tính từ な -> Bỏ な thêm で. Danh từ -> Thêm で.",
+                    "exercises": {
+                        "ex1": "(EN) Cô gái kia vừa trẻ vừa đẹp."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Nối câu bằng thể Te (て形)",
+                    "description": "(EN) Nối các hành động theo trình tự thời gian (Làm V1 rồi V2).",
+                    "exercises": {
+                        "ex1": "(EN) Sáng nay tôi thức dậy rồi chạy bộ."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Sau khi làm V1 thì làm V2: V1てから、V2",
+                    "description": "(EN) Nhấn mạnh hành động V1 phải hoàn thành xong rồi mới đến V2.",
+                    "exercises": {
+                        "ex1": "(EN) Sau khi kết thúc công việc, tôi đi uống rượu."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Nối Tính từ \/ Danh từ",
+                    "description": "(EN) Tính từ い -> Bỏ い thêm くて. Tính từ な -> Bỏ な thêm で. Danh từ -> Thêm で.",
+                    "exercises": {
+                        "ex1": "(EN) Cô gái kia vừa trẻ vừa đẹp."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Nối câu bằng thể Te (て形)",
+                    "description": "(EN) Nối các hành động theo trình tự thời gian (Làm V1 rồi V2).",
+                    "exercises": {
+                        "ex1": "(EN) Sáng nay tôi thức dậy rồi chạy bộ."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Sau khi làm V1 thì làm V2: V1てから、V2",
+                    "description": "(EN) Nhấn mạnh hành động V1 phải hoàn thành xong rồi mới đến V2.",
+                    "exercises": {
+                        "ex1": "(EN) Sau khi kết thúc công việc, tôi đi uống rượu."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Nối Tính từ \/ Danh từ",
+                    "description": "(EN) Tính từ い -> Bỏ い thêm くて. Tính từ な -> Bỏ な thêm で. Danh từ -> Thêm で.",
+                    "exercises": {
+                        "ex1": "(EN) Cô gái kia vừa trẻ vừa đẹp."
+                    }
+                }
+            }
+        },
+        "lesson17": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Cách chia Thể Nai (ない形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng あ + ない (VD: いきます -> いかない). Trừ: あります -> ない. Nhóm 2: Bỏ ます thêm ない. Nhóm 3: します -> しない \/ きます -> こない.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm nay tôi không đi học."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Yêu cầu đừng làm gì: Vないで ください",
+                    "description": "(EN) Dùng để khuyên, yêu cầu ai đó ĐỪNG làm hành động V.",
+                    "exercises": {
+                        "ex1": "(EN) Xin đừng chụp ảnh ở đây."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Phải làm V: Vなければ なりません",
+                    "description": "(EN) Thể ない bỏ い thêm ければ なりません. Nghĩa là 'Phải làm gì đó' (Bắt buộc).",
+                    "exercises": {
+                        "ex1": "(EN) Ngày mai tôi phải dậy sớm."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Không cần làm V cũng được: Vなくても いいです",
+                    "description": "(EN) Thể ない bỏ い thêm くても いいです. Nghĩa là 'Không làm V cũng không sao'.",
+                    "exercises": {
+                        "ex1": "(EN) Không cần cởi giày cũng được."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Cách chia Thể Nai (ない形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng あ + ない (VD: いきます -> いかない). Trừ: あります -> ない. Nhóm 2: Bỏ ます thêm ない. Nhóm 3: します -> しない \/ きます -> こない.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm nay tôi không đi học."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Yêu cầu đừng làm gì: Vないで ください",
+                    "description": "(EN) Dùng để khuyên, yêu cầu ai đó ĐỪNG làm hành động V.",
+                    "exercises": {
+                        "ex1": "(EN) Xin đừng chụp ảnh ở đây."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Phải làm V: Vなければ なりません",
+                    "description": "(EN) Thể ない bỏ い thêm ければ なりません. Nghĩa là 'Phải làm gì đó' (Bắt buộc).",
+                    "exercises": {
+                        "ex1": "(EN) Ngày mai tôi phải dậy sớm."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Không cần làm V cũng được: Vなくても いいです",
+                    "description": "(EN) Thể ない bỏ い thêm くても いいです. Nghĩa là 'Không làm V cũng không sao'.",
+                    "exercises": {
+                        "ex1": "(EN) Không cần cởi giày cũng được."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Cách chia Thể Nai (ない形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng あ + ない (VD: いきます -> いかない). Trừ: あります -> ない. Nhóm 2: Bỏ ます thêm ない. Nhóm 3: します -> しない \/ きます -> こない.",
+                    "exercises": {
+                        "ex1": "(EN) Hôm nay tôi không đi học."
+                    }
+                },
+                "g10": {
+                    "title": "(EN) Yêu cầu đừng làm gì: Vないで ください",
+                    "description": "(EN) Dùng để khuyên, yêu cầu ai đó ĐỪNG làm hành động V.",
+                    "exercises": {
+                        "ex1": "(EN) Xin đừng chụp ảnh ở đây."
+                    }
+                },
+                "g11": {
+                    "title": "(EN) Phải làm V: Vなければ なりません",
+                    "description": "(EN) Thể ない bỏ い thêm ければ なりません. Nghĩa là 'Phải làm gì đó' (Bắt buộc).",
+                    "exercises": {
+                        "ex1": "(EN) Ngày mai tôi phải dậy sớm."
+                    }
+                },
+                "g12": {
+                    "title": "(EN) Không cần làm V cũng được: Vなくても いいです",
+                    "description": "(EN) Thể ない bỏ い thêm くても いいです. Nghĩa là 'Không làm V cũng không sao'.",
+                    "exercises": {
+                        "ex1": "(EN) Không cần cởi giày cũng được."
+                    }
+                }
+            }
+        },
+        "lesson18": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Cách chia Thể Từ Điển (辞書形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng う. Nhóm 2: Bỏ ます thêm る. Nhóm 3: します -> する \/ きます -> くる.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi có thể nói tiếng Nhật."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Sở thích là làm việc gì đó: N \/ Vること です",
+                    "description": "(EN) Để nói sở thích là gì. Dùng danh từ hoặc Vる + こと (Danh từ hóa động từ).",
+                    "exercises": {
+                        "ex1": "(EN) Sở thích của tôi là xem phim."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Trước khi: Vる \/ Nの \/ Thời gian + まえに、V2",
+                    "description": "(EN) Làm V2 trước khi làm V1\/N\/Thời gian. V1 luôn ở thể từ điển, dù quá khứ hay hiện tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trước khi ngủ tôi đọc sách."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Cách chia Thể Từ Điển (辞書形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng う. Nhóm 2: Bỏ ます thêm る. Nhóm 3: します -> する \/ きます -> くる.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi có thể nói tiếng Nhật."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Sở thích là làm việc gì đó: N \/ Vること です",
+                    "description": "(EN) Để nói sở thích là gì. Dùng danh từ hoặc Vる + こと (Danh từ hóa động từ).",
+                    "exercises": {
+                        "ex1": "(EN) Sở thích của tôi là xem phim."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Trước khi: Vる \/ Nの \/ Thời gian + まえに、V2",
+                    "description": "(EN) Làm V2 trước khi làm V1\/N\/Thời gian. V1 luôn ở thể từ điển, dù quá khứ hay hiện tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trước khi ngủ tôi đọc sách."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Cách chia Thể Từ Điển (辞書形)",
+                    "description": "(EN) Nhóm 1: Đổi hàng い sang hàng う. Nhóm 2: Bỏ ます thêm る. Nhóm 3: します -> する \/ きます -> くる.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi có thể nói tiếng Nhật."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Sở thích là làm việc gì đó: N \/ Vること です",
+                    "description": "(EN) Để nói sở thích là gì. Dùng danh từ hoặc Vる + こと (Danh từ hóa động từ).",
+                    "exercises": {
+                        "ex1": "(EN) Sở thích của tôi là xem phim."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Trước khi: Vる \/ Nの \/ Thời gian + まえに、V2",
+                    "description": "(EN) Làm V2 trước khi làm V1\/N\/Thời gian. V1 luôn ở thể từ điển, dù quá khứ hay hiện tại.",
+                    "exercises": {
+                        "ex1": "(EN) Trước khi ngủ tôi đọc sách."
+                    }
+                }
+            }
+        },
+        "lesson19": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Cách chia Thể Ta (た形) và Kinh nghiệm: Vた ことがあります",
+                    "description": "(EN) Cách chia giống thể て nhưng thay て\/で bằng た\/だ. Mẫu câu dùng để nói kinh nghiệm 'Đã từng làm V'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã từng cưỡi ngựa."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Liệt kê hành động: V1たり、V2たり します",
+                    "description": "(EN) Liệt kê các hành động tiêu biểu. Chia động từ về thể た + り.",
+                    "exercises": {
+                        "ex1": "(EN) Chủ nhật tôi thường đọc sách, xem TV..."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Trở nên: A(bỏ い)く \/ Aな \/ N に なります",
+                    "description": "(EN) Thể hiện sự thay đổi trạng thái. (VD: Nóng lên, trở nên đẹp, trở thành giáo viên).",
+                    "exercises": {
+                        "ex1": "(EN) Trời đã trở lạnh."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Cách chia Thể Ta (た形) và Kinh nghiệm: Vた ことがあります",
+                    "description": "(EN) Cách chia giống thể て nhưng thay て\/で bằng た\/だ. Mẫu câu dùng để nói kinh nghiệm 'Đã từng làm V'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã từng cưỡi ngựa."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Liệt kê hành động: V1たり、V2たり します",
+                    "description": "(EN) Liệt kê các hành động tiêu biểu. Chia động từ về thể た + り.",
+                    "exercises": {
+                        "ex1": "(EN) Chủ nhật tôi thường đọc sách, xem TV..."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Trở nên: A(bỏ い)く \/ Aな \/ N に なります",
+                    "description": "(EN) Thể hiện sự thay đổi trạng thái. (VD: Nóng lên, trở nên đẹp, trở thành giáo viên).",
+                    "exercises": {
+                        "ex1": "(EN) Trời đã trở lạnh."
+                    }
+                },
+                "g7": {
+                    "title": "(EN) Cách chia Thể Ta (た形) và Kinh nghiệm: Vた ことがあります",
+                    "description": "(EN) Cách chia giống thể て nhưng thay て\/で bằng た\/だ. Mẫu câu dùng để nói kinh nghiệm 'Đã từng làm V'.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã từng cưỡi ngựa."
+                    }
+                },
+                "g8": {
+                    "title": "(EN) Liệt kê hành động: V1たり、V2たり します",
+                    "description": "(EN) Liệt kê các hành động tiêu biểu. Chia động từ về thể た + り.",
+                    "exercises": {
+                        "ex1": "(EN) Chủ nhật tôi thường đọc sách, xem TV..."
+                    }
+                },
+                "g9": {
+                    "title": "(EN) Trở nên: A(bỏ い)く \/ Aな \/ N に なります",
+                    "description": "(EN) Thể hiện sự thay đổi trạng thái. (VD: Nóng lên, trở nên đẹp, trở thành giáo viên).",
+                    "exercises": {
+                        "ex1": "(EN) Trời đã trở lạnh."
+                    }
+                }
+            }
+        },
+        "lesson20": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Thể thông thường của Động từ",
+                    "description": "(EN) Thể lịch sự (ます\/ません\/ました\/ませんでした) chuyển sang Thể thông thường (る\/ない\/た\/なかった).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Ngày mai tôi sẽ đi Osaka."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Thể thông thường của Tính từ \/ Danh từ",
+                    "description": "(EN) です đổi thành だ. じゃありません đổi thành じゃない. でした đổi thành だった. じゃありませんでした đổi thành じゃなかった. (Tính từ い: です bị lược bỏ).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Mỗi ngày đều bận rộn.",
+                        "ex2": "(EN) (Thể ngắn) Hôm qua là ngày nghỉ."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Thể thông thường của Động từ",
+                    "description": "(EN) Thể lịch sự (ます\/ません\/ました\/ませんでした) chuyển sang Thể thông thường (る\/ない\/た\/なかった).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Ngày mai tôi sẽ đi Osaka."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Thể thông thường của Tính từ \/ Danh từ",
+                    "description": "(EN) です đổi thành だ. じゃありません đổi thành じゃない. でした đổi thành だった. じゃありませんでした đổi thành じゃなかった. (Tính từ い: です bị lược bỏ).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Mỗi ngày đều bận rộn.",
+                        "ex2": "(EN) (Thể ngắn) Hôm qua là ngày nghỉ."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Thể thông thường của Động từ",
+                    "description": "(EN) Thể lịch sự (ます\/ません\/ました\/ませんでした) chuyển sang Thể thông thường (る\/ない\/た\/なかった).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Ngày mai tôi sẽ đi Osaka."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Thể thông thường của Tính từ \/ Danh từ",
+                    "description": "(EN) です đổi thành だ. じゃありません đổi thành じゃない. でした đổi thành だった. じゃありませんでした đổi thành じゃなかった. (Tính từ い: です bị lược bỏ).",
+                    "exercises": {
+                        "ex1": "(EN) (Thể ngắn) Mỗi ngày đều bận rộn.",
+                        "ex2": "(EN) (Thể ngắn) Hôm qua là ngày nghỉ."
+                    }
+                }
+            }
+        },
+        "lesson21": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Nghĩ là: Thể thông thường + と おもいます",
+                    "description": "(EN) Dùng để bày tỏ suy nghĩ, quan điểm cá nhân. Động từ, tính từ, danh từ trước と phải chia về Thể thông thường.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi nghĩ ngày mai trời sẽ mưa."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Trích dẫn: Thể thông thường + と いいました",
+                    "description": "(EN) Dùng để tường thuật lại lời nói của ai đó.",
+                    "exercises": {
+                        "ex1": "(EN) Anh Kimura đã nói là sẽ đi Tokyo."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Phải không \/ Đúng không: Thể thông thường + でしょう",
+                    "description": "(EN) Dùng để xác nhận lại thông tin với người nghe, mong đợi sự đồng tình.",
+                    "exercises": {
+                        "ex1": "(EN) Ngày mai bạn rảnh đúng không?"
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Nghĩ là: Thể thông thường + と おもいます",
+                    "description": "(EN) Dùng để bày tỏ suy nghĩ, quan điểm cá nhân. Động từ, tính từ, danh từ trước と phải chia về Thể thông thường.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi nghĩ ngày mai trời sẽ mưa."
+                    }
+                },
+                "g5": {
+                    "title": "(EN) Trích dẫn: Thể thông thường + と いいました",
+                    "description": "(EN) Dùng để tường thuật lại lời nói của ai đó.",
+                    "exercises": {
+                        "ex1": "(EN) Anh Kimura đã nói là sẽ đi Tokyo."
+                    }
+                },
+                "g6": {
+                    "title": "(EN) Phải không \/ Đúng không: Thể thông thường + でしょう",
+                    "description": "(EN) Dùng để xác nhận lại thông tin với người nghe, mong đợi sự đồng tình.",
+                    "exercises": {
+                        "ex1": "(EN) Ngày mai bạn rảnh đúng không?"
+                    }
+                }
+            }
+        },
+        "lesson22": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Mệnh đề bổ nghĩa cho Danh từ",
+                    "description": "(EN) Câu\/Mệnh đề (chia ở Thể thông thường) + Danh từ. Dùng để làm rõ đặc điểm cho danh từ phía sau. Chủ ngữ trong mệnh đề phụ đi với が.",
+                    "exercises": {
+                        "ex1": "(EN) Đây là bức ảnh mà tôi đã chụp ở Nhật.",
+                        "ex2": "(EN) Tôi không có thời gian đọc sách."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Mệnh đề bổ nghĩa cho Danh từ",
+                    "description": "(EN) Câu\/Mệnh đề (chia ở Thể thông thường) + Danh từ. Dùng để làm rõ đặc điểm cho danh từ phía sau. Chủ ngữ trong mệnh đề phụ đi với が.",
+                    "exercises": {
+                        "ex1": "(EN) Đây là bức ảnh mà tôi đã chụp ở Nhật.",
+                        "ex2": "(EN) Tôi không có thời gian đọc sách."
+                    }
+                }
+            }
+        },
+        "lesson23": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Khi...: Thể thông thường \/ Nの \/ Aい \/ Aな + とき、~",
+                    "description": "(EN) Nối hai mệnh đề để nói 'Khi làm trạng thái\/hành động 1 thì xảy ra hành động 2'.",
+                    "exercises": {
+                        "ex1": "(EN) Khi không hiểu cách sử dụng, hãy hỏi tôi.",
+                        "ex2": "(EN) Khi là trẻ con, tôi rất khỏe."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Hễ (điều kiện tất yếu): Vる \/ Vない + と、~",
+                    "description": "(EN) Chỉ đường, hướng dẫn sử dụng máy móc hoặc hiện tượng tự nhiên. Hễ vế 1 xảy ra thì chắc chắn vế 2 xảy ra.",
+                    "exercises": {
+                        "ex1": "(EN) Hễ bấm nút này thì tiền sẽ ra."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Khi...: Thể thông thường \/ Nの \/ Aい \/ Aな + とき、~",
+                    "description": "(EN) Nối hai mệnh đề để nói 'Khi làm trạng thái\/hành động 1 thì xảy ra hành động 2'.",
+                    "exercises": {
+                        "ex1": "(EN) Khi không hiểu cách sử dụng, hãy hỏi tôi.",
+                        "ex2": "(EN) Khi là trẻ con, tôi rất khỏe."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Hễ (điều kiện tất yếu): Vる \/ Vない + と、~",
+                    "description": "(EN) Chỉ đường, hướng dẫn sử dụng máy móc hoặc hiện tượng tự nhiên. Hễ vế 1 xảy ra thì chắc chắn vế 2 xảy ra.",
+                    "exercises": {
+                        "ex1": "(EN) Hễ bấm nút này thì tiền sẽ ra."
+                    }
+                }
+            }
+        },
+        "lesson24": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Ai đó cho mình: くれます",
+                    "description": "(EN) Giống あげます nhưng người nhận luôn là Tôi (hoặc người nhà mình).",
+                    "exercises": {
+                        "ex1": "(EN) Anh Kimura đã tặng sách cho tôi."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Nhờ làm \/ Làm giúp: Vて + もらいます \/ くれます \/ あげます",
+                    "description": "(EN) Vてもらう: Mình nhận được hành động. Vてくれる: Ai đó làm hành động cho mình. Vてあげる: Mình làm hành động cho ai.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã được anh ấy giúp đỡ.",
+                        "ex2": "(EN) Anh ấy đã giúp đỡ tôi."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Ai đó cho mình: くれます",
+                    "description": "(EN) Giống あげます nhưng người nhận luôn là Tôi (hoặc người nhà mình).",
+                    "exercises": {
+                        "ex1": "(EN) Anh Kimura đã tặng sách cho tôi."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Nhờ làm \/ Làm giúp: Vて + もらいます \/ くれます \/ あげます",
+                    "description": "(EN) Vてもらう: Mình nhận được hành động. Vてくれる: Ai đó làm hành động cho mình. Vてあげる: Mình làm hành động cho ai.",
+                    "exercises": {
+                        "ex1": "(EN) Tôi đã được anh ấy giúp đỡ.",
+                        "ex2": "(EN) Anh ấy đã giúp đỡ tôi."
+                    }
+                }
+            }
+        },
+        "lesson25": {
+            "grammar": {
+                "g1": {
+                    "title": "(EN) Điều kiện giả định (Nếu): Thể た + ら、~",
+                    "description": "(EN) Nối hai mệnh đề với nghĩa Nếu... thì... hoặc Sau khi... thì...",
+                    "exercises": {
+                        "ex1": "(EN) Nếu trời mưa thì tôi sẽ không ra ngoài.",
+                        "ex2": "(EN) Nếu có tiền tôi muốn đi du lịch."
+                    }
+                },
+                "g2": {
+                    "title": "(EN) Nhượng bộ (Dù... nhưng...): Thể て + も、~",
+                    "description": "(EN) Trái với kì vọng. (Tính từ い -> くても \/ Tính từ な\/Danh từ -> でも).",
+                    "exercises": {
+                        "ex1": "(EN) Dù nghĩ nhưng tôi vẫn không hiểu.",
+                        "ex2": "(EN) Dù rẻ tôi cũng không mua."
+                    }
+                },
+                "g3": {
+                    "title": "(EN) Điều kiện giả định (Nếu): Thể た + ら、~",
+                    "description": "(EN) Nối hai mệnh đề với nghĩa Nếu... thì... hoặc Sau khi... thì...",
+                    "exercises": {
+                        "ex1": "(EN) Nếu trời mưa thì tôi sẽ không ra ngoài.",
+                        "ex2": "(EN) Nếu có tiền tôi muốn đi du lịch."
+                    }
+                },
+                "g4": {
+                    "title": "(EN) Nhượng bộ (Dù... nhưng...): Thể て + も、~",
+                    "description": "(EN) Trái với kì vọng. (Tính từ い -> くても \/ Tính từ な\/Danh từ -> でも).",
+                    "exercises": {
+                        "ex1": "(EN) Dù nghĩ nhưng tôi vẫn không hiểu.",
+                        "ex2": "(EN) Dù rẻ tôi cũng không mua."
+                    }
                 }
             }
         }
