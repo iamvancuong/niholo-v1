@@ -60,7 +60,7 @@ const categories = [
                         v-for="cat in categories" 
                         :key="cat.id"
                         :href="route('lessons.index', { course: course.id, category: cat.id })"
-                        class="bg-white dark:bg-gray-800 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-700 p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
+                        :class="['bg-pastel-' + cat.id, 'border-4', 'border-black', 'rounded-3xl', 'p-8', 'shadow-[8px_8px_0px_rgba(0,0,0,1)]', 'hover:shadow-[4px_4px_0px_rgba(0,0,0,1)]', 'transition-all']"
                     >
                         <div class="w-16 h-16 rounded-2xl bg-gray-50 dark:bg-gray-700 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                             <svg class="w-8 h-8" :class="cat.color" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,5 +75,18 @@ const categories = [
                 </div>
             </div>
         </div>
-    </AuthenticatedLayout>
+    <!-- Background Decoration (Centered with Kanji) -->
+<div class="fixed inset-0 pointer-events-none select-none overflow-hidden z-0 opacity-10">
+    <span class="absolute font-black text-black text-8xl rotate-12" style="top: 10%; left: 5%;">日</span>
+    <span class="absolute font-black text-black text-9xl -rotate-6" style="top: 25%; left: 85%;">本</span>
+    <span class="absolute font-black text-black text-7xl rotate-45" style="top: 65%; left: 10%;">語</span>
+    <span class="absolute font-black text-black text-8xl -rotate-12" style="top: 80%; left: 80%;">夢</span>
+    <span class="absolute font-black text-black text-9xl rotate-6" style="top: 45%; left: 50%;">愛</span>
+    <span class="absolute font-black text-black text-7xl -rotate-12" style="top: 15%; left: 40%;">学</span>
+    <span class="absolute font-black text-black text-8xl rotate-12" style="top: 55%; left: 75%;">習</span>
+    <span class="absolute font-black text-black text-9xl -rotate-12" style="top: 90%; left: 30%;">笑</span>
+</div>
+
+</AuthenticatedLayout>
+
 </template>

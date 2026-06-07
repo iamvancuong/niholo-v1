@@ -22,6 +22,13 @@ export default {
                     indigo: '#4f46e5',
                     pink: '#ec4899',
                     dark: '#0f172a',
+                },
+                pastel: {
+                    blue: '#ADE6FF',
+                    green: '#B6FABF',
+                    yellow: '#FFFEC7',
+                    orange: '#FAE9B8',
+                    pink: '#FFCCC1',
                 }
             },
         },

@@ -14,8 +14,10 @@ class ReviewController extends Controller
     public function store(Request $request, Card $card)
     {
         $validated = $request->validate([
-            'rating' => 'required|integer|min:1|max:4',
+            'rating' => 'nullable|integer|min:1|max:4',
+            'suspend' => 'nullable|boolean',
             'duration_ms' => 'nullable|integer',
+            'current_state' => 'nullable|array',
         ]);
 
         $user = Auth::user();
@@ -26,10 +28,27 @@ class ReviewController extends Controller
             'card_id' => $card->id,
         ]);
 
-        // If it's a guest, and there's a payload of previous review state in the request,
-        // we should initialize the $review object with that state before feeding it to FSRSEngine.
-        if (!$user && $request->has('current_state')) {
-            $review->fill($request->input('current_state'));
+        if (!$user && isset($validated['current_state'])) {
+            $review->fill($validated['current_state']);
+        }
+
+        $isNew = !$review->exists;
+
+        // Handle suspend
+        if (isset($validated['suspend']) && $validated['suspend'] === true) {
+            $review->is_suspended = true;
+            if ($user) {
+                $review->save();
+            }
+            return response()->json([
+                'success' => true,
+                'review' => $review,
+                'xp_earned' => 0
+            ]);
+        }
+
+        if (!isset($validated['rating'])) {
+            return response()->json(['success' => false, 'message' => 'Rating is required'], 422);
         }
 
         $engine = new FSRSEngine();
@@ -45,9 +64,15 @@ class ReviewController extends Controller
         $review->scheduled_days = $result['scheduled_days'];
         $review->last_review_at = $result['last_review_at'];
         $review->next_review_at = $result['next_review_at'];
+
+        // Leech Quarantine Logic
+        if ($review->lapses >= 5) {
+            $review->is_leech = true;
+            $review->is_suspended = true;
+        }
         
+        $xpAmount = 0;
         if ($user) {
-            $isNew = !$review->exists;
             $review->save();
 
             // Gamification hook
@@ -59,7 +84,7 @@ class ReviewController extends Controller
         return response()->json([
             'success' => true,
             'review' => $review,
-            'xp_earned' => isset($xpAmount) ? $xpAmount : 0
+            'xp_earned' => $xpAmount
         ]);
     }
 }

@@ -14,6 +14,14 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/about', function () {
+    return Inertia::render('About');
+})->name('about');
+
+Route::get('/shadowing', function () {
+    return Inertia::render('Shadowing');
+})->middleware(['auth', 'verified'])->name('shadowing');
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', function () {
         $user = auth()->user();
@@ -74,7 +82,6 @@ Route::get('/lessons/{lesson}/kanji', [\App\Http\Controllers\KanjiController::cl
 
 // Study & Reviews (Public, progress saved to localStorage for guests)
 Route::get('/lessons/{lesson}/study', [\App\Http\Controllers\StudyController::class, 'session'])->name('study.session');
-Route::post('/api/study/finish-session', [\App\Http\Controllers\StudySessionController::class, 'finish'])->name('study.finish-session');
 
 // Keep old route if any puzzle or other thing uses it temporarily, but we won't use it in Session.vue
 Route::post('/cards/{card}/review', [\App\Http\Controllers\ReviewController::class, 'store'])->name('review.store');

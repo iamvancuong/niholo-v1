@@ -25,31 +25,44 @@ class LessonController extends Controller
             }])
             ->get();
 
+        $lessonIds = $lessons->pluck('id');
+        
+        // Lấy tất cả card_ids của các lessons này để giảm thiểu N+1
+        $allCards = \App\Models\Card::whereIn('lesson_id', $lessonIds)->select('id', 'lesson_id')->get();
+        $cardsByLesson = $allCards->groupBy('lesson_id');
+        
+        if ($user) {
+            $reviews = UserReview::where('user_id', $user->id)
+                ->whereIn('card_id', $allCards->pluck('id'))
+                ->get()
+                ->keyBy('card_id');
+        }
+
         // Tính số thẻ cần ôn cho mỗi bài học
         foreach ($lessons as $lesson) {
-            $cardIds = $lesson->cards()->pluck('id');
+            $lessonCards = $cardsByLesson->get($lesson->id, collect());
             $totalCards = $lesson->cards_count;
             
             if ($user) {
-                // Lấy review của user cho các card trong bài này
-                $reviews = UserReview::where('user_id', $user->id)
-                    ->whereIn('card_id', $cardIds)
-                    ->get()
-                    ->keyBy('card_id');
-
                 $dueCount = 0;
-                
-                foreach ($cardIds as $cardId) {
-                    $review = $reviews->get($cardId);
+                foreach ($lessonCards as $card) {
+                    $review = $reviews->get($card->id);
+                    
+                    if ($review && $review->is_suspended) {
+                        continue;
+                    }
+
                     if (!$review || Carbon::parse($review->next_review_at)->lte($now)) {
                         $dueCount++;
                     }
                 }
             } else {
-                // Khách chưa có dữ liệu trong DB, mặc định mọi thẻ đều có thể học
+                // Khách chưa có dữ liệu trong DB, frontend sẽ tính lại từ localStorage
                 $dueCount = $totalCards;
             }
 
+            // Gắn card_ids để frontend của guest có thể tính toán lại
+            $lesson->all_card_ids = $lessonCards->pluck('id')->toArray();
             $lesson->due_cards_count = $dueCount;
         }
 
