@@ -1,0 +1,87 @@
+[
+    {
+        "lesson_id": 26,
+        "title": "Nhấn mạnh, giải thích lý do: ～んです",
+        "description": "Dùng để nhấn mạnh ý nghĩa, giải thích nguyên nhân, lý do. Dùng nhiều trong văn nói.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Bạn mệt à?",
+                "correct_sentence": "疲れているんですか",
+                "blocks": [
+                    "疲れて",
+                    "いる",
+                    "んですか"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            {
+                "vietnamese_meaning": "Tôi bị đau đầu.",
+                "correct_sentence": "頭が痛いんです",
+                "blocks": [
+                    "頭",
+                    "が",
+                    "痛い",
+                    "んです"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 26,
+        "title": "Nhờ vả lịch sự: ～ていただけませんか",
+        "description": "Dùng để nhờ ai đó làm gì cho mình một cách rất lịch sự.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Bạn có thể chỉ đường giúp tôi được không?",
+                "correct_sentence": "道を教えていただけませんか",
+                "blocks": [
+                    "道",
+                    "を",
+                    "教えて",
+                    "いただけませんか"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 26,
+        "title": "Xin lời khuyên: ～たらいいですか",
+        "description": "Dùng khi muốn hỏi xin ý kiến, lời khuyên xem nên làm thế nào.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Tôi nên mua máy ảnh ở đâu?",
+                "correct_sentence": "どこでカメラを買ったらいいですか",
+                "blocks": [
+                    "どこで",
+                    "カメラ",
+                    "を",
+                    "買ったら",
+                    "いいですか"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

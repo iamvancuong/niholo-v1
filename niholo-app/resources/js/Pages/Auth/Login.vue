@@ -33,7 +33,17 @@ const submit = () => {
     <GuestLayout>
         <Head title="Log in" />
 
-        <div v-if="status" class="mb-4 text-sm font-medium text-green-600">
+        <!-- Tab Switcher -->
+        <div class="flex border-4 border-black rounded-2xl overflow-hidden mb-8 shadow-[2px_2px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_rgba(0,0,0,1)] bg-white">
+            <div class="flex-1 py-2 sm:py-3 text-center font-black text-sm sm:text-lg uppercase bg-pastel-yellow border-r-4 border-black cursor-default text-black">
+                Đăng Nhập
+            </div>
+            <Link :href="route('register')" class="flex-1 py-2 sm:py-3 text-center font-black text-sm sm:text-lg uppercase transition-colors hover:bg-gray-100 text-gray-500 hover:text-black">
+                Đăng Ký
+            </Link>
+        </div>
+
+        <div v-if="status" class="mb-4 text-sm font-black text-pastel-green">
             {{ status }}
         </div>
 
@@ -78,21 +88,21 @@ const submit = () => {
                 </label>
             </div>
 
-            <div class="mt-4 flex items-center justify-end">
+            <div class="mt-6 flex items-center justify-end">
                 <Link
                     v-if="canResetPassword"
                     :href="route('password.request')"
-                    class="rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:text-gray-400 dark:hover:text-gray-100 dark:focus:ring-offset-gray-800"
+                    class="rounded-md text-sm font-bold text-gray-500 underline hover:text-black"
                 >
-                    Forgot your password?
+                    Quên mật khẩu?
                 </Link>
 
                 <PrimaryButton
-                    class="ms-4"
+                    class="ms-4 w-full sm:w-auto"
                     :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing"
                 >
-                    Log in
+                    Đăng nhập
                 </PrimaryButton>
             </div>
         </form>

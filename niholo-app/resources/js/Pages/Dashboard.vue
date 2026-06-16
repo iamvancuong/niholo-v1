@@ -96,7 +96,7 @@ const recentActivities = ref([
             Bạn đang học:
             <strong
               class="text-[#3d7a4a] bg-[#eef7e6] px-3 py-1 rounded-lg border border-[#c4e8a1]"
-              >Khóa học N5 - Ngày 2</strong
+              >Khóa học N5 - Ngày 1</strong
             >
           </p>
         </div>

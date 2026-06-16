@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 29,
+        "title": "Ngữ pháp mẫu Bài 29 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 29...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 29.1",
+                "correct_sentence": "例文29のいちです",
+                "blocks": [
+                    "例文",
+                    "29",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 29,
+        "title": "Ngữ pháp mẫu Bài 29 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 29...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 29.2",
+                "correct_sentence": "例文29のにです",
+                "blocks": [
+                    "例文",
+                    "29",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

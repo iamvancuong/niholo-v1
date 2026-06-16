@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 37,
+        "title": "Ngữ pháp mẫu Bài 37 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 37...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 37.1",
+                "correct_sentence": "例文37のいちです",
+                "blocks": [
+                    "例文",
+                    "37",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 37,
+        "title": "Ngữ pháp mẫu Bài 37 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 37...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 37.2",
+                "correct_sentence": "例文37のにです",
+                "blocks": [
+                    "例文",
+                    "37",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

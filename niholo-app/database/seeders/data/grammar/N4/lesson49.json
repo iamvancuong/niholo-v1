@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 49,
+        "title": "Ngữ pháp mẫu Bài 49 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 49...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 49.1",
+                "correct_sentence": "例文49のいちです",
+                "blocks": [
+                    "例文",
+                    "49",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 49,
+        "title": "Ngữ pháp mẫu Bài 49 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 49...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 49.2",
+                "correct_sentence": "例文49のにです",
+                "blocks": [
+                    "例文",
+                    "49",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

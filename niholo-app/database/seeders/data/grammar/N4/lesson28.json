@@ -1,0 +1,79 @@
+[
+    {
+        "lesson_id": 28,
+        "title": "Hành động song song: V1 ながら V2",
+        "description": "Vừa làm V1 vừa làm V2. V2 là hành động chính.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Tôi vừa nghe nhạc vừa học bài.",
+                "correct_sentence": "音楽を聞きながら勉強します",
+                "blocks": [
+                    "音楽",
+                    "を",
+                    "聞き",
+                    "ながら",
+                    "勉強します"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 28,
+        "title": "Thói quen thường xuyên: V ています",
+        "description": "Diễn tả thói quen, hành động được lặp đi lặp lại nhiều lần.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Mỗi sáng tôi đều chạy bộ.",
+                "correct_sentence": "毎朝ジョギングをしています",
+                "blocks": [
+                    "毎朝",
+                    "ジョギング",
+                    "を",
+                    "して",
+                    "います"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 28,
+        "title": "Liệt kê lý do: ～し、～し、それに～",
+        "description": "Dùng để liệt kê nhiều lý do (ví dụ: vừa rẻ, vừa ngon, thêm nữa lại tiện lợi).",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Nhà hàng này vừa rẻ vừa ngon.",
+                "correct_sentence": "この店は安いし、おいしいです",
+                "blocks": [
+                    "この",
+                    "店",
+                    "は",
+                    "安いし",
+                    "、",
+                    "おいしいです"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        ]
+    }
+]

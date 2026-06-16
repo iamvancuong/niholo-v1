@@ -65,6 +65,13 @@ class ReviewController extends Controller
         $review->last_review_at = $result['last_review_at'];
         $review->next_review_at = $result['next_review_at'];
 
+        // Auto-Unsuspend Logic (If reviewing a suspended card with Good/Easy)
+        if ($review->is_suspended && $validated['rating'] >= 3) {
+            $review->is_suspended = false;
+            $review->is_leech = false;
+            $review->lapses = 0; // Reset lapses to prevent immediate re-leeching
+        }
+
         // Leech Quarantine Logic
         if ($review->lapses >= 5) {
             $review->is_leech = true;

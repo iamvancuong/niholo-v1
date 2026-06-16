@@ -55,6 +55,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     // Suspended Cards Vault
     Route::get('/vault', [\App\Http\Controllers\SuspendedCardController::class, 'index'])->name('vault.index');
+    Route::get('/vault/study', [\App\Http\Controllers\SuspendedCardController::class, 'study'])->name('vault.study');
     Route::post('/vault/reviews/{review}/unsuspend', [\App\Http\Controllers\SuspendedCardController::class, 'unsuspend'])->name('vault.unsuspend');
     
     Route::get('/leech-quarantine', function () {

@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 30,
+        "title": "Ngữ pháp mẫu Bài 30 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 30...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 30.1",
+                "correct_sentence": "例文30のいちです",
+                "blocks": [
+                    "例文",
+                    "30",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 30,
+        "title": "Ngữ pháp mẫu Bài 30 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 30...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 30.2",
+                "correct_sentence": "例文30のにです",
+                "blocks": [
+                    "例文",
+                    "30",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 36,
+        "title": "Ngữ pháp mẫu Bài 36 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 36...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 36.1",
+                "correct_sentence": "例文36のいちです",
+                "blocks": [
+                    "例文",
+                    "36",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 36,
+        "title": "Ngữ pháp mẫu Bài 36 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 36...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 36.2",
+                "correct_sentence": "例文36のにです",
+                "blocks": [
+                    "例文",
+                    "36",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

@@ -47,7 +47,7 @@ const categories = [
         </template>
 
         <div class="py-12">
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="mb-8 text-center">
                     <h3 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">Bạn muốn học gì hôm nay?</h3>
                     <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">

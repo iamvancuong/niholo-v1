@@ -172,7 +172,13 @@
 ---
 
 ## 📝 LƯU TRỮ CÁC TASK TẠM GÁC LẠI (BACKLOGS)
-*(Trống - Tất cả các task tồn đọng đã được gộp vào Phase 10 ở trên)*
+
+### Tính năng Chế độ Shadowing Toàn diện (Advanced Shadowing Subtitles & Vocab Mining)
+*   **Mô tả**: Nâng cấp màn hình Shadowing hiện tại từ một Player tĩnh thành một công cụ học tập tương tác.
+*   **Interactive Subtitles**: Thêm phụ đề cuộn theo video (auto-scroll, click-to-seek), hiển thị Kanji, Furigana, và Bản dịch Tiếng Việt.
+*   **Vocabulary Mining**: Click vào từ vựng trên phụ đề để xem nghĩa và lưu vào thư mục/bộ bài "Từ vựng Shadowing" để ôn tập theo thuật toán FSRS.
+*   **Công cụ rèn luyện**: Tính năng Vòng lặp A-B (A-B Loop Repeat) và Ghi âm & So sánh (Voice Record & Compare).
+*   **Yêu cầu Data/Backend**: Cần tạo bảng `shadowing_lessons`, `shadowing_transcripts`. Đặc biệt, tính năng này đòi hỏi một khối lượng **Nhập liệu (Data Entry)** khổng lồ (chuẩn bị file JSON/VTT chi tiết timecode, Kanji, Furigana cho 118 video).
 
 ### Hệ thống tính toán ban đầu (Self-Check)
 *   *Lưu ý hệ thống*: Điểm ngưỡng (Threshold) đánh dấu Leech ban đầu thiết kế là **4**, nhưng trong quá trình code đã được nâng lên **5** theo yêu cầu UX thực tế để tạo sự khoan dung hơn cho học viên. Dữ liệu này đã được điều chỉnh nhất quán ở backend. Mọi logic trừ XP, tính toán Streak vẫn bám sát đúng thiết kế gốc.

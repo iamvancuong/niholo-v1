@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 48,
+        "title": "Ngữ pháp mẫu Bài 48 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 48...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 48.1",
+                "correct_sentence": "例文48のいちです",
+                "blocks": [
+                    "例文",
+                    "48",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 48,
+        "title": "Ngữ pháp mẫu Bài 48 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 48...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 48.2",
+                "correct_sentence": "例文48のにです",
+                "blocks": [
+                    "例文",
+                    "48",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

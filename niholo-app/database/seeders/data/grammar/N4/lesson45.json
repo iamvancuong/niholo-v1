@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 45,
+        "title": "Ngữ pháp mẫu Bài 45 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 45...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 45.1",
+                "correct_sentence": "例文45のいちです",
+                "blocks": [
+                    "例文",
+                    "45",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 45,
+        "title": "Ngữ pháp mẫu Bài 45 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 45...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 45.2",
+                "correct_sentence": "例文45のにです",
+                "blocks": [
+                    "例文",
+                    "45",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

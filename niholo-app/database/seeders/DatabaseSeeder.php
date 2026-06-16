@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
             \Database\Seeders\DataVocabularySeeder::class,
             \Database\Seeders\DataGrammarSeeder::class,
             \Database\Seeders\DataKanjiSeeder::class,
+            \Database\Seeders\N4KanjiSeeder::class,
             \Database\Seeders\DataExamSeeder::class,
         ]);
     }

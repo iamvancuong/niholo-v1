@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 41,
+        "title": "Ngữ pháp mẫu Bài 41 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 41...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 41.1",
+                "correct_sentence": "例文41のいちです",
+                "blocks": [
+                    "例文",
+                    "41",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 41,
+        "title": "Ngữ pháp mẫu Bài 41 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 41...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 41.2",
+                "correct_sentence": "例文41のにです",
+                "blocks": [
+                    "例文",
+                    "41",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

@@ -41,7 +41,7 @@ defineProps({
                 <span class="absolute font-black text-black text-9xl -rotate-12" style="top: 90%; left: 30%;">笑</span>
             </div>
 
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-10">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div 
                         v-for="(course, index) in courses" 

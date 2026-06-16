@@ -7,10 +7,15 @@ import GrammarCloze from './Components/GrammarCloze.vue';
 import KanjiFlashcard from './Components/KanjiFlashcard.vue';
 import KanjiExplanationsBlock from './Components/KanjiExplanationsBlock.vue';
 import Modal from '@/Components/Modal.vue';
+import fsrs from '@/utils/fsrs.js';
 
 const props = defineProps({
     lesson: Object,
     dueCards: Array,
+    backUrl: {
+        type: String,
+        default: null
+    }
 });
 
 const xpPopups = ref([]);
@@ -142,8 +147,14 @@ const playAudio = (text) => {
 
 // Format interval cho hiển thị trên nút rating
 const formatInterval = (rating) => {
-    if (!currentCardWrapper.value || !currentCardWrapper.value.next_intervals) return '';
-    return currentCardWrapper.value.next_intervals[rating] || '';
+    if (!currentCardWrapper.value) return '';
+    const review = currentCardWrapper.value.review;
+    const result = fsrs.review(review, rating);
+    if (result.scheduled_days > 0) {
+        return result.scheduled_days + ' ngày';
+    } else {
+        return result.scheduled_minutes + ' phút';
+    }
 };
 
 const submitRating = (rating) => {
@@ -321,7 +332,11 @@ const fireConfetti = () => {
         
         <!-- Top Nav -->
         <header class="p-4 sm:p-6 flex items-center justify-between w-full max-w-5xl mx-auto">
-            <Link :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })" 
+            <Link v-if="backUrl" :href="backUrl" 
+                  class="w-10 h-10 flex items-center justify-center border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-0.5 transition-all shrink-0">
+                <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </Link>
+            <Link v-else :href="route('lessons.index', { course: lesson?.course_id, category: lesson?.category })" 
                   class="w-10 h-10 flex items-center justify-center border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-0.5 transition-all shrink-0">
                 <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </Link>
@@ -370,7 +385,11 @@ const fireConfetti = () => {
                     </div>
                 </div>
                 
-                <Link :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })" 
+                <Link v-if="backUrl" :href="backUrl" 
+                      class="px-8 py-3.5 bg-[#aaed5a] text-gray-900 font-bold rounded-xl shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:bg-[#99d94f] transition-all text-lg w-full">
+                    Trở về Kho thẻ
+                </Link>
+                <Link v-else :href="route('lessons.index', { course: lesson?.course_id, category: lesson?.category })" 
                       class="px-8 py-3.5 bg-[#aaed5a] text-gray-900 font-bold rounded-xl shadow-sm hover:shadow-md hover:-translate-y-0.5 hover:bg-[#99d94f] transition-all text-lg w-full">
                     Tiếp tục học
                 </Link>
@@ -395,8 +414,8 @@ const fireConfetti = () => {
                                     <button @click.stop="showHint" class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 rounded-full hover:bg-gray-100 transition-all hover:text-gray-800" title="Gợi ý (Phím H)">
                                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                     </button>
-                                    <button @click.stop="suspendCard" class="w-8 h-8 flex items-center justify-center bg-gray-50 text-gray-500 rounded-full hover:bg-red-50 hover:text-red-500 transition-all" title="Đã thuộc / Bỏ qua (Phím S)">
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"></path></svg>
+                                    <button @click.stop="suspendCard" class="w-8 h-8 flex items-center justify-center bg-yellow-50 text-yellow-600 rounded-full hover:bg-yellow-100 hover:text-yellow-700 transition-all shadow-sm" title="Đánh dấu Đã thuộc (Phím S)">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"></path></svg>
                                     </button>
                                 </div>
 

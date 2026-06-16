@@ -36,6 +36,51 @@ class SuspendedCardController extends Controller
     }
 
     /**
+     * Start a review session for suspended cards.
+     */
+    public function study(Request $request)
+    {
+        $user = Auth::user();
+        $tab = $request->query('tab', 'leech');
+        
+        $query = UserReview::with(['card.grammarPoint', 'card.kanjis'])
+            ->where('user_id', $user->id)
+            ->where('is_suspended', true);
+
+        if ($tab === 'leech') {
+            $query->where('is_leech', true);
+            $title = 'Thẻ cực khó';
+        } else {
+            $query->where('is_leech', false);
+            $title = 'Thẻ đã thuộc';
+        }
+
+        $reviews = $query->orderBy('updated_at', 'desc')->limit(50)->get();
+        
+        $dueCards = [];
+        foreach ($reviews as $review) {
+            $dueCards[] = [
+                'card' => $review->card,
+                'review' => $review,
+            ];
+        }
+
+        // Fake lesson object for Session.vue header
+        $fakeLesson = [
+            'id' => 0,
+            'course_id' => 0,
+            'category' => $tab,
+            'title' => $title,
+        ];
+
+        return Inertia::render('Study/Session', [
+            'lesson' => $fakeLesson,
+            'dueCards' => $dueCards,
+            'backUrl' => route('vault.index', ['tab' => $tab])
+        ]);
+    }
+
+    /**
      * Unsuspend a specific card review.
      */
     public function unsuspend(Request $request, UserReview $review)

@@ -34,6 +34,7 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => $request->user(),
             ],
+            'shared_courses' => \App\Models\Course::select('id', 'name')->get(),
         ];
     }
 }

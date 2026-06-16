@@ -1,0 +1,52 @@
+[
+    {
+        "lesson_id": 34,
+        "title": "Ngữ pháp mẫu Bài 34 - Mẫu 1",
+        "description": "Phần giải thích ngữ pháp cho bài 34...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 34.1",
+                "correct_sentence": "例文34のいちです",
+                "blocks": [
+                    "例文",
+                    "34",
+                    "の",
+                    "いち",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 34,
+        "title": "Ngữ pháp mẫu Bài 34 - Mẫu 2",
+        "description": "Phần giải thích ngữ pháp cho bài 34...",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Câu ví dụ 34.2",
+                "correct_sentence": "例文34のにです",
+                "blocks": [
+                    "例文",
+                    "34",
+                    "の",
+                    "に",
+                    "です"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ]
+    }
+]

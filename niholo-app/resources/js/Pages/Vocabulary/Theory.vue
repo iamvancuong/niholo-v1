@@ -35,9 +35,10 @@ const playAudio = (text, id) => {
                 <div class="flex items-center gap-3">
                     <Link
                         :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })"
-                        class="w-10 h-10 flex items-center justify-center border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-1 transition-all"
+                        class="h-10 px-4 flex items-center justify-center gap-2 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-1 transition-all font-bold text-gray-700"
                     >
                         <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                        <span class="hidden sm:inline">Quay lại</span>
                     </Link>
                     <div>
                         <p class="text-xs font-bold text-gray-500 uppercase tracking-widest">Từ vựng</p>
@@ -131,6 +132,24 @@ const playAudio = (text, id) => {
                             </div>
                         </div>
                     </div>
+                </div>
+                
+                <!-- Bottom Action Buttons -->
+                <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 pb-10">
+                    <Link
+                        :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })"
+                        class="px-6 py-3 w-full sm:w-auto text-center bg-white border-2 border-gray-200 rounded-xl font-bold text-gray-700 shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
+                    >
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                        Quay lại danh sách
+                    </Link>
+                    <Link
+                        :href="route('study.session', lesson.id)"
+                        class="px-8 py-3 w-full sm:w-auto text-center bg-[#aaed5a] border-2 border-black rounded-xl font-black text-gray-900 shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-y-1 hover:translate-x-1 transition-all flex items-center justify-center gap-2 text-lg"
+                    >
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                        Vào Ôn tập Thẻ
+                    </Link>
                 </div>
 
             </div>

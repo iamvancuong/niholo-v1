@@ -40,8 +40,12 @@ const playAudio = (urlOrText) => {
     <AuthenticatedLayout>
         <template #header>
             <div class="flex items-center">
-                <Link :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })" class="text-gray-500 hover:text-niholo-indigo mr-4 transition-colors">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                <Link
+                    :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })"
+                    class="h-10 px-4 flex items-center justify-center gap-2 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-1 transition-all font-bold text-gray-700 mr-4"
+                >
+                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                    <span class="hidden sm:inline">Quay lại</span>
                 </Link>
                 <h2 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200">
                     {{ $t(lesson.title) }} <span class="text-gray-400 mx-2">/</span> Lý thuyết
@@ -111,11 +115,18 @@ const playAudio = (urlOrText) => {
                     </div>
                 </div>
 
-                <!-- Back / Next Buttons -->
-                <div class="flex justify-center mt-12 pb-12">
+                <!-- Bottom Action Buttons -->
+                <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 pb-12">
+                    <Link
+                        :href="route('lessons.index', { course: lesson.course_id, category: lesson.category })"
+                        class="px-6 py-4 w-full sm:w-auto text-center bg-white border-2 border-gray-200 rounded-xl font-bold text-gray-700 shadow-sm hover:shadow-md hover:bg-gray-50 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 text-lg"
+                    >
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                        Quay lại danh sách
+                    </Link>
                     <Link 
                         :href="route('study.session', lesson.id)"
-                        class="px-8 py-4 bg-gradient-to-r from-niholo-indigo to-niholo-pink text-white text-xl font-bold rounded-2xl shadow-lg hover:shadow-xl hover:opacity-90 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center"
+                        class="px-8 py-4 w-full sm:w-auto text-center bg-[#aaed5a] text-black text-xl font-black rounded-xl border-4 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:shadow-none transition-all transform hover:translate-y-1 hover:translate-x-1 flex items-center justify-center"
                     >
                         Vào Ôn tập Thực hành
                         <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>

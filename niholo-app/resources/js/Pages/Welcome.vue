@@ -84,9 +84,9 @@ const cards = [
         </div>
 
         <!-- NAVBAR -->
-        <nav class="fixed top-0 inset-x-0 z-50 px-8 py-4 flex items-center justify-between" style="background-color: rgba(30,90,50,0.8); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.12);">
+        <nav class="fixed top-0 inset-x-0 z-50 px-4 md:px-8 py-3 md:py-4 flex items-center justify-between" style="background-color: rgba(30,90,50,0.8); backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.12);">
             <div class="flex items-center gap-2">
-                <span class="text-xl font-black tracking-tight uppercase px-3 py-1.5 rounded-lg text-white" style="background: rgba(255,255,255,0.18); letter-spacing: 0.08em;">🌸 NIHOLO</span>
+                <span class="text-lg md:text-xl font-black tracking-tight uppercase px-3 py-1.5 rounded-lg text-white" style="background: rgba(255,255,255,0.18); letter-spacing: 0.08em;">🌸 NIHOLO</span>
             </div>
 
             <!-- Main Navigation Links -->
@@ -160,7 +160,7 @@ const cards = [
             </div>
 
             <!-- === CENTER: Text content === -->
-            <div class="relative z-20 flex-1 flex flex-col items-center justify-center text-center px-6 pt-28 pb-20">
+            <div class="relative z-20 flex-1 flex flex-col items-center justify-center text-center px-4 sm:px-6 pt-24 pb-16 lg:pt-28 lg:pb-20">
                 <!-- Badge -->
                 <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/20 text-white/60 text-xs font-bold mb-6 tracking-widest uppercase"
                      style="background: rgba(255,255,255,0.08);">
@@ -181,14 +181,14 @@ const cards = [
                 </p>
 
                 <!-- CTAs -->
-                <div class="flex flex-wrap items-center justify-center gap-4">
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
                     <Link :href="route('courses.index')"
-                          class="px-7 py-3.5 rounded-full font-black text-gray-900 text-base transition-all hover:scale-105 hover:brightness-110"
+                          class="w-full sm:w-auto text-center px-7 py-3.5 rounded-full font-black text-gray-900 text-base transition-all hover:scale-105 hover:brightness-110"
                           style="background: #aaed5a; box-shadow: 0 4px 24px rgba(170,237,90,0.45);">
                         Học Ngay →
                     </Link>
                     <a href="#skills"
-                       class="px-7 py-3.5 rounded-full font-black text-white text-base border border-white/25 hover:border-white/60 hover:bg-white/15 transition-all"
+                       class="w-full sm:w-auto text-center px-7 py-3.5 rounded-full font-black text-white text-base border border-white/25 hover:border-white/60 hover:bg-white/15 transition-all"
                        style="background: rgba(255,255,255,0.08);">
                         Khám phá lộ trình
                     </a>
@@ -345,7 +345,7 @@ const cards = [
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
                     <!-- Card 1: Streak (Fire Mascot) -->
-                    <div class="bg-white border-4 border-black p-8 rounded-3xl shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0">
+                    <div class="bg-white border-4 border-black p-6 md:p-8 rounded-3xl shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] md:hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0">
                         <div class="absolute -top-14 -right-6 w-28 h-28 transition-transform duration-300 group-hover:-translate-y-4 group-hover:rotate-6 z-10 pointer-events-none">
                             <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-[4px_4px_0px_rgba(0,0,0,0.15)]">
                                 <!-- Fire body -->
@@ -366,7 +366,7 @@ const cards = [
                     </div>
 
                     <!-- Card 2: FSRS (Lightbulb Mascot) -->
-                    <div class="bg-pastel-pink border-4 border-black p-8 rounded-3xl shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0 lg:translate-y-6">
+                    <div class="bg-pastel-pink border-4 border-black p-6 md:p-8 rounded-3xl shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] md:hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0 lg:translate-y-6">
                         <div class="absolute -top-14 -right-6 w-28 h-28 transition-transform duration-300 group-hover:-translate-y-4 group-hover:-rotate-6 z-10 pointer-events-none">
                             <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-[4px_4px_0px_rgba(0,0,0,0.15)]">
                                 <!-- Glow/Rays -->
@@ -389,7 +389,7 @@ const cards = [
                     </div>
 
                     <!-- Card 3: JLPT (Daruma Mascot) -->
-                    <div class="bg-pastel-green border-4 border-black p-8 rounded-3xl shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0">
+                    <div class="bg-pastel-green border-4 border-black p-6 md:p-8 rounded-3xl shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] md:hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0">
                         <div class="absolute -top-14 -right-6 w-28 h-28 transition-transform duration-300 group-hover:-translate-y-4 group-hover:rotate-6 z-10 pointer-events-none">
                             <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-[4px_4px_0px_rgba(0,0,0,0.15)]">
                                 <!-- Daruma Body -->
@@ -416,7 +416,7 @@ const cards = [
                     </div>
 
                     <!-- Card 4: UI Kawaii (Onigiri Mascot) -->
-                    <div class="bg-pastel-yellow border-4 border-black p-8 rounded-3xl shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0 lg:translate-y-6">
+                    <div class="bg-pastel-yellow border-4 border-black p-6 md:p-8 rounded-3xl shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] md:hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all group relative mt-10 lg:mt-0 lg:translate-y-6">
                         <div class="absolute -top-14 -right-6 w-28 h-28 transition-transform duration-300 group-hover:-translate-y-4 group-hover:-rotate-6 z-10 pointer-events-none">
                             <svg viewBox="0 0 100 100" class="w-full h-full drop-shadow-[4px_4px_0px_rgba(0,0,0,0.15)]">
                                 <!-- Onigiri Body -->
@@ -528,7 +528,7 @@ const cards = [
                         </div>
                         
                         <!-- Content Card -->
-                        <div class="bg-white border-4 border-black rounded-3xl p-6 shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all max-w-sm w-full relative group" :class="step.rot">
+                        <div class="bg-white border-4 border-black rounded-3xl p-6 shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:shadow-[6px_6px_0px_rgba(0,0,0,1)] md:hover:shadow-[12px_12px_0px_rgba(0,0,0,1)] transition-all max-w-sm w-full relative group" :class="step.rot">
                             <h4 class="font-black text-2xl uppercase mb-2">{{ step.title }}</h4>
                             <p class="font-bold text-gray-700">{{ step.desc }}</p>
                         </div>
@@ -537,7 +537,7 @@ const cards = [
                 </div>
                 
                 <div class="mt-24">
-                     <Link :href="route('courses.index')" class="inline-flex items-center gap-3 px-12 py-6 bg-black text-white rounded-full font-black text-2xl shadow-[8px_8px_0px_#aaed5a] hover:shadow-none hover:translate-x-[8px] hover:translate-y-[8px] transition-all">
+                     <Link :href="route('courses.index')" class="inline-flex items-center justify-center w-full md:w-auto gap-3 px-8 md:px-12 py-4 md:py-6 bg-black text-white rounded-full font-black text-xl md:text-2xl shadow-[4px_4px_0px_#aaed5a] md:shadow-[8px_8px_0px_#aaed5a] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] md:hover:translate-x-[8px] md:hover:translate-y-[8px] transition-all">
                         Tạo Tài Khoản Ngay
                     </Link>
                 </div>
@@ -569,9 +569,9 @@ const cards = [
         <!-- FOOTER SECTION -->
         <footer class="py-16 px-10 border-t-4 border-black bg-white relative z-10">
             <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-                <div class="md:col-span-2 text-center md:text-left">
+                <div class="md:col-span-2 text-center md:text-left mb-10 md:mb-0">
                     <div class="flex items-center justify-center md:justify-start gap-2 mb-6">
-                        <span class="font-black text-5xl uppercase bg-pastel-blue px-6 py-2 border-4 border-black shadow-[6px_6px_0px_rgba(0,0,0,1)] rotate-[-2deg]">Niholo</span>
+                        <span class="font-black text-4xl md:text-5xl uppercase bg-pastel-blue px-6 py-2 border-4 border-black shadow-[4px_4px_0px_rgba(0,0,0,1)] md:shadow-[6px_6px_0px_rgba(0,0,0,1)] rotate-[-2deg]">Niholo</span>
                     </div>
                     <p class="font-bold text-xl text-gray-800 mb-6 max-w-sm mx-auto md:mx-0">Học tiếng Nhật phong cách Kawaii. Chinh phục JLPT chưa bao giờ dễ dàng và thú vị đến thế.</p>
                     <div class="flex justify-center md:justify-start gap-4">

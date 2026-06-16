@@ -1,0 +1,99 @@
+[
+    {
+        "lesson_id": 27,
+        "title": "Thể khả năng (Có thể làm gì)",
+        "description": "Biểu thị khả năng thực hiện một hành động nào đó. Trợ từ 'を' thường chuyển thành 'が'.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Tôi có thể nói tiếng Nhật.",
+                "correct_sentence": "日本語が話せます",
+                "blocks": [
+                    "日本語",
+                    "が",
+                    "話せます"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            {
+                "vietnamese_meaning": "Tôi có thể ăn sushi.",
+                "correct_sentence": "すしが食べられます",
+                "blocks": [
+                    "すし",
+                    "が",
+                    "食べられます"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 27,
+        "title": "Trạng thái tự nhiên: 見えます \/ 聞こえます",
+        "description": "Nhìn thấy, nghe thấy một cách tự nhiên không có chủ ý.",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Có thể nhìn thấy núi Fuji từ đây.",
+                "correct_sentence": "ここから富士山が見えます",
+                "blocks": [
+                    "ここ",
+                    "から",
+                    "富士山",
+                    "が",
+                    "見えます"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "vietnamese_meaning": "Nghe thấy tiếng sóng.",
+                "correct_sentence": "波の音が聞こえます",
+                "blocks": [
+                    "波の",
+                    "音",
+                    "が",
+                    "聞こえます"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "lesson_id": 27,
+        "title": "Chỉ ~ (Khẳng định đi với phủ định): ～しか～ません",
+        "description": "Chỉ làm gì đó (mang ý nghĩa ít ỏi, không đủ).",
+        "exercises": [
+            {
+                "vietnamese_meaning": "Tôi chỉ có 100 yên.",
+                "correct_sentence": "１００円しかありません",
+                "blocks": [
+                    "１００円",
+                    "しか",
+                    "ありません"
+                ],
+                "correct_order": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        ]
+    }
+]

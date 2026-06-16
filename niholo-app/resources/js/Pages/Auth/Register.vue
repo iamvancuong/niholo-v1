@@ -39,6 +39,16 @@ const submit = () => {
     <GuestLayout>
         <Head title="Register" />
 
+        <!-- Tab Switcher -->
+        <div class="flex border-4 border-black rounded-2xl overflow-hidden mb-8 shadow-[2px_2px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_rgba(0,0,0,1)] bg-white">
+            <Link :href="route('login')" class="flex-1 py-2 sm:py-3 text-center font-black text-sm sm:text-lg uppercase transition-colors hover:bg-gray-100 text-gray-500 hover:text-black border-r-4 border-black">
+                Đăng Nhập
+            </Link>
+            <div class="flex-1 py-2 sm:py-3 text-center font-black text-sm sm:text-lg uppercase bg-[#aaed5a] cursor-default text-black">
+                Đăng Ký
+            </div>
+        </div>
+
         <form @submit.prevent="submit">
             <div>
                 <InputLabel for="name" value="Name" />
@@ -107,20 +117,14 @@ const submit = () => {
                 />
             </div>
 
-            <div class="mt-4 flex items-center justify-end">
-                <Link
-                    :href="route('login')"
-                    class="rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:text-gray-400 dark:hover:text-gray-100 dark:focus:ring-offset-gray-800"
-                >
-                    Already registered?
-                </Link>
+            <div class="mt-6 flex items-center justify-end">
 
                 <PrimaryButton
-                    class="ms-4"
+                    class="ms-4 w-full sm:w-auto"
                     :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing"
                 >
-                    Register
+                    Tạo tài khoản
                 </PrimaryButton>
             </div>
         </form>

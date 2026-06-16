@@ -67,10 +67,10 @@ class FSRSEngine
             $newDifficulty = $this->initDifficulty($rating);
             $newStability = $this->initStability($rating);
             
-            if ($rating === self::RATING_AGAIN || $rating === self::RATING_HARD) {
-                $newState = self::STATE_LEARNING;
-            } else {
+            if ($rating === self::RATING_EASY) {
                 $newState = self::STATE_REVIEW;
+            } else {
+                $newState = self::STATE_LEARNING;
             }
         } elseif ($state === self::STATE_LEARNING || $state === self::STATE_RELEARNING) {
             $newDifficulty = $this->nextDifficulty($difficulty, $rating);
@@ -104,12 +104,17 @@ class FSRSEngine
                 $nextReviewAt = $reviewAt->copy()->addMinutes(1);
             } elseif ($rating === self::RATING_HARD) {
                 $nextReviewAt = $reviewAt->copy()->addMinutes(5);
+            } elseif ($rating === self::RATING_GOOD) {
+                $nextReviewAt = $reviewAt->copy()->addMinutes(30);
             } else {
-                $nextReviewAt = $reviewAt->copy()->addMinutes(10);
+                $nextReviewAt = $reviewAt->copy()->addMinutes(60);
             }
             $interval = 0; // 0 days
         } else {
             // State is Review
+            if ($state === self::STATE_NEW && $rating === self::RATING_EASY) {
+                $interval = 1; // Force 1 day for first Easy
+            }
             $nextReviewAt = $reviewAt->copy()->addDays($interval);
         }
 

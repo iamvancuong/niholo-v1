@@ -1,0 +1,222 @@
+{
+  "title": "N5.exam_full.title",
+  "level": "N5",
+  "is_published": true,
+  "sections": [
+    {
+      "type": "moji_goi",
+      "duration_minutes": 25,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "＿＿＿の ことばは ひらがなで どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "あそこに 【白い】 犬が います。",
+              "options": [
+                { "id": 1, "text": "あかい" },
+                { "id": 2, "text": "あおい" },
+                { "id": 3, "text": "しろい" },
+                { "id": 4, "text": "くろい" }
+              ],
+              "correct_option_id": 3
+            },
+            {
+              "text": "きのう 【手紙】を かきました。",
+              "options": [
+                { "id": 1, "text": "てかみ" },
+                { "id": 2, "text": "てがみ" },
+                { "id": 3, "text": "でかみ" },
+                { "id": 4, "text": "でがみ" }
+              ],
+              "correct_option_id": 2
+            },
+            {
+              "text": "【先生】に ほんを もらいました。",
+              "options": [
+                { "id": 1, "text": "せんせえ" },
+                { "id": 2, "text": "ぜんせえ" },
+                { "id": 3, "text": "せんせい" },
+                { "id": 4, "text": "ぜんせい" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        },
+        {
+          "mondai_number": 2,
+          "instruction": "＿＿＿の ことばは どう かきますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "わたしの 【くるま】は あそこです。",
+              "options": [
+                { "id": 1, "text": "東" },
+                { "id": 2, "text": "事" },
+                { "id": 3, "text": "車" },
+                { "id": 4, "text": "電" }
+              ],
+              "correct_option_id": 3
+            },
+            {
+              "text": "きょうは 【やすみ】です。",
+              "options": [
+                { "id": 1, "text": "休日" },
+                { "id": 2, "text": "休み" },
+                { "id": 3, "text": "体み" },
+                { "id": 4, "text": "木み" }
+              ],
+              "correct_option_id": 2
+            }
+          ]
+        },
+        {
+          "mondai_number": 3,
+          "instruction": "（　　　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "あさ ごはんを たべて、（　　　）を みがきます。",
+              "options": [
+                { "id": 1, "text": "め" },
+                { "id": 2, "text": "は" },
+                { "id": 3, "text": "て" },
+                { "id": 4, "text": "みみ" }
+              ],
+              "correct_option_id": 2
+            },
+            {
+              "text": "あめが ふって いますから、（　　　）を さして ください。",
+              "options": [
+                { "id": 1, "text": "かさ" },
+                { "id": 2, "text": "くつ" },
+                { "id": 3, "text": "ぼうし" },
+                { "id": 4, "text": "めがね" }
+              ],
+              "correct_option_id": 1
+            }
+          ]
+        },
+        {
+          "mondai_number": 4,
+          "instruction": "＿＿＿の ぶんと だいたい おなじ いみの ぶんは どれですか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "きのう たんじょうびでした。",
+              "options": [
+                { "id": 1, "text": "きのう パーティーを しました。" },
+                { "id": 2, "text": "きのう わたしが うまれました。" },
+                { "id": 3, "text": "きのう わたしが うまれた ひでした。" },
+                { "id": 4, "text": "きのう ともだちに あいました。" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bunpou_dokkai",
+      "duration_minutes": 50,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "（　　　）に なにを いれますか。１・２・３・４から いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "わたしは まいにち バス（　　　） かいしゃへ いきます。",
+              "options": [
+                { "id": 1, "text": "が" },
+                { "id": 2, "text": "を" },
+                { "id": 3, "text": "で" },
+                { "id": 4, "text": "に" }
+              ],
+              "correct_option_id": 3
+            },
+            {
+              "text": "きのうは どこ（　　　） いきませんでした。",
+              "options": [
+                { "id": 1, "text": "へも" },
+                { "id": 2, "text": "かも" },
+                { "id": 3, "text": "にも" },
+                { "id": 4, "text": "でも" }
+              ],
+              "correct_option_id": 1
+            }
+          ]
+        },
+        {
+          "mondai_number": 2,
+          "instruction": "次の文を完成させてください。＿ ★ ＿ に入る最も良いものを一つ選んでください。",
+          "questions": [
+            {
+              "text": "あそこに ＿ ＿ ★ ＿ ひとが います。",
+              "options": [
+                { "id": 1, "text": "いる" },
+                { "id": 2, "text": "めがねを" },
+                { "id": 3, "text": "かけて" },
+                { "id": 4, "text": "あの" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        },
+        {
+          "mondai_number": 4,
+          "instruction": "つぎの ぶんしょうを よんで、しつもんに こたえて ください。",
+          "passage": "わたしは きのう ともだちと えいがを みに いきました。そのあとで、レストランで ばんごはんを たべました。とても たのしかったです。",
+          "questions": [
+            {
+              "text": "きのう なにを しましたか。",
+              "options": [
+                { "id": 1, "text": "えいがを みて、ごはんを たべました。" },
+                { "id": 2, "text": "ごはんを たべて、えいがを みました。" },
+                { "id": 3, "text": "ともだちと かいものを しました。" },
+                { "id": 4, "text": "ひとりで えいがを みました。" }
+              ],
+              "correct_option_id": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "choukai",
+      "duration_minutes": 30,
+      "mondais": [
+        {
+          "mondai_number": 1,
+          "instruction": "もんだい１では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １・２・３・４から、いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "おとこの ひとと おんなの ひとが はなして います。おとこの ひとは なにを かいますか。",
+              "audio_timestamp": 0,
+              "options": [
+                { "id": 1, "text": "りんご ３つ" },
+                { "id": 2, "text": "りんご ２つ と みかん ３つ" },
+                { "id": 3, "text": "みかん ３つ" },
+                { "id": 4, "text": "りんご ２つ と みかん ２つ" }
+              ],
+              "correct_option_id": 2
+            }
+          ]
+        },
+        {
+          "mondai_number": 2,
+          "instruction": "もんだい２では、まず しつもんを きいて ください。それから はなしを きいて、もんだいようしの １・２・３・４から、いちばん いい ものを ひとつ えらんで ください。",
+          "questions": [
+            {
+              "text": "おとこの ひとは なんじに おきますか。",
+              "audio_timestamp": 30,
+              "options": [
+                { "id": 1, "text": "６じ" },
+                { "id": 2, "text": "６じはん" },
+                { "id": 3, "text": "７じ" },
+                { "id": 4, "text": "７じはん" }
+              ],
+              "correct_option_id": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

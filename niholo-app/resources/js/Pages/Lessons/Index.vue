@@ -72,11 +72,11 @@ onMounted(() => {
             </div>
         </template>
 
-        <div class="py-12 relative overflow-hidden min-h-screen bg-[#f4f7f4]">
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="py-8 md:py-12 relative overflow-hidden min-h-screen bg-[#f4f7f4]">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <!-- Pathway Layout -->
-                <div class="relative py-10">
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="relative py-6 md:py-10">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         <div v-for="(lesson, index) in hydratedLessons" :key="lesson.id" class="relative">
                             <div class="bg-white border-2 border-gray-100 rounded-3xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
                                 <div class="relative w-16 h-16 mx-auto mb-4">

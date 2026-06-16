@@ -5,6 +5,8 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Database\Seeders\N5\N5CourseSeeder;
 
+use Database\Seeders\N4\N4CourseSeeder;
+
 /**
  * DataVocabularySeeder - Điều phối tất cả các khóa học.
  *
@@ -19,7 +21,7 @@ class DataVocabularySeeder extends Seeder
     {
         $courses = [
             N5CourseSeeder::class,
-            // N4CourseSeeder::class,
+            N4CourseSeeder::class,
             // N3CourseSeeder::class,
         ];
 
